@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Vesna,Unbounded, sans-serif;
+}
+@font-face {
+  font-family: Vesna;
+  src: url("../fonts/Vesna.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Unbounded;
+  src: url("../fonts/Unbounded.ttf") format("truetype");
+}
+
+.header--conteiner{
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100vw;
+  height: 100svh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+    .header--conteiner--title {
+      margin: 20vh auto;
+    }
+    .header--conteiner--title__under{
+      color: white;
+      font-size: 2.8vw;
+      height: 22vh;
+    }
+    .header--conteiner__arrou__botom{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      color: #EBC881;
+    }
+  .header--conteiner__arrou__botom__text{
+    font-family: Unbounded;
+    font-size: 1.8vh;
+  }
+}
