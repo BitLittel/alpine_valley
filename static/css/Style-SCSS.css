@@ -43,4 +43,72 @@
   font-size: 1.8vh;
 }
 
+.main--blok {
+  height: 100svh;
+  background-color: #082b18;
+}
+.main--blok .main--blok__conteiner-1 {
+  height: 100%;
+  display: flex;
+  background-image: url(../img/fon-svg.svg);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main--blok .main--blok__conteiner-1__background--form {
+  display: flex;
+  background-color: #fff4de;
+  margin: 0 15% 0 15%;
+  width: 80%;
+  height: 90svh;
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: center;
+}
+.main--blok .main--blok__conteiner-1__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2% 0 0 2%;
+}
+.main--blok .main--blok__conteiner-1__title-conteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main--blok .main--blok__conteiner-1__title--lines {
+  width: 10%;
+  height: 10%;
+  padding: 0 2% 0 0;
+  color: #362709;
+}
+.main--blok .main--blok__conteiner-1__title--name {
+  font-family: Unbounded;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 22.32px;
+  color: #362709;
+}
+.main--blok .main--blok__conteiner-1__title--description {
+  padding-top: 3%;
+  font-family: Unbounded;
+  font-size: 2.3rem;
+  font-weight: 300;
+  line-height: 42.16px;
+  text-align: center;
+  color: #362709;
+}
+.main--blok .main--blok__conteiner-1__description {
+  font-family: Unbounded;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 24.8px;
+  text-align: left;
+  color: #362709;
+}
+.main--blok .main--blok__conteiner-1__video {
+  width: 300px;
+  height: 300px;
+}
+
 /*# sourceMappingURL=Style-SCSS.css.map */
