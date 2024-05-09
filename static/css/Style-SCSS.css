@@ -123,5 +123,117 @@
   background-color: #FFF4DE;
   border-radius: 30px;
 }
+.main--blok .conteiner--2__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.main--blok .conteiner--2__photo {
+  border-radius: 30px;
+  padding-right: 2%;
+}
+.main--blok .conteiner--2__QR {
+  display: flex;
+  flex-direction: column;
+  border-color: #C6B59A;
+  border: solid;
+  border-radius: 30px;
+  background-color: #FFF4DE;
+  height: 85%;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+.main--blok .QR {
+  margin: 1%;
+  width: 90%;
+}
+.main--blok .conteiner--2__QR--text {
+  font-family: Unbounded;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #362709;
+  font-weight: 300;
+}
+.main--blok .block-or {
+  display: flex;
+  flex-direction: row;
+}
+.main--blok .block-or-line {
+  color: #C6B59A;
+  margin: 1%;
+}
+.main--blok .button_qr {
+  background-color: #082B18;
+  color: #FFF4DE;
+  font-family: Unbounded;
+  font-weight: 400;
+  width: 42%;
+  height: 5%;
+  border-radius: 30px;
+}
+.main--blok .button_qr:hover {
+  background-color: #FFF4DE;
+  color: #082B18;
+}
+.main--blok .panoram360 {
+  margin: 0 0 0 63%;
+}
+.main--blok .conteiner--3--title {
+  display: flex;
+  flex-direction: row;
+  padding: 2% 0 0 2%;
+  height: 3%;
+  align-items: center;
+}
+.main--blok .conteiner--3-img--line {
+  width: 40px;
+  height: 30px;
+  padding-right: 2%;
+}
+.main--blok .conteiner--3-img--title {
+  font-family: Unbounded;
+  color: #362709;
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.main--blok .conteiner--3--list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main--blok .continer--3--button {
+  display: flex;
+  flex-direction: row;
+}
+.main--blok .button_3 {
+  background-color: #082B18;
+  color: #FFF4DE;
+  font-family: Unbounded;
+  font-weight: 400;
+  width: 50%;
+  height: 6%;
+  border-radius: 30px 0 0 30px;
+}
+.main--blok .button_3:hover {
+  background-color: #FFF4DE;
+  color: #082B18;
+}
+.main--blok .button_4 {
+  background-color: #082B18;
+  color: #FFF4DE;
+  font-family: Unbounded;
+  font-weight: 400;
+  width: 50%;
+  height: 6%;
+  border-radius: 0 30px 30px 0;
+}
+.main--blok .button_4:hover {
+  background-color: #FFF4DE;
+  color: #082B18;
+}
 
 /*# sourceMappingURL=Style-SCSS.css.map */
