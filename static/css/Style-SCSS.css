@@ -128,7 +128,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
 }
 .main--blok .conteiner--2__photo {
   border-radius: 30px;
@@ -177,6 +176,7 @@
 .main--blok .button_qr:hover {
   background-color: #FFF4DE;
   color: #082B18;
+  transition: all 0.3s;
 }
 .main--blok .panoram360 {
   margin: 0 0 0 63%;
@@ -189,8 +189,7 @@
   align-items: center;
 }
 .main--blok .conteiner--3-img--line {
-  width: 40px;
-  height: 30px;
+  width: 5%;
   padding-right: 2%;
 }
 .main--blok .conteiner--3-img--title {
@@ -203,37 +202,109 @@
 .main--blok .conteiner--3--list {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main--blok .conteiner--3--list__item {
+  display: flex;
+  flex-direction: row;
+}
+.main--blok .conteiner--3--list__item__text {
+  display: flex;
+  flex-direction: column;
+}
+.main--blok .conteiner--3--list__img {
+  width: 40px;
+  padding: 0 2% 0 0;
+}
+.main--blok .conteiner--3--list__item__title {
+  font-family: Unbounded;
+  font-size: 1.5rem;
+  color: #362709;
+  font-weight: 400;
+}
+.main--blok .conteiner--3--list__item__defolt-text {
+  font-family: Unbounded;
+  font-weight: 300;
+  color: #362709;
+  font-size: 1.2rem;
+}
+.main--blok .conteiner--3__content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.main--blok .map {
+  display: flex;
 }
 .main--blok .continer--3--button {
   display: flex;
   flex-direction: row;
+  height: 5%;
+  width: 50%;
+  padding: 0.5% 0 0 0;
+  margin: 0 auto;
 }
 .main--blok .button_3 {
-  background-color: #082B18;
+  background-color: #395340;
   color: #FFF4DE;
   font-family: Unbounded;
   font-weight: 400;
   width: 50%;
-  height: 6%;
   border-radius: 30px 0 0 30px;
 }
 .main--blok .button_3:hover {
   background-color: #FFF4DE;
-  color: #082B18;
+  color: #395340;
+  transition: all 0.3s;
 }
 .main--blok .button_4 {
-  background-color: #082B18;
+  background-color: #395340;
   color: #FFF4DE;
   font-family: Unbounded;
   font-weight: 400;
   width: 50%;
-  height: 6%;
   border-radius: 0 30px 30px 0;
 }
 .main--blok .button_4:hover {
   background-color: #FFF4DE;
-  color: #082B18;
+  color: #395340;
+  transition: all 0.3s;
+}
+.main--blok .block-3 {
+  display: flex;
+  flex-direction: column;
+}
+.main--blok .block-4 {
+  background-image: url("../img/Fon-4.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+.main--blok .block-4--img {
+  height: 100px;
+}
+.main--blok .conteiner--4__slider {
+  margin: 5%;
+  height: 100%;
+  background-color: #FFF4DE;
+  border-radius: 30px;
+  border: 4px solid #EDDDC1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main--blok .conteiner--4__slider__text {
+  padding: 1% 0 0 0;
+  font-family: Unbounded;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #362709;
+  text-align: center;
 }
 
 /*# sourceMappingURL=Style-SCSS.css.map */

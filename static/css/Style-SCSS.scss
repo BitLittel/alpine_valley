@@ -16,6 +16,7 @@
 $font-color: #362709;
 $collor-gold: #C6B59A;
 $col3: #FFF4DE;
+$but_col: #395340;
 
 .header--conteiner{
   background-image: url(../img/background.png);
@@ -135,7 +136,6 @@ $col3: #FFF4DE;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
   }
   .conteiner--2__photo{
     border-radius: 30px;
@@ -184,6 +184,7 @@ $col3: #FFF4DE;
   .button_qr:hover{
     background-color: $col3;
     color: #082B18;
+    transition: all .3s
   }
   .panoram360{
     margin: 0 0 0 63%;
@@ -196,8 +197,7 @@ $col3: #FFF4DE;
     align-items: center;
   }
   .conteiner--3-img--line{
-    width: 40px;
-    height: 30px;
+    width: 5%;
     padding-right: 2%;
   }
   .conteiner--3-img--title{
@@ -210,41 +210,116 @@ $col3: #FFF4DE;
   .conteiner--3--list{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .conteiner--3--list__item{
+    display: flex;
+    flex-direction: row;
+  }
+  .conteiner--3--list__item__text{
+    display: flex;
+    flex-direction: column;
+  }
+  .conteiner--3--list__img{
+    width: 40px;
+    padding: 0 2% 0 0;
+  }
+  .conteiner--3--list__item__title{
+    font-family: Unbounded;
+    font-size: 1.5rem;
+    color: $font-color;
+    font-weight: 400;
+  }
+  .conteiner--3--list__item__defolt-text{
+    font-family: Unbounded;
+    font-weight: 300;
+    color: $font-color;
+    font-size: 1.2rem;
   }
 
+  .conteiner--3__content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .map{
+    display: flex;
+  }
 
 
   .continer--3--button{
     display: flex;
     flex-direction: row;
+    height: 5%;
+    width: 50%;
+    padding: 0.5% 0 0 0 ;
+    margin: 0 auto;
   }
   .button_3{
-    background-color: #082B18;
+    background-color: $but_col;
     color: $col3;
     font-family: Unbounded;
     font-weight: 400;
     width: 50%;
-    height: 6%;
     border-radius: 30px 0 0 30px;
   }
   .button_3:hover{
     background-color: $col3;
-    color: #082B18;
+    color: $but_col;
+    transition: all .3s
   }
 
   .button_4{
-    background-color: #082B18;
+    background-color: $but_col;
     color: $col3;
     font-family: Unbounded;
     font-weight: 400;
     width: 50%;
-    height: 6%;
     border-radius: 0 30px 30px 0;
   }
   .button_4:hover{
     background-color: $col3;
-    color: #082B18;
+    color: $but_col;
+    transition: all .3s
+  }
+  .block-3{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .block-4{
+    background-image: url("../img/Fon-4.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: cover
+  }
+  .block-4--img{
+    height: 100px;
+  }
+  .conteiner--4__slider{
+    margin: 5%;
+    height: 100%;
+    background-color: #FFF4DE;
+    border-radius: 30px;
+    border: 4px solid #EDDDC1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .conteiner--4__slider__text{
+    padding: 1% 0 0 0;
+    font-family: Unbounded;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: $font-color;
+    text-align: center;
   }
 }
 
