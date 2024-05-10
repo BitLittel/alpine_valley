@@ -321,6 +321,108 @@ $but_col: #395340;
     color: $font-color;
     text-align: center;
   }
+
+//  карусель
+
+  .slider__img{
+    width: 48%;
+    height: 100%;
+    border-radius: 30px;
+    margin: 1%;
+  }
+
+  .slider {
+    border: 2px solid black;
+    /* width: 100%; */
+    max-width: 80%;
+    /* height: 300px; */
+    margin: 20px auto;
+    overflow: hidden;
+  }
+
+  .slider-line {
+    width: 1024px !important;
+    display: flex;
+    background: orange;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    overflow: hidden !important;
+  }
+
+  .conteiner--5{
+    background-image: url("../img/fon-blok5.png");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  .conteiner--5--text{
+    font-family: Unbounded;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    color: $col3;
+  }
+
+  .header--conteiner--title__under{
+    color: white;
+    font-size: 2.8vw;
+    height: 22vh;
+  }
+}
+
+.footer{
+  background-image: url("../img/footer-fon.svg");
+  background-color: #082b18;
+  height: 100vh;
+  display: flex;
+
+  .footer--form{
+    color: $col3;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    width: 30%;
+    height: 70%;
+    border-radius: 30px;
+    background-color: rgba(37, 137, 83, 0.2);
+  }
+  .footer--form__title{
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 1.8rem;
+  }
+  .footer--form__under--title{
+    font-family: Unbounded;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+  .footer--form__input--box{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    .text{
+      font-family: Unbounded;
+      font-weight: 300;
+      font-size: 1.2rem;
+    }
+    .input{
+      font-family: Unbounded;
+      font-weight: 200;
+      font-size: 1rem;
+      background-color: rgba(235, 199, 129, 0.2);
+      border-radius: 30px;
+      height: 40px;
+      border: none;
+    }
+    .input:hover{
+      background-color: rgb(192, 41, 41);
+    }
+  }
 }
 
 
