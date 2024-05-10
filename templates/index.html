@@ -176,25 +176,25 @@
                     </span>
 
                     <!--    Слайдер     -->
-                    <div class="container">
-                        <div class="slider">
-                            <div class="slider-line">
-                                <img src="../static/img/slider_1.png" alt="" class="slider__img">
-                                <img src="../static/img/slider_2.png" alt="" class="slider__img">
-                                <img src="../static/img/slider_3.png" alt="" class="slider__img">
-                                <img src="../static/img/slider_4.jpeg" alt="" class="slider__img">
-                                <img src="../static/img/slider_5.jpeg" alt="" class="slider__img">
-                                <img src="../static/img/slider_6.jpeg" alt="" class="slider__img">
-                                <img src="../static/img/slider_7.jpeg" alt="" class="slider__img">
-                                <img src="../static/img/slider_8.jpeg" alt="" class="slider__img">
-                                <img src="../static/img/slider_9.jpeg" alt="" class="slider__img">
-                                <img src="../static/img/slider_10.jpeg" alt="" class="slider__img">
-                            </div>
+<!--                    <div class="container">-->
+<!--                        <div class="slider">-->
+<!--                            <div class="slider-line">-->
+<!--                                <img src="../static/img/slider_1.png" alt="" class="slider__img">-->
+<!--                                <img src="../static/img/slider_2.png" alt="" class="slider__img">-->
+<!--                                <img src="../static/img/slider_3.png" alt="" class="slider__img">-->
+<!--                                <img src="../static/img/slider_4.jpeg" alt="" class="slider__img">-->
+<!--                                <img src="../static/img/slider_5.jpeg" alt="" class="slider__img">-->
+<!--                                <img src="../static/img/slider_6.jpeg" alt="" class="slider__img">-->
+<!--                                <img src="../static/img/slider_7.jpeg" alt="" class="slider__img">-->
+<!--                                <img src="../static/img/slider_8.jpeg" alt="" class="slider__img">-->
+<!--                                <img src="../static/img/slider_9.jpeg" alt="" class="slider__img">-->
+<!--                                <img src="../static/img/slider_10.jpeg" alt="" class="slider__img">-->
+<!--                            </div>-->
 
-                            <button class="button slider-prev">Prev</button>
-                            <button class="button slider-next">Next</button>
-                        </div>
-                    </div>
+<!--                            <button class="button slider-prev">Prev</button>-->
+<!--                            <button class="button slider-next">Next</button>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
                 </div>
 
@@ -217,20 +217,50 @@
     </main>
     <footer class="footer">
         <div class="footer--form">
-            <span class="footer--form__title">остались вопросы?</span>
-            <span class="footer--form__under--title">
-                Заполните форму и мы свяжемся с Вами<br>
-                в ближайшее время.
-            </span>
-            <div class="footer--form__input--box">
-                <span class="footer--form__input--box text">Ваше имя</span>
-                <input class="footer--form__input--box input"
-                       type="text"
-                       placeholder="Как к Вам обращаться?">
-            </div>
+            <div class="footer--form__margin">
+                <span class="footer--form__title">остались вопросы? <br></span>
+                <span class="footer--form__under--title">
+                    Заполните форму и мы свяжемся с Вами<br>
+                    в ближайшее время.
+                </span>
+                <div class="footer--form__input--box">
+                    <span class="footer--form__input--box text">Ваше имя</span>
+                    <input class="footer--form__input--box input"
+                           type="text"
+                           placeholder="Как к Вам обращаться?">
+                </div>
+                <div class="footer--form__input--box">
+                    <span class="footer--form__input--box text">Номер телефона</span>
+                    <input class="footer--form__input--box input tel" id="tel" name="tel"
+                           type="tel"
+                           placeholder="Ваш номер телефона?">
+                </div>
+                <div class="footer--form__input--box">
+                    <span class="footer--form__input--box text">Почта</span>
+                    <input class="footer--form__input--box input"
+                           type="email"
+                           placeholder="Ваша почта?">
+                </div>
 
+                <div class="footer--form__input--box">
+                    <span class="footer--form__input--box text">Ваш комментарий</span>
+                    <input class="footer--form__input--box input comment"
+                           type="comment"
+                           cols="40"
+                           rows="3"
+                           placeholder="Я бы хотел">
+                </div>
+
+                <button class="footer--form__button">
+                        отправить
+                </button>
+                <p class="footer--form__acept">
+                    Нажимая на кнопку, вы даёте согласие
+                    на обработку персональных данных </p>
+            </div>
         </div>
     </footer>
+
 <script src="../static/js/main.js"></script>
 </body>
 </html>

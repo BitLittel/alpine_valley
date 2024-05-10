@@ -180,11 +180,13 @@ $but_col: #395340;
     width: 42%;
     height: 5%;
     border-radius: 30px;
+    border: none;
   }
   .button_qr:hover{
     background-color: $col3;
     color: #082B18;
-    transition: all .3s
+    transition: all .3s;
+    border: none;
   }
   .panoram360{
     margin: 0 0 0 63%;
@@ -265,11 +267,13 @@ $but_col: #395340;
     font-weight: 400;
     width: 50%;
     border-radius: 30px 0 0 30px;
+    border: none;
   }
   .button_3:hover{
     background-color: $col3;
     color: $but_col;
-    transition: all .3s
+    transition: all .3s;
+    border: none;
   }
 
   .button_4{
@@ -279,11 +283,13 @@ $but_col: #395340;
     font-weight: 400;
     width: 50%;
     border-radius: 0 30px 30px 0;
+    border: none;
   }
   .button_4:hover{
     background-color: $col3;
     color: $but_col;
-    transition: all .3s
+    transition: all .3s;
+    border: none;
   }
   .block-3{
     display: flex;
@@ -390,6 +396,10 @@ $but_col: #395340;
     height: 70%;
     border-radius: 30px;
     background-color: rgba(37, 137, 83, 0.2);
+    .footer--form__margin{
+      margin: 0 auto;
+      color: rgba(235, 199, 129, 1);
+    }
   }
   .footer--form__title{
     font-family: Unbounded;
@@ -404,11 +414,12 @@ $but_col: #395340;
   .footer--form__input--box{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     .text{
       font-family: Unbounded;
       font-weight: 300;
       font-size: 1.2rem;
+      padding: 1% 0 1% 0;
     }
     .input{
       font-family: Unbounded;
@@ -418,13 +429,41 @@ $but_col: #395340;
       border-radius: 30px;
       height: 40px;
       border: none;
+      Outline: none;
+      text-align: center;
     }
     .input:hover{
-      background-color: rgb(192, 41, 41);
+      background-color: rgb(255, 255, 255);
+      border: none;
+    }
+    .comment{
+      height: 20vh;
     }
   }
-}
+  .footer--form__button{
+    background-color: rgba(235, 199, 129, 1);
+    color: rgba(8, 43, 24, 1);
+    border-radius: 30px;
+    border: none;
+    font-family: Unbounded;
+    font-weight: 300;
+    height: 6%;
+    width: 40%;
+    margin: 1% 0 1% 60%;
+  }
+  .footer--form__button:hover{
+    background-color: rgba(8, 43, 24, 1);
+    color: rgba(235, 199, 129, 1);
+    transition: all .3s
+  }
 
+  .footer--form__acept{
+    font-family: Unbounded;
+    font-weight: 300;
+    font-size: 0.6rem;
+    color: rgba(235, 199, 129, 1);
+  }
+}
 
 
 
