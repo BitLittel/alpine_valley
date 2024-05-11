@@ -46,10 +46,11 @@
                         из прозрачного в берюзовый цвет.
                     </div>
                 </div>
-                <video class="conteiner--1__back-blok__rithe" controls="controls">
-                    <source src="../static/img/Test-video.mp4" type='video/ogg; codecs="theora, vorbis"'>
-                    <source src="../static/img/Test-video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                    <source src="../static/img/Test-video.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                <video class="conteiner--1__back-blok__rithe" controls="controls"
+                       poster="../static/img/placeholder-in-video.jpg">
+                    <source src="../static/img/Video.mp4" type='video/ogg; codecs="theora, vorbis"'>
+                    <source src="../static/img/Video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="../static/img/Video.mp4" type='video/webm; codecs="vp8, vorbis"'>
                     Тег video не поддерживается вашим браузером.
                 </video>
             </div>
@@ -57,35 +58,35 @@
         <!--BLOCK 2 3D панорама-->
         <div class="conteiner--2">
             <div class="conteiner--2__back-blok">
-                <div class="conteiner--1__back-blok__left">
+                <div class="conteiner--2__title--block">
                     <div class="conteiner--1__back-blok__title">
                         <img class="img--line" src="../static/img/line.svg" alt="">
                         <div class="title">панорама</div>
                     </div>
                 </div>
-                <div class="conteiner--2__block">
-                        <img  class="conteiner--2__photo"
-                              src="../static/img/photo-1.jpg">
-                    <div class="conteiner--2__QR">
-                        <img  class="panoram360"
-                              src="../static/img/360%20SVG.svg" alt="">
-                        <img  class="QR" src="../static/img/QR SVG.svg">
-                        <span class="conteiner--2__QR--text">
-                            отсканируйте QR-код <br>
-                            для просмотра 3D панорамы участка
-                        </span>
-                        <div class="block-or">
-                            <img  class="block-or-line"
-                                  src="../static/img/line.svg" alt="">
-                            <span class="conteiner--2__QR--text" >или</span>
-                            <img class="block-or-line"
-                                 src="../static/img/line.svg" alt="">
+                    <div class="conteiner--2__block">
+                            <img  class="conteiner--2__photo"
+                                  src="../static/img/photo-1.jpg">
+                        <div class="conteiner--2__QR">
+                            <img  class="panoram360"
+                                  src="../static/img/360%20SVG.svg" alt="">
+                            <img  class="QR" src="../static/img/QR SVG.svg">
+                            <span class="conteiner--2__QR--text">
+                                отсканируйте QR-код <br>
+                                для просмотра 3D панорамы участка
+                            </span>
+                            <div class="block-or">
+                                <img  class="block-or-line"
+                                      src="../static/img/line.svg" alt="">
+                                <span class="conteiner--2__QR--text" >или</span>
+                                <img class="block-or-line"
+                                     src="../static/img/line.svg" alt="">
+                            </div>
+                            <span class="conteiner--2__QR--text" >
+                                перейдите по кнопке ниже</span>
+                            <button class="button_qr">Открыть</button>
                         </div>
-                        <span class="conteiner--2__QR--text" >
-                            перейдите по кнопке ниже</span>
-                        <button class="button_qr">Открыть</button>
                     </div>
-                </div>
             </div>
         </div>
         <!-- Block  3  расположение  -->
@@ -214,53 +215,73 @@
             <div class="header--conteiner--title__under">
                 Имеем то, что имеем...</div>
         </div>
-    </main>
-    <footer class="footer">
-        <div class="footer--form">
-            <div class="footer--form__margin">
-                <span class="footer--form__title">остались вопросы? <br></span>
-                <span class="footer--form__under--title">
-                    Заполните форму и мы свяжемся с Вами<br>
-                    в ближайшее время.
-                </span>
-                <div class="footer--form__input--box">
-                    <span class="footer--form__input--box text">Ваше имя</span>
-                    <input class="footer--form__input--box input"
-                           type="text"
-                           placeholder="Как к Вам обращаться?">
-                </div>
-                <div class="footer--form__input--box">
-                    <span class="footer--form__input--box text">Номер телефона</span>
-                    <input class="footer--form__input--box input tel" id="tel" name="tel"
-                           type="tel"
-                           placeholder="Ваш номер телефона?">
-                </div>
-                <div class="footer--form__input--box">
-                    <span class="footer--form__input--box text">Почта</span>
-                    <input class="footer--form__input--box input"
-                           type="email"
-                           placeholder="Ваша почта?">
-                </div>
+        <!-- BLOCK 6   форма -->
+        <div class="container--6">
+            <div class="container--6--form">
+                <div class="container--6--form__margin">
+                    <span class="container--6--form__title">остались вопросы? <br></span>
+                    <span class="container--6--form__under--title">
+                        Заполните форму и мы свяжемся с Вами<br>
+                        в ближайшее время.
+                    </span>
+                    <div class="container--6--form__input--box">
+                        <span class="container--6--form__input--box text">Ваше имя</span>
+                        <input class="container--6--form__input--box input"
+                               type="text"
+                               placeholder="Как к Вам обращаться?">
+                    </div>
+                    <div class="container--6--form__input--box">
+                        <span class="container--6--form__input--box text">Номер телефона</span>
+                        <input class="container--6--form__input--box input tel" id="tel" name="tel"
+                               type="tel"
+                               placeholder="Ваш номер телефона?">
+                    </div>
+                    <div class="container--6--form__input--box">
+                        <span class="container--6--form__input--box text">Почта</span>
+                        <input class="container--6--form__input--box input"
+                               type="email"
+                               placeholder="Ваша почта?">
+                    </div>
 
-                <div class="footer--form__input--box">
-                    <span class="footer--form__input--box text">Ваш комментарий</span>
-                    <input class="footer--form__input--box input comment"
-                           type="comment"
-                           cols="40"
-                           rows="3"
-                           placeholder="Я бы хотел">
+                    <div class="container--6--form__input--box">
+                        <span class="container--6--form__input--box text">Ваш комментарий</span>
+                        <input class="container--6--form__input--box input comment"
+                               type="comment"
+                               cols="40"
+                               rows="3"
+                               placeholder="Я бы хотел">
+                    </div>
+                    <div class="container--6--form__button--block">
+                        <button class="container--6--form__button">
+                                отправить
+                        </button>
+                    </div>
+                    <p class="container--6--form__acept">
+                        Нажимая на кнопку, вы даёте согласие
+                        на обработку персональных данных </p>
                 </div>
-
-                <button class="footer--form__button">
-                        отправить
-                </button>
-                <p class="footer--form__acept">
-                    Нажимая на кнопку, вы даёте согласие
-                    на обработку персональных данных </p>
             </div>
         </div>
+    </main>
+    <footer class="footer">
+            <div class="footer--left__block">
+                <div class="footer--img--block">
+                    <img src="../static/img/telegramm.svg" alt="" class="footer--img">
+                    <img src="../static/img/wasap.svg" alt="" class="footer--img">
+                </div>
+                <div class="footer--number">
+                    <p class="footer--number--tel">
+                        +7 (999) 999-99-99
+                    </p>
+                </div>
+            </div>
+            <div class="footer--right__block">
+                <p class="footer--alpine__imenie">
+                    © 2024 Альпийские имения 2.0<br>
+                    Политика конфиденциальности
+                </p>
+            </div>
     </footer>
-
 <script src="../static/js/main.js"></script>
 </body>
 </html>

@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Vesna, Unbounded, sans-serif;
+  background-repeat: no-repeat;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
   src: url("../fonts/Unbounded.ttf") format("truetype");
 }
 .header--conteiner {
+  background-color: #082b18;
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
   display: flex;
@@ -104,9 +106,9 @@
   padding-left: 5%;
 }
 .main--blok .conteiner--1__back-blok__rithe {
-  width: 100%;
-  height: 100%;
-  padding: 4%;
+  margin: 2% 1% 2% 10px;
+  border-radius: 30px;
+  width: 50%;
 }
 .main--blok .conteiner--2 {
   height: 100vh;
@@ -123,6 +125,13 @@
   background-color: #FFF4DE;
   border-radius: 30px;
 }
+.main--blok .conteiner--2__title--block {
+  display: flex;
+  flex-direction: row;
+  padding: 2% 0 0 2%;
+  height: 3%;
+  align-items: center;
+}
 .main--blok .conteiner--2__block {
   display: flex;
   flex-direction: row;
@@ -131,7 +140,7 @@
 }
 .main--blok .conteiner--2__photo {
   border-radius: 30px;
-  padding-right: 2%;
+  margin: 2%;
 }
 .main--blok .conteiner--2__QR {
   display: flex;
@@ -147,7 +156,7 @@
 }
 .main--blok .QR {
   margin: 1%;
-  width: 90%;
+  width: 65%;
 }
 .main--blok .conteiner--2__QR--text {
   font-family: Unbounded;
@@ -240,6 +249,7 @@
 }
 .main--blok .map {
   display: flex;
+  width: 50%;
 }
 .main--blok .continer--3--button {
   display: flex;
@@ -282,6 +292,7 @@
 .main--blok .block-3 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .main--blok .block-4 {
   background-image: url("../img/Fon-4.svg");
@@ -356,49 +367,49 @@
   height: 22vh;
 }
 
-.footer {
+.container--6 {
   background-image: url("../img/footer-fon.svg");
   background-color: #082b18;
   height: 100vh;
   display: flex;
 }
-.footer .footer--form {
+.container--6 .container--6--form {
+  padding: 1%;
   color: #FFF4DE;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   margin: auto auto;
-  width: 30%;
   height: 70%;
   border-radius: 30px;
   background-color: rgba(37, 137, 83, 0.2);
 }
-.footer .footer--form .footer--form__margin {
+.container--6 .container--6--form .container--6--form__margin {
   margin: 0 auto;
   color: rgb(235, 199, 129);
 }
-.footer .footer--form__title {
+.container--6 .container--6--form__title {
   font-family: Unbounded;
   font-weight: 400;
   font-size: 1.8rem;
 }
-.footer .footer--form__under--title {
+.container--6 .container--6--form__under--title {
   font-family: Unbounded;
   font-weight: 200;
   font-size: 1.2rem;
 }
-.footer .footer--form__input--box {
+.container--6 .container--6--form__input--box {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.footer .footer--form__input--box .text {
+.container--6 .container--6--form__input--box .text {
   font-family: Unbounded;
   font-weight: 300;
   font-size: 1.2rem;
   padding: 1% 0 1% 0;
 }
-.footer .footer--form__input--box .input {
+.container--6 .container--6--form__input--box .input {
   font-family: Unbounded;
   font-weight: 200;
   font-size: 1rem;
@@ -409,14 +420,19 @@
   Outline: none;
   text-align: center;
 }
-.footer .footer--form__input--box .input:hover {
+.container--6 .container--6--form__input--box .input:hover {
   background-color: rgb(255, 255, 255);
   border: none;
 }
-.footer .footer--form__input--box .comment {
+.container--6 .container--6--form__input--box .comment {
   height: 20vh;
 }
-.footer .footer--form__button {
+.container--6 .container--6--form__button--block {
+  margin: 2% 0 2% 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.container--6 .container--6--form__button {
   background-color: rgb(235, 199, 129);
   color: rgb(8, 43, 24);
   border-radius: 30px;
@@ -427,16 +443,63 @@
   width: 40%;
   margin: 1% 0 1% 60%;
 }
-.footer .footer--form__button:hover {
+.container--6 .container--6--form__button:hover {
   background-color: rgb(8, 43, 24);
   color: rgb(235, 199, 129);
   transition: all 0.3s;
 }
-.footer .footer--form__acept {
+.container--6 .container--6--form__acept {
   font-family: Unbounded;
   font-weight: 300;
   font-size: 0.6rem;
   color: rgb(235, 199, 129);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #082b18;
+  width: 100%;
+  height: 5%;
+  padding: 1%;
+}
+.footer .footer--img--block {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+.footer .footer--img {
+  margin: 1%;
+}
+.footer .footer--number {
+  background-color: #EBC781;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.footer .footer--number .footer--number--tel {
+  color: #082b18;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Unbounded;
+}
+.footer .footer--left__block {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer--right__block {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer--alpine__imenie {
+  font-family: Unbounded;
+  font-size: 0.8rem;
+  color: #EBC781;
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=Style-SCSS.css.map */
