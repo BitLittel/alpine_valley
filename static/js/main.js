@@ -77,6 +77,8 @@ console.log(document.querySelectorAll('.tel'))
 function openPopup() {
     var popup = document.querySelector('.popup',);
     popup.style.display = 'block';
+    let main = document.querySelector('body')
+    main.style.overflow = "hidden"
 }
 function closePopup() {
     var popup = document.querySelector('.popup');

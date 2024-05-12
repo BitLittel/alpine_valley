@@ -381,7 +381,6 @@
   display: flex;
   flex-direction: column;
   margin: auto auto;
-  height: 70%;
   border-radius: 30px;
   background-color: rgba(37, 137, 83, 0.2);
 }
