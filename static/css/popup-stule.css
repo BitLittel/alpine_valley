@@ -1,8 +1,8 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Vesna,Unbounded, sans-serif;
+  font-family: Vesna, Unbounded, sans-serif;
   background-repeat: no-repeat;
 }
 
@@ -14,13 +14,7 @@
   font-family: Unbounded;
   src: url("../fonts/Unbounded.ttf") format("truetype");
 }
-$font-color: #362709;
-$collor-gold: #C6B59A;
-$col3: #FFF4DE;
-$but_col: #395340;
-$col4: #EBC781;
-
-.popup{
+.popup {
   display: none;
   position: absolute;
   left: 0px;
@@ -30,27 +24,27 @@ $col4: #EBC781;
   z-index: 9999;
   background-color: rgba(0, 0, 0, 0.32);
   backdrop-filter: blur(6px);
-  .popup--Video{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  .popup--Video__close{
-    right: 1%;
-    top: 1%;
-    font-family: Unbounded;
-    font-weight: 600;
-    cursor: pointer;
-    font-size: 2rem;
-    position: absolute;
-    transform: rotate(45deg);
-    color: white;
-  }
+}
+.popup .popup--Video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.popup .popup--Video__close {
+  right: 1%;
+  top: 1%;
+  font-family: Unbounded;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  transform: rotate(45deg);
+  color: white;
 }
 
-.PopupForm{
+.PopupForm {
   display: none;
   position: absolute;
   left: 0px;
@@ -63,7 +57,6 @@ $col4: #EBC781;
   backdrop-filter: blur(6px);
   background-repeat: no-repeat;
   background-size: cover;
-
-
-
 }
+
+/*# sourceMappingURL=popup-stule.css.map */

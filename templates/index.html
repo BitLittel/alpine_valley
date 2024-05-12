@@ -9,8 +9,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<div class="search--menu">
+    <div class="search--menu__background">
+        <div  class="search--menu__left">
+            <img src="../static/img/burger_menu.svg" alt="">
+            <span class="search--menu__text">меню</span>
+        </div>
+        <div  class="search--menu__right">
+            <img src="../static/img/telegramm.svg" alt="" class="footer--img">
+            <img src="../static/img/wasap.svg" alt="" class="footer--img">
+            <button class="search--menu__button"
+                    onclick="openPopupForm()">
+                консультация</button>
+        </div>
+    </div>
+</div>
+
     <headr class="header--conteiner">
-        <img class="header--conteiner--title"
+         <img class="header--conteiner--title"
              src="../static/img/logo.svg"
              alt="логотип сайта Альпийские имения 2.0">
         <div class="header--conteiner--title__under">Имеем то, что имеем...</div>
@@ -34,22 +50,22 @@
                         с альпийской культурой
                     </div>
                     <div class="discriptio">
-                        Альпийские имения 2.0 — роскошный загородный
-                        земельный участок площадью 4,4 гектара, который
-                        расположился в самом сердце курортной зоны Алтая,
-                        всего в трёх километрах от живописного озера Ая.
-                        По соседству с участком находятся знаменитые курорты
-                        «Манжерок» и Чемал, а также не менее известный
-                        курортно-игорный дом «Altai Palace». В дополнение ко всему
-                        по близости находится гора “Чёртов палец”, с которой
-                        открывается вид на все красоты Алтая, включая в себя
-                        бурную горную реку Кануть. У которой вода переливается
+                        Альпийские имения 2.0 — роскошный загородный<br>
+                        земельный участок площадью 4,4 гектара, который<br>
+                        расположился в самом сердце курортной зоны Алтая,<br>
+                        всего в трёх километрах от живописного озера Ая.<br>
+                        По соседству с участком находятся знаменитые курорты<br>
+                        «Манжерок» и Чемал, а также не менее известный<br>
+                        курортно-игорный дом «Altai Palace». В дополнение ко всему<br>
+                        по близости находится гора “Чёртов палец”, с которой<br>
+                        открывается вид на все красоты Алтая, включая в себя<br>
+                        бурную горную реку Кануть. У которой вода переливается<br>
                         из прозрачного в берюзовый цвет.
                     </div>
                 </div>
                 <img class="conteiner--1__back-blok__rithe"
                      src="../static/img/placeholder-in-video.jpg"
-                        onclick="openPopup()">
+                    onclick="openPopup()">
             </div>
         </div>
         <!--BLOCK 2 3D панорама-->
@@ -279,12 +295,91 @@
                 </p>
             </div>
     </footer>
-<script src="../static/js/main.js"></script>
 
-<div class="popup">
-    <div class="popup--Video">
-        <p>Hufas</p>
-        <button onclick="closePopup()">Закрыть</button>
+    <script src="../static/js/main.js"></script>
+
+    <div class="popup">
+        <div class="popup--Video">
+            <video class="conteiner--1__back-blok__rithe" controls="controls"
+                   poster="../static/img/placeholder-in-video.jpg">
+                <source src="../static/img/Video.mp4" type='video/ogg; codecs="theora, vorbis"'>
+                <source src="../static/img/Video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="../static/img/Video.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                Тег video не поддерживается вашим браузером.
+            </video>
+            <div  class="popup--Video__close" onclick="closePopup()">Х</div>
+        </div>
+    </div>
+
+<div class="PopupForm">
+    <div class="PopupForm__back-ground">
+        <div class="PopupForm--block">
+            <div class="PopupForm--block__left">
+                <div class="talk">
+                    <p>давайте обсудим детали?</p>
+                    <p>Заполните форму и мы свяжемся с Вами<br>
+                        в ближайшее время.</p>
+                    <div class="footer--left__block">
+                        <div class="footer--img--block">
+                            <img src="../static/img/telegramm.svg" alt="" class="footer--img">
+                            <img src="../static/img/wasap.svg" alt="" class="footer--img">
+                        </div>
+                        <div class="footer--number">
+                            <p class="footer--number--tel">
+                                +7 (999) 999-99-99
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="PopupForm--block__right">
+            <div class="container--6--form">
+                    <div class="container--6--form__margin">
+                        <span class="container--6--form__title">остались вопросы? <br></span>
+                        <span class="container--6--form__under--title">
+                        Заполните форму и мы свяжемся с Вами<br>
+                        в ближайшее время.
+                    </span>
+                        <div class="container--6--form__input--box">
+                            <span class="container--6--form__input--box text">Ваше имя</span>
+                            <input class="container--6--form__input--box input"
+                                   type="text"
+                                   placeholder="Как к Вам обращаться?">
+                        </div>
+                        <div class="container--6--form__input--box">
+                            <span class="container--6--form__input--box text">Номер телефона</span>
+                            <input class="container--6--form__input--box input tel" id="tell" name="tel"
+                                   type="tel"
+                                   placeholder="Ваш номер телефона?">
+                        </div>
+                        <div class="container--6--form__input--box">
+                            <span class="container--6--form__input--box text">Почта</span>
+                            <input class="container--6--form__input--box input"
+                                   type="email"
+                                   placeholder="Ваша почта?">
+                        </div>
+
+                        <div class="container--6--form__input--box">
+                            <span class="container--6--form__input--box text">Ваш комментарий</span>
+                            <input class="container--6--form__input--box input comment"
+                                   type="comment"
+                                   cols="40"
+                                   rows="3"
+                                   placeholder="Я бы хотел">
+                        </div>
+                        <div class="container--6--form__button--block">
+                            <button class="container--6--form__button">
+                                отправить
+                            </button>
+                        </div>
+                        <p class="container--6--form__acept">
+                            Нажимая на кнопку, вы даёте согласие
+                            на обработку персональных данных </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="popup--Video__close" onclick="closePopupForm()">Х</div>
     </div>
 </div>
 

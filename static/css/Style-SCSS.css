@@ -17,6 +17,7 @@
 .header--conteiner {
   background-color: #082b18;
   background-image: url(../img/background.png);
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   height: 100svh;
@@ -49,6 +50,7 @@
 }
 .main--blok .conteiner--1 {
   background-image: url(../img/fon-svg.svg);
+  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -61,6 +63,7 @@
   width: 95%;
   background-color: #FFF4DE;
   border-radius: 30px;
+  justify-content: center;
 }
 .main--blok .conteiner--1__back-blok__left {
   display: flex;
@@ -68,6 +71,7 @@
   align-items: flex-start;
   padding-left: 2%;
   padding-top: 2%;
+  width: 45%;
 }
 .main--blok .conteiner--1__back-blok__title {
   display: flex;
@@ -107,7 +111,7 @@
 }
 .main--blok .conteiner--1__back-blok__rithe {
   margin: 2% 1% 2% 10px;
-  border-radius: 30px;
+  border-radius: 10px;
   width: 50%;
 }
 .main--blok .conteiner--2 {
@@ -349,6 +353,7 @@
 }
 .main--blok .conteiner--5 {
   background-image: url("../img/fon-blok5.png");
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -370,6 +375,7 @@
 
 .container--6 {
   background-image: url("../img/footer-fon.svg");
+  background-size: cover;
   background-color: #082b18;
   height: 100vh;
   display: flex;
@@ -470,7 +476,7 @@
   margin-right: 10px;
 }
 .footer .footer--img {
-  margin: 1%;
+  margin: 3%;
 }
 .footer .footer--number {
   background-color: #EBC781;
@@ -500,6 +506,53 @@
   color: #EBC781;
   display: flex;
   align-items: center;
+}
+
+.search--menu {
+  border-radius: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.search--menu .search--menu__background {
+  background-color: rgba(11, 81, 44, 0.5019607843);
+  margin: 0 auto;
+  width: 95%;
+  height: 70px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search--menu .search--menu__text {
+  font-family: Unbounded;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  text-align: center;
+  color: #FFF4DE;
+  margin-left: 5%;
+}
+.search--menu .search--menu__left {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1%;
+}
+.search--menu .search--menu__right {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1%;
+}
+.search--menu .search--menu__button {
+  border-radius: 40px;
+  background-color: rgba(8, 43, 24, 0.8);
+  color: #FFF4DE;
+  font-family: Unbounded;
+  font-weight: 400;
+  border: none;
+  text-align: center;
+  margin-left: 2%;
+  padding: 2%;
 }
 
 /*# sourceMappingURL=Style-SCSS.css.map */
