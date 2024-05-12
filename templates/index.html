@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="../static/css/zero.css" type="text/CSS">
     <link rel="stylesheet" href="../static/css/Style-SCSS.css" type="text/CSS">
+    <link rel="stylesheet" href="../static/css/popup-stule.css" type="text/CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -46,13 +47,9 @@
                         из прозрачного в берюзовый цвет.
                     </div>
                 </div>
-                <video class="conteiner--1__back-blok__rithe" controls="controls"
-                       poster="../static/img/placeholder-in-video.jpg">
-                    <source src="../static/img/Video.mp4" type='video/ogg; codecs="theora, vorbis"'>
-                    <source src="../static/img/Video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                    <source src="../static/img/Video.mp4" type='video/webm; codecs="vp8, vorbis"'>
-                    Тег video не поддерживается вашим браузером.
-                </video>
+                <img class="conteiner--1__back-blok__rithe"
+                     src="../static/img/placeholder-in-video.jpg"
+                        onclick="openPopup()">
             </div>
         </div>
         <!--BLOCK 2 3D панорама-->
@@ -283,5 +280,13 @@
             </div>
     </footer>
 <script src="../static/js/main.js"></script>
+
+<div class="popup">
+    <div class="popup--Video">
+        <p>Hufas</p>
+        <button onclick="closePopup()">Закрыть</button>
+    </div>
+</div>
+
 </body>
 </html>
