@@ -75,20 +75,20 @@
 console.log(document.querySelectorAll('.tel'))
 
 
-// POPUP Block VIDEO
-function openPopup() {
-    var popup = document.querySelector('.popup',);
-    popup.style.display = 'block';
-    popup.style.top = window.scrollY + "px";
-    let main = document.querySelector('body')
-    main.style.overflow = "hidden"
-}
-function closePopup() {
-    var popup = document.querySelector('.popup');
-    popup.style.display = 'none';
-    let main = document.querySelector('body')
-    main.style.overflow = "auto"
-}
+// // POPUP Block VIDEO
+// function openPopup() {
+//     var popup = document.querySelector('.popup',);
+//     popup.style.display = 'block';
+//     popup.style.top = window.scrollY + "px";
+//     let main = document.querySelector('body')
+//     main.style.overflow = "hidden"
+// }
+// function closePopup() {
+//     var popup = document.querySelector('.popup');
+//     popup.style.display = 'none';
+//     let main = document.querySelector('body')
+//     main.style.overflow = "auto"
+// }
 
 // POPUP Block VIDEO
 function openPopupForm() {

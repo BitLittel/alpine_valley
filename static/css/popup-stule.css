@@ -58,5 +58,158 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.PopupForm .PopupForm__back-ground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.PopupForm .popup--Video__close {
+  right: 1%;
+  top: 1%;
+  font-family: Unbounded;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  transform: rotate(45deg);
+  color: white;
+}
+.PopupForm .PopupForm--block {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.PopupForm .PopupForm--block__left {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(37, 137, 83, 0.2);
+  border-radius: 30px;
+  padding: 1%;
+}
+.PopupForm .PopupForm--block__left .talk .talk__title {
+  font-family: Unbounded;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #EBC781;
+}
+.PopupForm .PopupForm--block__left .talk .talk__text {
+  font-family: Unbounded;
+  font-weight: 200;
+  font-size: 1rem;
+  color: #EBC781;
+}
+.PopupForm .PopupForm--block__left .talk .footer--left__block {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20%;
+}
+.PopupForm .PopupForm--block__left .talk .footer--left__block .footer--img--block {
+  display: flex;
+  flex-direction: row;
+}
+.PopupForm .PopupForm--block__left .talk .footer--number {
+  background-color: #EBC781;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.PopupForm .PopupForm--block__left .talk .footer--number .footer--number--tel {
+  color: #082b18;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Unbounded;
+}
+.PopupForm .PopupForm--block__right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+.PopupForm .PopupForm--block__right .container--6--form {
+  padding: 1%;
+  color: #FFF4DE;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  border-radius: 30px;
+  background-color: rgba(37, 137, 83, 0.2);
+}
+.PopupForm .PopupForm--block__right .container--6--form .container--6--form__margin {
+  margin: 0 auto;
+  color: rgb(235, 199, 129);
+}
+.PopupForm .PopupForm--block__right .container--6--form__title {
+  font-family: Unbounded;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.PopupForm .PopupForm--block__right .container--6--form__under--title {
+  font-family: Unbounded;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.PopupForm .PopupForm--block__right .container--6--form__input--box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.PopupForm .PopupForm--block__right .container--6--form__input--box .text {
+  font-family: Unbounded;
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding: 1% 0 1% 0;
+}
+.PopupForm .PopupForm--block__right .container--6--form__input--box .input {
+  font-family: Unbounded;
+  font-weight: 200;
+  font-size: 1rem;
+  background-color: rgba(235, 199, 129, 0.2);
+  border-radius: 30px;
+  height: 40px;
+  border: none;
+  Outline: none;
+  text-align: center;
+}
+.PopupForm .PopupForm--block__right .container--6--form__input--box .input:hover {
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.PopupForm .PopupForm--block__right .container--6--form__input--box .comment {
+  height: 20vh;
+}
+.PopupForm .PopupForm--block__right .container--6--form__button--block {
+  margin: 2% 0 2% 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.PopupForm .PopupForm--block__right .container--6--form__button {
+  background-color: rgb(235, 199, 129);
+  color: rgb(8, 43, 24);
+  border-radius: 30px;
+  border: none;
+  font-family: Unbounded;
+  font-weight: 300;
+  height: 6%;
+  width: 40%;
+  margin: 1% 0 1% 60%;
+}
+.PopupForm .PopupForm--block__right .container--6--form__button:hover {
+  background-color: rgb(8, 43, 24);
+  color: rgb(235, 199, 129);
+  transition: all 0.3s;
+}
+.PopupForm .PopupForm--block__right .container--6--form__acept {
+  font-family: Unbounded;
+  font-weight: 300;
+  font-size: 0.6rem;
+  color: rgb(235, 199, 129);
+  margin-left: 2%;
+}
 
 /*# sourceMappingURL=popup-stule.css.map */
