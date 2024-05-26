@@ -477,6 +477,7 @@
   margin-right: 10px;
 }
 .footer .footer--img {
+  width: 36px;
   margin: 3%;
 }
 .footer .footer--number {
@@ -526,6 +527,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  backdrop-filter: blur(10px);
 }
 .search--menu .search--menu__text {
   font-family: Unbounded;
@@ -535,6 +537,7 @@
   text-align: center;
   color: #FFF4DE;
   margin-left: 5%;
+  text-transform: uppercase;
 }
 .search--menu .search--menu__left {
   display: flex;
@@ -544,18 +547,32 @@
 .search--menu .search--menu__right {
   display: flex;
   flex-direction: row;
-  margin-right: 1%;
+  justify-content: space-between;
+  width: 20%;
+}
+.search--menu .search--menu__right .footer--img {
+  width: 36px;
 }
 .search--menu .search--menu__button {
+  display: flex;
   border-radius: 40px;
   background-color: rgba(8, 43, 24, 0.8);
   color: #FFF4DE;
   font-family: Unbounded;
   font-weight: 400;
   border: none;
-  text-align: center;
-  margin-left: 2%;
-  padding: 2%;
+  text-transform: uppercase;
+  font-size: 1.025rem;
+  width: 72%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.search--menu .search--menu__button:hover {
+  color: rgba(8, 43, 24, 0.8);
+  background-color: #FFF4DE;
+  cursor: pointer;
 }
 
 .hamberger__menu {

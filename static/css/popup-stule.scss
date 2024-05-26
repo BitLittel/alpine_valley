@@ -40,13 +40,8 @@ $col4: #EBC781;
   .popup--Video__close{
     right: 1%;
     top: 1%;
-    font-family: Unbounded;
-    font-weight: 600;
     cursor: pointer;
-    font-size: 2rem;
     position: absolute;
-    transform: rotate(45deg);
-    color: white;
   }
 }
 
@@ -63,6 +58,7 @@ $col4: #EBC781;
   backdrop-filter: blur(6px);
   background-repeat: no-repeat;
   background-size: cover;
+  text-transform: uppercase;
   .PopupForm__back-ground{
     display: flex;
     flex-direction: column;
@@ -74,13 +70,8 @@ $col4: #EBC781;
   .popup--Video__close{
     right: 1%;
     top: 1%;
-    font-family: Unbounded;
-    font-weight: 600;
     cursor: pointer;
-    font-size: 2rem;
     position: absolute;
-    transform: rotate(45deg);
-    color: white;
   }
 
   .PopupForm--block{
@@ -96,6 +87,7 @@ $col4: #EBC781;
     background-color: rgba(37, 137, 83, 0.2);
     border-radius: 30px;
     padding: 1%;
+    backdrop-filter: blur(5px);
     .talk{
       .talk__title{
         font-family: Unbounded;
@@ -109,6 +101,7 @@ $col4: #EBC781;
         font-weight: 200;
         font-size: 1rem;
         color: $col4;
+        text-transform: math-auto;
       }
       .footer--left__block{
         display: flex;
@@ -116,7 +109,14 @@ $col4: #EBC781;
         padding-top: 20%;
         .footer--img--block{
           display: flex;
+          width: 15%;
           flex-direction: row;
+          margin: 0 2% 0 2%;
+          align-items: center;
+          justify-content: space-between;
+          .footer--img{
+            width: 36px;
+          }
         }
       }
       .footer--number {
@@ -125,7 +125,7 @@ $col4: #EBC781;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
+        padding: 7px;
         .footer--number--tel {
           color: #082b18;
           font-size: 1rem;
@@ -140,7 +140,8 @@ $col4: #EBC781;
     display: flex;
     flex-direction: column;
     margin-left: 2%;
-
+    align-items: center;
+    backdrop-filter: blur(5px);
     .container--6--form{
       padding: 1%;
       color: $col3;
@@ -182,10 +183,12 @@ $col4: #EBC781;
         font-size: 1rem;
         background-color: rgba(235, 199, 129, 0.2);
         border-radius: 30px;
-        height: 40px;
+        width: 90%;
+        height: 70px;
         border: none;
         Outline: none;
         text-align: center;
+        align-items: center;
       }
       .input:hover{
         background-color: rgb(255, 255, 255);
@@ -207,9 +210,10 @@ $col4: #EBC781;
       border: none;
       font-family: Unbounded;
       font-weight: 300;
-      height: 6%;
-      width: 40%;
-      margin: 1% 0 1% 60%;
+      height: 40px;
+      width: 33%;
+      font-size: 1.7rem;
+      text-transform: capitalize;
     }
     .container--6--form__button:hover{
       background-color: rgba(8, 43, 24, 1);

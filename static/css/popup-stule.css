@@ -35,13 +35,8 @@
 .popup .popup--Video__close {
   right: 1%;
   top: 1%;
-  font-family: Unbounded;
-  font-weight: 600;
   cursor: pointer;
-  font-size: 2rem;
   position: absolute;
-  transform: rotate(45deg);
-  color: white;
 }
 
 .PopupForm {
@@ -57,6 +52,7 @@
   backdrop-filter: blur(6px);
   background-repeat: no-repeat;
   background-size: cover;
+  text-transform: uppercase;
 }
 .PopupForm .PopupForm__back-ground {
   display: flex;
@@ -68,13 +64,8 @@
 .PopupForm .popup--Video__close {
   right: 1%;
   top: 1%;
-  font-family: Unbounded;
-  font-weight: 600;
   cursor: pointer;
-  font-size: 2rem;
   position: absolute;
-  transform: rotate(45deg);
-  color: white;
 }
 .PopupForm .PopupForm--block {
   display: flex;
@@ -89,6 +80,7 @@
   background-color: rgba(37, 137, 83, 0.2);
   border-radius: 30px;
   padding: 1%;
+  backdrop-filter: blur(5px);
 }
 .PopupForm .PopupForm--block__left .talk .talk__title {
   font-family: Unbounded;
@@ -102,6 +94,7 @@
   font-weight: 200;
   font-size: 1rem;
   color: #EBC781;
+  text-transform: math-auto;
 }
 .PopupForm .PopupForm--block__left .talk .footer--left__block {
   display: flex;
@@ -110,7 +103,14 @@
 }
 .PopupForm .PopupForm--block__left .talk .footer--left__block .footer--img--block {
   display: flex;
+  width: 15%;
   flex-direction: row;
+  margin: 0 2% 0 2%;
+  align-items: center;
+  justify-content: space-between;
+}
+.PopupForm .PopupForm--block__left .talk .footer--left__block .footer--img--block .footer--img {
+  width: 36px;
 }
 .PopupForm .PopupForm--block__left .talk .footer--number {
   background-color: #EBC781;
@@ -118,7 +118,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 7px;
 }
 .PopupForm .PopupForm--block__left .talk .footer--number .footer--number--tel {
   color: #082b18;
@@ -130,6 +130,8 @@
   display: flex;
   flex-direction: column;
   margin-left: 2%;
+  align-items: center;
+  backdrop-filter: blur(5px);
 }
 .PopupForm .PopupForm--block__right .container--6--form {
   padding: 1%;
@@ -173,10 +175,12 @@
   font-size: 1rem;
   background-color: rgba(235, 199, 129, 0.2);
   border-radius: 30px;
-  height: 40px;
+  width: 90%;
+  height: 70px;
   border: none;
   Outline: none;
   text-align: center;
+  align-items: center;
 }
 .PopupForm .PopupForm--block__right .container--6--form__input--box .input:hover {
   background-color: rgb(255, 255, 255);
@@ -197,9 +201,10 @@
   border: none;
   font-family: Unbounded;
   font-weight: 300;
-  height: 6%;
-  width: 40%;
-  margin: 1% 0 1% 60%;
+  height: 40px;
+  width: 33%;
+  font-size: 1.7rem;
+  text-transform: capitalize;
 }
 .PopupForm .PopupForm--block__right .container--6--form__button:hover {
   background-color: rgb(8, 43, 24);
