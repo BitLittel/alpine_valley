@@ -12,7 +12,8 @@
 <div class="search--menu">
     <div class="search--menu__background">
         <div  class="search--menu__left">
-            <img src="../static/img/burger_menu.svg" alt="">
+            <img src="../static/img/burger_menu.svg" alt=""
+                 onclick="hamburger__menu()">
             <span class="search--menu__text">меню</span>
         </div>
         <div  class="search--menu__right">
@@ -295,7 +296,7 @@
             </div>
     </footer>
 
-    <script src="../static/js/main.js"></script>
+
 
     <div class="popup">
         <div class="popup--Video">
@@ -334,11 +335,11 @@
             <div class="PopupForm--block__right">
                 <div class="container--6--form">
                     <div class="container--6--form__margin">
-                        <span class="container--6--form__title">остались вопросы? <br></span>
-                        <span class="container--6--form__under--title">
-                        Заполните форму и мы свяжемся с Вами<br>
-                        в ближайшее время.
-                    </span>
+<!--                        <span class="container&#45;&#45;6&#45;&#45;form__title">остались вопросы? <br></span>-->
+<!--                        <span class="container&#45;&#45;6&#45;&#45;form__under&#45;&#45;title">-->
+<!--                        Заполните форму и мы свяжемся с Вами<br>-->
+<!--                        в ближайшее время.-->
+<!--                        </span>-->
                         <div class="container--6--form__input--box">
                             <span class="container--6--form__input--box text">Ваше имя</span>
                             <input class="container--6--form__input--box input"
@@ -382,5 +383,23 @@
     </div>
 </div>
 
+<div class="hamberger__menu">
+    <ul class="menu__box">
+        <li><a class="menu__item" href="#">о проекте</a></li>
+        <li><a class="menu__item" href="#">панорама</a></li>
+        <li><a class="menu__item" href="#">генплан</a></li>
+        <li><a class="menu__item" href="#">расположение</a></li>
+        <li><a class="menu__item" href="#">описание</a></li>
+        <li><a class="menu__item" href="#">контакты</a></li>
+    </ul>
+    <div class="close__humberger"
+         onclick="close__humberger()">
+        <img src="../static/img/X.svg"
+             alt=""
+            class="close__hambirger__menu">
+    </div>
+</div>
+
+<script src="../static/js/main.js"></script>
 </body>
 </html>

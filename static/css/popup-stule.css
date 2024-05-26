@@ -95,6 +95,7 @@
   font-weight: 400;
   font-size: 1.8rem;
   color: #EBC781;
+  text-transform: uppercase;
 }
 .PopupForm .PopupForm--block__left .talk .talk__text {
   font-family: Unbounded;
@@ -143,6 +144,7 @@
 .PopupForm .PopupForm--block__right .container--6--form .container--6--form__margin {
   margin: 0 auto;
   color: rgb(235, 199, 129);
+  width: 40dvw;
 }
 .PopupForm .PopupForm--block__right .container--6--form__title {
   font-family: Unbounded;

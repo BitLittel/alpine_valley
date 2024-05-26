@@ -102,6 +102,7 @@ $col4: #EBC781;
         font-weight: 400;
         font-size: 1.8rem;
         color: $col4;
+        text-transform: uppercase;
       }
       .talk__text{
         font-family: Unbounded;
@@ -152,6 +153,7 @@ $col4: #EBC781;
       .container--6--form__margin{
         margin: 0 auto;
         color: rgba(235, 199, 129, 1);
+        width: 40dvw;
       }
     }
     .container--6--form__title{

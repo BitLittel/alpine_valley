@@ -398,6 +398,7 @@
   font-family: Unbounded;
   font-weight: 400;
   font-size: 1.8rem;
+  text-transform: uppercase;
 }
 .container--6 .container--6--form__under--title {
   font-family: Unbounded;
@@ -509,12 +510,14 @@
 }
 
 .search--menu {
+  margin-top: 0.5%;
   border-radius: 40px;
   position: fixed;
   top: 0;
   width: 100%;
 }
 .search--menu .search--menu__background {
+  padding: 1%;
   background-color: rgba(11, 81, 44, 0.5019607843);
   margin: 0 auto;
   width: 95%;
@@ -553,6 +556,45 @@
   text-align: center;
   margin-left: 2%;
   padding: 2%;
+}
+
+.hamberger__menu {
+  background-color: rgba(11, 81, 44, 0.5);
+  width: 25%;
+  position: absolute;
+  top: 8.5%;
+  left: 2.5%;
+  border-radius: 35px;
+  display: none;
+}
+
+.menu__item {
+  color: rgb(255, 244, 222);
+  font-family: "Unbounded", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  line-height: 1.9;
+  text-transform: uppercase;
+}
+
+.menu__item:hover {
+  background-color: #FFF4DE;
+  color: rgba(8, 43, 24, 0.8);
+}
+
+ul.menu__box {
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+.close__hambirger__menu {
+  left: 85%;
+  top: 8%;
+  position: absolute;
+  height: 20px;
 }
 
 /*# sourceMappingURL=Style-SCSS.css.map */

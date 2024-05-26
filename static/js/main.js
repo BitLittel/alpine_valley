@@ -105,3 +105,12 @@ function closePopupForm() {
     main.style.overflow = "auto"
 }
 
+function hamburger__menu() {
+    var humberger = document.querySelector(".hamberger__menu");
+    humberger.style.display="block";
+}
+close__humberger
+function close__humberger() {
+    var humberger = document.querySelector(".hamberger__menu");
+    humberger.style.display="none";
+}
