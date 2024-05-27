@@ -92,9 +92,9 @@
 .PopupForm .PopupForm--block__left .talk .talk__text {
   font-family: Unbounded;
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #EBC781;
-  text-transform: math-auto;
+  text-transform: initial;
 }
 .PopupForm .PopupForm--block__left .talk .footer--left__block {
   display: flex;
@@ -162,32 +162,36 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin: 0 auto;
 }
 .PopupForm .PopupForm--block__right .container--6--form__input--box .text {
   font-family: Unbounded;
   font-weight: 300;
   font-size: 1.2rem;
   padding: 1% 0 1% 0;
+  margin-left: 5.5%;
 }
 .PopupForm .PopupForm--block__right .container--6--form__input--box .input {
   font-family: Unbounded;
-  font-weight: 200;
-  font-size: 1rem;
+  font-weight: 300;
+  font-size: 1.3rem;
   background-color: rgba(235, 199, 129, 0.2);
-  border-radius: 30px;
+  border-radius: 20px;
   width: 90%;
   height: 70px;
   border: none;
   Outline: none;
-  text-align: center;
-  align-items: center;
+  padding-left: 5%;
+  color: rgb(235, 199, 129);
 }
-.PopupForm .PopupForm--block__right .container--6--form__input--box .input:hover {
-  background-color: rgb(255, 255, 255);
-  border: none;
+.PopupForm .PopupForm--block__right .container--6--form__input--box .input:focus {
+  border: 3px;
+  border-color: rgb(235, 199, 129);
+  border-style: solid;
 }
 .PopupForm .PopupForm--block__right .container--6--form__input--box .comment {
   height: 20vh;
+  resize: none;
 }
 .PopupForm .PopupForm--block__right .container--6--form__button--block {
   margin: 2% 0 2% 0;

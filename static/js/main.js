@@ -106,11 +106,21 @@ function closePopupForm() {
 }
 
 function hamburger__menu() {
-    var humberger = document.querySelector(".hamberger__menu");
+    const humberger = document.querySelector(".hamberger__menu");
+    const menu = document.querySelector(".search--menu__left");
     humberger.style.display="block";
+    menu.onclick = function (){
+        close__humberger();
+    };
 }
-close__humberger
+
 function close__humberger() {
-    var humberger = document.querySelector(".hamberger__menu");
+    const humberger = document.querySelector(".hamberger__menu");
+    const menu = document.querySelector(".search--menu__left");
     humberger.style.display="none";
+    menu.onclick = function () {
+        hamburger__menu();
+    };
 }
+
+

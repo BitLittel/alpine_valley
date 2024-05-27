@@ -99,9 +99,9 @@ $col4: #EBC781;
       .talk__text{
         font-family: Unbounded;
         font-weight: 200;
-        font-size: 1rem;
+        font-size: 1.4rem;
         color: $col4;
-        text-transform: math-auto;
+        text-transform: initial;
       }
       .footer--left__block{
         display: flex;
@@ -171,31 +171,35 @@ $col4: #EBC781;
       display: flex;
       flex-direction: column;
       width: 100%;
+      margin: 0 auto;
       .text{
         font-family: Unbounded;
         font-weight: 300;
         font-size: 1.2rem;
         padding: 1% 0 1% 0;
+        margin-left: 5.5%;
       }
       .input{
         font-family: Unbounded;
-        font-weight: 200;
-        font-size: 1rem;
+        font-weight: 300;
+        font-size: 1.3rem;
         background-color: rgba(235, 199, 129, 0.2);
-        border-radius: 30px;
+        border-radius: 20px;
         width: 90%;
         height: 70px;
         border: none;
         Outline: none;
-        text-align: center;
-        align-items: center;
+        padding-left: 5%;
+        color: rgba(235, 199, 129);
       }
-      .input:hover{
-        background-color: rgb(255, 255, 255);
-        border: none;
+      .input:focus{
+        border: 3px;
+        border-color: rgba(235, 199, 129, 1);
+        border-style: solid;
       }
       .comment{
         height: 20vh;
+        resize: none;
       }
     }
     .container--6--form__button--block{

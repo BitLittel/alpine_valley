@@ -11,9 +11,9 @@
 <body>
 <div class="search--menu">
     <div class="search--menu__background">
-        <div  class="search--menu__left">
-            <img src="../static/img/burger_menu.svg" alt=""
-                 onclick="hamburger__menu()">
+        <div  class="search--menu__left"
+              onclick="hamburger__menu()">
+            <img src="../static/img/burger_menu.svg" alt="">
             <span class="search--menu__text">меню</span>
         </div>
         <div  class="search--menu__right">
@@ -41,123 +41,180 @@
         <!--  BLOCK 1  о проекте- -->
         <div class="conteiner--1">
             <div class="conteiner--1__back-blok">
-                <div class="conteiner--1__back-blok__left">
-                    <div class="conteiner--1__back-blok__title">
-                        <img class="img--line" src="../static/img/line.svg" alt="">
-                        <div class="title"> о проекте</div>
-                    </div>
-                    <div class="title__under">
-                        загородная жизнь<br>
-                        с альпийской культурой
-                    </div>
-                    <div class="discriptio">
-                        Альпийские имения 2.0 — роскошный загородный<br>
-                        земельный участок площадью 4,4 гектара, который<br>
-                        расположился в самом сердце курортной зоны Алтая,<br>
-                        всего в трёх километрах от живописного озера Ая.<br>
-                        По соседству с участком находятся знаменитые курорты<br>
-                        «Манжерок» и Чемал, а также не менее известный<br>
-                        курортно-игорный дом «Altai Palace». В дополнение ко всему<br>
-                        по близости находится гора “Чёртов палец”, с которой<br>
-                        открывается вид на все красоты Алтая, включая в себя<br>
-                        бурную горную реку Кануть. У которой вода переливается<br>
-                        из прозрачного в берюзовый цвет.
+                <div class="conteiner--1__back-blok__title">
+                    <img class="img--line" src="../static/img/line.svg" alt="">
+                    <div class="title" id="about_project"> о проекте</div>
+                </div>
+                <div class="conteiner--1__block-top">
+                   <div class="conteiner--1__block-top__left">
+                        <p class="conteiner--1__block-top__title">
+                            загородная жизнь<br>
+                            с альпийской культурой
+                            <img class="conteiner--1__block-top--img"
+                            src="../static/img/Mountain.svg" alt="">
+                        </p>
+                       <p class="conteiner--1__block-top__main--text">
+                           Земельный участок — важнейший природный ресурс, предоставляемый человеку,<br>
+                           товар, основа ведения хозяйства, источник существования.<br>
+                           Личное подворье далеко не исчерпало себя — в нем сокрыт мощный потенциал.<br>
+                       </p>
+                       <p class="conteiner--1__block-top__main--text">
+                           При соблюдении технологий, экологического земледелия,<br>
+                           содержание такого участка и выращивание сельскохозяйственной продукции<br>
+                           не будет обладать высокой трудоемкостью, характерной для современных<br>
+                           массовых способов сельскохозяйственного производства.<br>
+                       </p>
+                       <p class="conteiner--1__block-top__main--text">
+                           Альпийские имения 2.0 — роскошный земельный участок площадью 4,4 гектара,<br>
+                           расположенный в самом сердце курортной зоны Алтая, всего в трёх километрах<br>
+                           от живописного озера Ая. По соседству с участком находятся знаменитые курорты<br>
+                           «Манжерок» и Чемал, а также не менее известный курортно-игорный дом<br>
+                           «Altai Palace». В дополнение ко всему, по близости находится гора<br>
+                           «Чёртов палец», с которой открывается вид на все красоты Алтая, включая в себя<br>
+                           бурную горную реку Кануть, у которой вода переливается из прозрачного<br>
+                           в берюзовые цвета.<br>
+                       </p>
+                   </div>
+                    <div class="conteiner--1__block-top__right">
+                        <img src="../static/img/photo_container_1-top_right.png"
+                             alt=""
+                            class="poto-container-1-img">
                     </div>
                 </div>
-                <img class="conteiner--1__back-blok__rithe"
-                     src="../static/img/placeholder-in-video.jpg">
+                <hr class="line">
+                <div class="conteiner--2__block-top">
+                    <div class="conteiner--1__block-top__left">
+                        <p class="conteiner--1__block-top__title">
+                            Усадьба, как второе<br>
+                            жилище горожанина
+                            <img class="conteiner--1__block-top--img"
+                                 src="../static/img/House.svg" alt="">
+                        </p>
+                        <p class="conteiner--1__block-top__main--text">
+                            Благодаря разумному хозяйствованию, с давних пор является практически<br>
+                            безотходным, экологически чистым, производственно жилым комплексом,<br>
+                            что обеспечивается, прежде всего, многоотраслевым характером хозяйства.<br>
+                        </p>
+                        <p class="conteiner--1__block-top__main--text">
+                            Современная усадьба, проектируется как единый<br>
+                            производственно-селитебный комплекс с безотходной технологией,<br>
+                            использованием альтернативных природных источников энергии,<br>
+                            экологически чистых строительных материалов  и систем<br>
+                            инженерного обеспечения (водопровода, канализации,<br>
+                            энергообеспечения, средств связи).<br>
+                        </p>
+                        <p class="conteiner--1__block-top__main--text">
+                            Для сохранения психического и физического здоровья семьи состоящей<br>
+                            из трех, четырех поколений проживающих в малоэтажном жилом доме,<br>
+                            формирования на приусадебном участке устойчивого и продуктивного<br>
+                            биоценоза, находящегося в экологическом равновесии и самообеспечения<br>
+                            продуктами питания, которые могут быть выращены самостоятельно<br>
+                            при минимальных трудозатратах, необходимо иметь земельный участок<br>
+                            площадью не менее 1 Га.<br>
+                        </p>
+                    </div>
+                    <div class="conteiner--1__block-top__right">
+                        <img src="../static/img/F2.png"
+                             alt=""
+                             class="poto-container-1-img">
+                    </div>
+                </div>
             </div>
         </div>
-        <!--BLOCK 2 3D панорама-->
-        <div class="conteiner--2">
-            <div class="conteiner--2__back-blok">
-                <div class="conteiner--2__title--block">
-                    <div class="conteiner--1__back-blok__title">
-                        <img class="img--line" src="../static/img/line.svg" alt="">
+
+
+
+
+<!--        &lt;!&ndash;BLOCK 2 3D панорама&ndash;&gt;
+        <div class="conteiner&#45;&#45;2">
+            <div class="conteiner&#45;&#45;2__back-blok">
+                <div class="conteiner&#45;&#45;2__title&#45;&#45;block">
+                    <div class="conteiner&#45;&#45;1__back-blok__title">
+                        <img class="img&#45;&#45;line" src="../static/img/line.svg" alt="">
                         <div class="title">панорама</div>
                     </div>
                 </div>
-                    <div class="conteiner--2__block">
-                            <img  class="conteiner--2__photo"
+                    <div class="conteiner&#45;&#45;2__block">
+                            <img  class="conteiner&#45;&#45;2__photo"
                                   src="../static/img/photo-1.jpg">
-                        <div class="conteiner--2__QR">
+                        <div class="conteiner&#45;&#45;2__QR">
                             <img  class="panoram360"
                                   src="../static/img/360%20SVG.svg" alt="">
                             <img  class="QR" src="../static/img/QR SVG.svg">
-                            <span class="conteiner--2__QR--text">
+                            <span class="conteiner&#45;&#45;2__QR&#45;&#45;text">
                                 отсканируйте QR-код <br>
                                 для просмотра 3D панорамы участка
                             </span>
                             <div class="block-or">
                                 <img  class="block-or-line"
                                       src="../static/img/line.svg" alt="">
-                                <span class="conteiner--2__QR--text" >или</span>
+                                <span class="conteiner&#45;&#45;2__QR&#45;&#45;text" >или</span>
                                 <img class="block-or-line"
                                      src="../static/img/line.svg" alt="">
                             </div>
-                            <span class="conteiner--2__QR--text" >
+                            <span class="conteiner&#45;&#45;2__QR&#45;&#45;text" >
                                 перейдите по кнопке ниже</span>
                             <button class="button_qr">Открыть</button>
                         </div>
                     </div>
             </div>
         </div>
-        <!-- Block  3  расположение  -->
-        <div class="conteiner--1">
-            <div class="conteiner--1__back-blok block-3">
-                <div class="conteiner--3--title">
-                    <img class="conteiner--3-img--line" src="../static/img/line.svg" alt="">
-                    <div class="conteiner--3-img--title">расположение</div>
+        &lt;!&ndash; Block  3  расположение  &ndash;&gt;
+        <div class="conteiner&#45;&#45;1">
+            <div class="conteiner&#45;&#45;1__back-blok block-3">
+                <div class="conteiner&#45;&#45;3&#45;&#45;title">
+                    <img class="conteiner&#45;&#45;3-img&#45;&#45;line" src="../static/img/line.svg" alt="">
+                    <div class="conteiner&#45;&#45;3-img&#45;&#45;title">расположение</div>
                 </div>
-                <div class="conteiner--3__content">
-                    <div class="conteiner--3--list">
-                        <div class="conteiner--3--list__item">
-                            <img class="conteiner--3--list__img"
+                <div class="conteiner&#45;&#45;3__content">
+                    <div class="conteiner&#45;&#45;3&#45;&#45;list">
+                        <div class="conteiner&#45;&#45;3&#45;&#45;list__item">
+                            <img class="conteiner&#45;&#45;3&#45;&#45;list__img"
                                  src="../static/img/1.svg" alt="">
-                            <div class="conteiner--3--list__item__text">
-                                <span class="conteiner--3--list__item__title">
+                            <div class="conteiner&#45;&#45;3&#45;&#45;list__item__text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__title">
                                     Озеро Ая  —  3 км.</span>
-                                <span class="conteiner--3--list__item__defolt-text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__defolt-text">
                                     40 минут пешком</span>
-                                <span class="conteiner--3--list__item__defolt-text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__defolt-text">
                                     20 минут езды</span>
-                                <span class="conteiner--3--list__item__defolt-text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__defolt-text">
                                     5 минут полёта</span>
                             </div>
                         </div>
-                        <div class="conteiner--3--list__item">
-                            <img class="conteiner--3--list__img"
+                        <div class="conteiner&#45;&#45;3&#45;&#45;list__item">
+                            <img class="conteiner&#45;&#45;3&#45;&#45;list__img"
                                  src="../static/img/2.svg" alt="">
-                            <div class="conteiner--3--list__item__text">
-                                <span class="conteiner--3--list__item__title">
+                            <div class="conteiner&#45;&#45;3&#45;&#45;list__item__text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__title">
                                     Курорт Манжерок  —  10 км.</span>
-                                <span class="conteiner--3--list__item__defolt-text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__defolt-text">
                                     45 минут езды</span>
-                                <span class="conteiner--3--list__item__defolt-text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__defolt-text">
                                     15 минут полёта</span>
                             </div>
                         </div>
-                        <div class="conteiner--3--list__item">
-                            <img class="conteiner--3--list__img"
+                        <div class="conteiner&#45;&#45;3&#45;&#45;list__item">
+                            <img class="conteiner&#45;&#45;3&#45;&#45;list__img"
                                  src="../static/img/3.svg" alt="">
-                            <div class="conteiner--3--list__item__text">
-                                <span class="conteiner--3--list__item__title">
+                            <div class="conteiner&#45;&#45;3&#45;&#45;list__item__text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__title">
                                     Село Чемал  —  21 км.</span>
-                                <span class="conteiner--3--list__item__defolt-text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__defolt-text">
                                     1,5 часа езды</span>
-                                <span class="conteiner--3--list__item__defolt-text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__defolt-text">
                                     30 минут полёта</span>
                             </div>
                         </div>
-                        <div class="conteiner--3--list__item">
-                            <img class="conteiner--3--list__img"
+                        <div class="conteiner&#45;&#45;3&#45;&#45;list__item">
+                            <img class="conteiner&#45;&#45;3&#45;&#45;list__img"
                                  src="../static/img/4.svg" alt="">
-                            <div class="conteiner--3--list__item__text">
-                                <span class="conteiner--3--list__item__title">
+                            <div class="conteiner&#45;&#45;3&#45;&#45;list__item__text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__title">
                                     Казино Altai Palace — 16 км.</span>
-                                <span class="conteiner--3--list__item__defolt-text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__defolt-text">
                                     1 час езды</span>
-                                <span class="conteiner--3--list__item__defolt-text">
+                                <span class="conteiner&#45;&#45;3&#45;&#45;list__item__defolt-text">
                                     15 минут полёта</span>
                             </div>
                         </div>
@@ -166,115 +223,115 @@
                         <img src="../static/img/Карта.svg" alt="">
                     </div>
                 </div>
-                <div class="continer--3--button">
+                <div class="continer&#45;&#45;3&#45;&#45;button">
                     <button class="button_3">окружение</button>
                     <button class="button_4">генплан</button>
                 </div>
 
             </div>
         </div>
-        <!-- BLOCK 4 Генплан -->
-        <div class="conteiner--2">
-            <div class="conteiner--2__back-blok block-4">
-                <div class="conteiner--3--title">
-                    <img class="conteiner--3-img--line block-4--img"
+        &lt;!&ndash; BLOCK 4 Генплан &ndash;&gt;
+        <div class="conteiner&#45;&#45;2">
+            <div class="conteiner&#45;&#45;2__back-blok block-4">
+                <div class="conteiner&#45;&#45;3&#45;&#45;title">
+                    <img class="conteiner&#45;&#45;3-img&#45;&#45;line block-4&#45;&#45;img"
                          src="../static/img/line.svg" alt="">
-                    <div class="conteiner--3-img--title block-4--title">
+                    <div class="conteiner&#45;&#45;3-img&#45;&#45;title block-4&#45;&#45;title">
                         генплан</div>
                 </div>
 
-                <div class="conteiner--4__slider">
-                    <span class="conteiner--4__slider__text">
+                <div class="conteiner&#45;&#45;4__slider">
+                    <span class="conteiner&#45;&#45;4__slider__text">
                             Мы предлагаем готовый вариант <br>
                             застройки для Вашего земельного участка.
                     </span>
 
-                    <!--    Слайдер     -->
-<!--                    <div class="container">-->
-<!--                        <div class="slider">-->
-<!--                            <div class="slider-line">-->
-<!--                                <img src="../static/img/slider_1.png" alt="" class="slider__img">-->
-<!--                                <img src="../static/img/slider_2.png" alt="" class="slider__img">-->
-<!--                                <img src="../static/img/slider_3.png" alt="" class="slider__img">-->
-<!--                                <img src="../static/img/slider_4.jpeg" alt="" class="slider__img">-->
-<!--                                <img src="../static/img/slider_5.jpeg" alt="" class="slider__img">-->
-<!--                                <img src="../static/img/slider_6.jpeg" alt="" class="slider__img">-->
-<!--                                <img src="../static/img/slider_7.jpeg" alt="" class="slider__img">-->
-<!--                                <img src="../static/img/slider_8.jpeg" alt="" class="slider__img">-->
-<!--                                <img src="../static/img/slider_9.jpeg" alt="" class="slider__img">-->
-<!--                                <img src="../static/img/slider_10.jpeg" alt="" class="slider__img">-->
-<!--                            </div>-->
+                    &lt;!&ndash;    Слайдер     &ndash;&gt;
+&lt;!&ndash;                    <div class="container">&ndash;&gt;
+&lt;!&ndash;                        <div class="slider">&ndash;&gt;
+&lt;!&ndash;                            <div class="slider-line">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_1.png" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_2.png" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_3.png" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_4.jpeg" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_5.jpeg" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_6.jpeg" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_7.jpeg" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_8.jpeg" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_9.jpeg" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                                <img src="../static/img/slider_10.jpeg" alt="" class="slider__img">&ndash;&gt;
+&lt;!&ndash;                            </div>&ndash;&gt;
 
-<!--                            <button class="button slider-prev">Prev</button>-->
-<!--                            <button class="button slider-next">Next</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
+&lt;!&ndash;                            <button class="button slider-prev">Prev</button>&ndash;&gt;
+&lt;!&ndash;                            <button class="button slider-next">Next</button>&ndash;&gt;
+&lt;!&ndash;                        </div>&ndash;&gt;
+&lt;!&ndash;                    </div>&ndash;&gt;
 
                 </div>
 
             </div>
         </div>
-        <!-- BLOCK 5   Текстовый -->
-        <div class="conteiner--5">
-            <span class="conteiner--5--text">
+        &lt;!&ndash; BLOCK 5   Текстовый &ndash;&gt;
+        <div class="conteiner&#45;&#45;5">
+            <span class="conteiner&#45;&#45;5&#45;&#45;text">
                 Горы — это не просто красивый пейзаж, это место силы, источник вдохновения и энергии.<br>
                 Они заставляют нас задуматься о вечном, о смысле жизни, и о том, как мы относимся к природе и друг к другу.<br>
                 Ночью, когда горы окутывает таинственный мрак, звезды кажутся ближе,<br>
                 а луна освещает вершины, создавая неповторимую атмосферу.
             </span>
-            <img class="header--conteiner--title"
+            <img class="header&#45;&#45;conteiner&#45;&#45;title"
                  src="../static/img/logo.svg"
                  alt="логотип сайта Альпийские имения 2.0">
-            <div class="header--conteiner--title__under">
+            <div class="header&#45;&#45;conteiner&#45;&#45;title__under">
                 Имеем то, что имеем...</div>
         </div>
-        <!-- BLOCK 6   форма -->
-        <div class="container--6">
-            <div class="container--6--form">
-                <div class="container--6--form__margin">
-                    <span class="container--6--form__title">остались вопросы? <br></span>
-                    <span class="container--6--form__under--title">
+        &lt;!&ndash; BLOCK 6   форма &ndash;&gt;
+        <div class="container&#45;&#45;6">
+            <div class="container&#45;&#45;6&#45;&#45;form">
+                <div class="container&#45;&#45;6&#45;&#45;form__margin">
+                    <span class="container&#45;&#45;6&#45;&#45;form__title">остались вопросы? <br></span>
+                    <span class="container&#45;&#45;6&#45;&#45;form__under&#45;&#45;title">
                         Заполните форму и мы свяжемся с Вами<br>
                         в ближайшее время.
                     </span>
-                    <div class="container--6--form__input--box">
-                        <span class="container--6--form__input--box text">Ваше имя</span>
-                        <input class="container--6--form__input--box input"
+                    <div class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box">
+                        <span class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box text">Ваше имя</span>
+                        <input class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box input"
                                type="text"
                                placeholder="Как к Вам обращаться?">
                     </div>
-                    <div class="container--6--form__input--box">
-                        <span class="container--6--form__input--box text">Номер телефона</span>
-                        <input class="container--6--form__input--box input tel" id="tel" name="tel"
+                    <div class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box">
+                        <span class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box text">Номер телефона</span>
+                        <input class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box input tel" id="tel" name="tel"
                                type="tel"
                                placeholder="Ваш номер телефона?">
                     </div>
-                    <div class="container--6--form__input--box">
-                        <span class="container--6--form__input--box text">Почта</span>
-                        <input class="container--6--form__input--box input"
+                    <div class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box">
+                        <span class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box text">Почта</span>
+                        <input class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box input"
                                type="email"
                                placeholder="Ваша почта?">
                     </div>
 
-                    <div class="container--6--form__input--box">
-                        <span class="container--6--form__input--box text">Ваш комментарий</span>
-                        <input class="container--6--form__input--box input comment"
+                    <div class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box">
+                        <span class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box text">Ваш комментарий</span>
+                        <input class="container&#45;&#45;6&#45;&#45;form__input&#45;&#45;box input comment"
                                type="comment"
                                cols="40"
                                rows="3"
                                placeholder="Я бы хотел">
                     </div>
-                    <div class="container--6--form__button--block">
-                        <button class="container--6--form__button">
+                    <div class="container&#45;&#45;6&#45;&#45;form__button&#45;&#45;block">
+                        <button class="container&#45;&#45;6&#45;&#45;form__button">
                                 отправить
                         </button>
                     </div>
-                    <p class="container--6--form__acept">
+                    <p class="container&#45;&#45;6&#45;&#45;form__acept">
                         Нажимая на кнопку, вы даёте согласие
                         на обработку персональных данных </p>
                 </div>
             </div>
-        </div>
+        </div>-->
     </main>
     <footer class="footer">
             <div class="footer--left__block">
@@ -298,19 +355,8 @@
 
 
 
-<!--    <div class="popup">-->
-<!--        <div class="popup&#45;&#45;Video">-->
-<!--            <video class="conteiner&#45;&#45;1__back-blok__rithe" controls="controls"-->
-<!--                   poster="../static/img/placeholder-in-video.jpg">-->
-<!--                <source src="../static/img/Video.mp4" type='video/ogg; codecs="theora, vorbis"'>-->
-<!--                <source src="../static/img/Video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>-->
-<!--                <source src="../static/img/Video.mp4" type='video/webm; codecs="vp8, vorbis"'>-->
-<!--                Тег video не поддерживается вашим браузером.-->
-<!--            </video>-->
-<!--            <div  class="popup&#45;&#45;Video__close" onclick="closePopup()">Х</div>-->
-<!--        </div>-->
-<!--    </div>-->
 
+        <!-- PopUp        -->
 <div class="PopupForm">
     <div class="PopupForm__back-ground">
         <div class="PopupForm--block">
@@ -335,11 +381,6 @@
             <div class="PopupForm--block__right">
                 <div class="container--6--form">
                     <div class="container--6--form__margin">
-<!--                        <span class="container&#45;&#45;6&#45;&#45;form__title">остались вопросы? <br></span>-->
-<!--                        <span class="container&#45;&#45;6&#45;&#45;form__under&#45;&#45;title">-->
-<!--                        Заполните форму и мы свяжемся с Вами<br>-->
-<!--                        в ближайшее время.-->
-<!--                        </span>-->
                         <div class="container--6--form__input--box">
                             <span class="container--6--form__input--box text">Ваше имя</span>
                             <input class="container--6--form__input--box input"
@@ -361,11 +402,7 @@
 
                         <div class="container--6--form__input--box">
                             <span class="container--6--form__input--box text">Ваш комментарий</span>
-                            <input class="container--6--form__input--box input comment"
-                                   type="comment"
-                                   cols="40"
-                                   rows="3"
-                                   placeholder="Я бы хотел">
+                            <textarea class="container--6--form__input--box input comment"  cols="40" rows="3" placeholder="Я бы хотел"></textarea>
                         </div>
                         <div class="container--6--form__button--block">
                             <button class="container--6--form__button">
@@ -384,22 +421,16 @@
         </div>
     </div>
 </div>
-
+        <!-- Humberger menu -->
 <div class="hamberger__menu">
     <ul class="menu__box">
-        <li><a class="menu__item" href="#">о проекте</a></li>
+        <li><a class="menu__item" href="#about_project">о проекте</a></li>
         <li><a class="menu__item" href="#">панорама</a></li>
         <li><a class="menu__item" href="#">генплан</a></li>
         <li><a class="menu__item" href="#">расположение</a></li>
         <li><a class="menu__item" href="#">описание</a></li>
         <li><a class="menu__item" href="#">контакты</a></li>
     </ul>
-    <div class="close__humberger"
-         onclick="close__humberger()">
-        <img src="../static/img/X.svg"
-             alt=""
-            class="close__hambirger__menu">
-    </div>
 </div>
 
 <script src="../static/js/main.js"></script>
