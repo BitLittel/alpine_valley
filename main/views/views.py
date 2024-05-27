@@ -27,3 +27,9 @@ async def before_request(request: Request, call_next):
 @main.get("/", response_class=HTMLResponse)
 async def index(request: Request):
     return templates.TemplateResponse("index.html", context={"request": request})
+
+
+@main.get("/panorama", response_class=HTMLResponse)
+async def index(request: Request):
+    return templates.TemplateResponse("panorama.html", context={"request": request})
+
