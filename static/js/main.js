@@ -92,35 +92,31 @@ console.log(document.querySelectorAll('.tel'))
 
 // POPUP Block VIDEO
 function openPopupForm() {
-    var PopupForm = document.querySelector('.PopupForm',);
+    var PopupForm = document.querySelector('.PopupForm'),
+        main = document.querySelector('body');
     PopupForm.style.display = 'block';
-    PopupForm.style.top = window.scrollY + "px";
-    let main = document.querySelector('body')
     main.style.overflow = "hidden"
+    PopupForm.style.top = window.scrollY + "px";
 }
 function closePopupForm() {
-    var PopupForm = document.querySelector('.PopupForm');
+    var PopupForm = document.querySelector('.PopupForm'),
+        main = document.querySelector('body')
+    main.style.overflow = "auto";
     PopupForm.style.display = 'none';
-    let main = document.querySelector('body')
-    main.style.overflow = "auto"
 }
 
 function hamburger__menu() {
-    const humberger = document.querySelector(".hamberger__menu");
-    const menu = document.querySelector(".search--menu__left");
+    const humberger = document.querySelector(".hamberger__menu"),
+        menu = document.querySelector(".search--menu__left");
     humberger.style.display="block";
-    menu.onclick = function (){
-        close__humberger();
-    };
+    menu.onclick = function (){close__humberger();};
 }
 
 function close__humberger() {
-    const humberger = document.querySelector(".hamberger__menu");
-    const menu = document.querySelector(".search--menu__left");
+    const humberger = document.querySelector(".hamberger__menu"),
+        menu = document.querySelector(".search--menu__left");
     humberger.style.display="none";
-    menu.onclick = function () {
-        hamburger__menu();
-    };
+    menu.onclick = function () {hamburger__menu();};
 }
 
 
