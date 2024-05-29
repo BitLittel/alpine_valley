@@ -332,44 +332,42 @@ $col8: #5F4718;
     text-align: center;
   }
 
-}
-    /*-----------*/
-    /*
+  /*block 5*/
 
+  .conteiner--5{
+    background-image: url("../img/fon-blok5.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
 
-    .conteiner--5{
-      background-image: url("../img/fon-blok5.png");
-      background-size: cover;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center
-    }
+  .conteiner--5--text{
+    font-family: Unbounded;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    color: $col3;
+  }
 
-    .conteiner--5--text{
-      font-family: Unbounded;
-      font-size: 1.3rem;
-      font-weight: 400;
-      text-align: center;
-      color: $col3;
-    }
+  .header--conteiner--title__under{
+    color: white;
+    font-size: 2.8vw;
+    height: 22vh;
+  }
 
-    .header--conteiner--title__under{
-      color: white;
-      font-size: 2.8vw;
-      height: 22vh;
-    }
+  /*bloc 6*/
 
-
-  .container--6{
+  .container--6 {
     background-image: url("../img/footer-fon.svg");
     background-size: cover;
     background-color: #082b18;
     height: 100vh;
     display: flex;
 
-    .container--6--form{
+    .container--6--form {
       padding: 1%;
       color: $col3;
       align-items: flex-start;
@@ -378,33 +376,39 @@ $col8: #5F4718;
       margin: auto auto;
       border-radius: 30px;
       background-color: rgba(37, 137, 83, 0.2);
-      .container--6--form__margin{
+
+      .container--6--form__margin {
         margin: 0 auto;
         color: rgba(235, 199, 129, 1);
       }
     }
-    .container--6--form__title{
+
+    .container--6--form__title {
       font-family: Unbounded;
       font-weight: 400;
       font-size: 1.8rem;
       text-transform: uppercase;
     }
-    .container--6--form__under--title{
+
+    .container--6--form__under--title {
       font-family: Unbounded;
       font-weight: 200;
       font-size: 1.2rem;
     }
-    .container--6--form__input--box{
+
+    .container--6--form__input--box {
       display: flex;
       flex-direction: column;
       width: 100%;
-      .text{
+
+      .text {
         font-family: Unbounded;
         font-weight: 300;
         font-size: 1.2rem;
         padding: 1% 0 1% 0;
       }
-      .input{
+
+      .input {
         font-family: Unbounded;
         font-weight: 200;
         font-size: 1rem;
@@ -415,20 +419,24 @@ $col8: #5F4718;
         Outline: none;
         text-align: center;
       }
-      .input:hover{
+
+      .input:hover {
         background-color: rgb(255, 255, 255);
         border: none;
       }
-      .comment{
+
+      .comment {
         height: 20vh;
       }
     }
-    .container--6--form__button--block{
+
+    .container--6--form__button--block {
       margin: 2% 0 2% 0;
       display: flex;
       justify-content: flex-end;
     }
-    .container--6--form__button{
+
+    .container--6--form__button {
       background-color: rgba(235, 199, 129, 1);
       color: rgba(8, 43, 24, 1);
       border-radius: 30px;
@@ -439,19 +447,23 @@ $col8: #5F4718;
       width: 40%;
       margin: 1% 0 1% 60%;
     }
-    .container--6--form__button:hover{
+
+    .container--6--form__button:hover {
       background-color: rgba(8, 43, 24, 1);
       color: rgba(235, 199, 129, 1);
       transition: all .3s
     }
 
-    .container--6--form__acept{
+    .container--6--form__acept {
       font-family: Unbounded;
       font-weight: 300;
       font-size: 0.6rem;
       color: rgba(235, 199, 129, 1);
-    }*/
+    }
+  }
+}
 
+  /*footer*/
   .footer{
     display: flex;
     flex-direction: row;
@@ -503,6 +515,7 @@ $col8: #5F4718;
     }
   }
 
+/*said bar*/
   .search--menu{
     margin-top: 0.5%;
     border-radius: 40px;
@@ -568,6 +581,7 @@ $col8: #5F4718;
       cursor: pointer;
     }
   }
+
   .hamberger__menu{
     background-color: rgba(11, 81, 44, 0.5);
     width: 25%;

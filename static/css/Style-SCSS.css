@@ -50,6 +50,8 @@
   background-color: #082b18;
   /*блок3*/
   /*bloc 4*/
+  /*block 5*/
+  /*bloc 6*/
 }
 .main--blok .conteiner {
   background-image: url(../img/fon-svg.svg);
@@ -309,125 +311,117 @@
   color: #362709;
   text-align: center;
 }
-
-/*-----------*/
-/*
-
-
-  .conteiner--5{
-    background-image: url("../img/fon-blok5.png");
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-  }
-
-  .conteiner--5--text{
-    font-family: Unbounded;
-    font-size: 1.3rem;
-    font-weight: 400;
-    text-align: center;
-    color: $col3;
-  }
-
-  .header--conteiner--title__under{
-    color: white;
-    font-size: 2.8vw;
-    height: 22vh;
-  }
-
-
-.container--6{
+.main--blok .conteiner--5 {
+  background-image: url("../img/fon-blok5.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main--blok .conteiner--5--text {
+  font-family: Unbounded;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  color: #FFF4DE;
+}
+.main--blok .header--conteiner--title__under {
+  color: white;
+  font-size: 2.8vw;
+  height: 22vh;
+}
+.main--blok .container--6 {
   background-image: url("../img/footer-fon.svg");
   background-size: cover;
   background-color: #082b18;
   height: 100vh;
   display: flex;
+}
+.main--blok .container--6 .container--6--form {
+  padding: 1%;
+  color: #FFF4DE;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  border-radius: 30px;
+  background-color: rgba(37, 137, 83, 0.2);
+}
+.main--blok .container--6 .container--6--form .container--6--form__margin {
+  margin: 0 auto;
+  color: rgb(235, 199, 129);
+}
+.main--blok .container--6 .container--6--form__title {
+  font-family: Unbounded;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.main--blok .container--6 .container--6--form__under--title {
+  font-family: Unbounded;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.main--blok .container--6 .container--6--form__input--box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main--blok .container--6 .container--6--form__input--box .text {
+  font-family: Unbounded;
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding: 1% 0 1% 0;
+}
+.main--blok .container--6 .container--6--form__input--box .input {
+  font-family: Unbounded;
+  font-weight: 200;
+  font-size: 1rem;
+  background-color: rgba(235, 199, 129, 0.2);
+  border-radius: 30px;
+  height: 40px;
+  border: none;
+  Outline: none;
+  text-align: center;
+}
+.main--blok .container--6 .container--6--form__input--box .input:hover {
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.main--blok .container--6 .container--6--form__input--box .comment {
+  height: 20vh;
+}
+.main--blok .container--6 .container--6--form__button--block {
+  margin: 2% 0 2% 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.main--blok .container--6 .container--6--form__button {
+  background-color: rgb(235, 199, 129);
+  color: rgb(8, 43, 24);
+  border-radius: 30px;
+  border: none;
+  font-family: Unbounded;
+  font-weight: 300;
+  height: 6%;
+  width: 40%;
+  margin: 1% 0 1% 60%;
+}
+.main--blok .container--6 .container--6--form__button:hover {
+  background-color: rgb(8, 43, 24);
+  color: rgb(235, 199, 129);
+  transition: all 0.3s;
+}
+.main--blok .container--6 .container--6--form__acept {
+  font-family: Unbounded;
+  font-weight: 300;
+  font-size: 0.6rem;
+  color: rgb(235, 199, 129);
+}
 
-  .container--6--form{
-    padding: 1%;
-    color: $col3;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    margin: auto auto;
-    border-radius: 30px;
-    background-color: rgba(37, 137, 83, 0.2);
-    .container--6--form__margin{
-      margin: 0 auto;
-      color: rgba(235, 199, 129, 1);
-    }
-  }
-  .container--6--form__title{
-    font-family: Unbounded;
-    font-weight: 400;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-  }
-  .container--6--form__under--title{
-    font-family: Unbounded;
-    font-weight: 200;
-    font-size: 1.2rem;
-  }
-  .container--6--form__input--box{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    .text{
-      font-family: Unbounded;
-      font-weight: 300;
-      font-size: 1.2rem;
-      padding: 1% 0 1% 0;
-    }
-    .input{
-      font-family: Unbounded;
-      font-weight: 200;
-      font-size: 1rem;
-      background-color: rgba(235, 199, 129, 0.2);
-      border-radius: 30px;
-      height: 40px;
-      border: none;
-      Outline: none;
-      text-align: center;
-    }
-    .input:hover{
-      background-color: rgb(255, 255, 255);
-      border: none;
-    }
-    .comment{
-      height: 20vh;
-    }
-  }
-  .container--6--form__button--block{
-    margin: 2% 0 2% 0;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .container--6--form__button{
-    background-color: rgba(235, 199, 129, 1);
-    color: rgba(8, 43, 24, 1);
-    border-radius: 30px;
-    border: none;
-    font-family: Unbounded;
-    font-weight: 300;
-    height: 6%;
-    width: 40%;
-    margin: 1% 0 1% 60%;
-  }
-  .container--6--form__button:hover{
-    background-color: rgba(8, 43, 24, 1);
-    color: rgba(235, 199, 129, 1);
-    transition: all .3s
-  }
-
-  .container--6--form__acept{
-    font-family: Unbounded;
-    font-weight: 300;
-    font-size: 0.6rem;
-    color: rgba(235, 199, 129, 1);
-  }*/
+/*footer*/
 .footer {
   display: flex;
   flex-direction: row;
@@ -476,6 +470,7 @@
   align-items: center;
 }
 
+/*said bar*/
 .search--menu {
   margin-top: 0.5%;
   border-radius: 40px;
