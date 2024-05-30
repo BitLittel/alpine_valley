@@ -125,7 +125,7 @@ $col4: #EBC781;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 7px;
+        padding: 1%;
         .footer--number--tel {
           color: #082b18;
           font-size: 1rem;
@@ -231,8 +231,13 @@ $col4: #EBC781;
       font-size: 0.6rem;
       color: rgba(235, 199, 129, 1);
       margin-left: 2%;
+      u{
+        font-family: Unbounded;
+        font-weight: 300;
+        font-size: 0.6rem;
+        color: rgba(235, 199, 129, 1);
+      }
     }
 
   }
-
 }

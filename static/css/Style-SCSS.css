@@ -100,8 +100,11 @@
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 0 3.5% 0 3.5%;
+  justify-content: center;
+  padding: 3% 3.5% 3% 3.5%;
+}
+.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__left, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__left, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__left {
+  margin: 0 3% 0 3%;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .poto-container-1-img, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .poto-container-1-img, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .poto-container-1-img {
   width: 100%;
@@ -123,6 +126,9 @@
   margin: 2% 0 2% 0;
   text-transform: uppercase;
 }
+.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__title .conteiner__block-top--img, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__title .conteiner__block-top--img, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__title .conteiner__block-top--img {
+  padding-left: 2%;
+}
 .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top {
   flex-direction: row-reverse;
 }
@@ -130,7 +136,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__panorama_title {
   display: flex;
@@ -352,6 +358,7 @@
 .main--blok .container--6 .container--6--form .container--6--form__margin {
   margin: 0 auto;
   color: rgb(235, 199, 129);
+  width: 40dvw;
 }
 .main--blok .container--6 .container--6--form__title {
   font-family: Unbounded;
@@ -368,30 +375,36 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin: 0 auto;
 }
 .main--blok .container--6 .container--6--form__input--box .text {
   font-family: Unbounded;
   font-weight: 300;
   font-size: 1.2rem;
   padding: 1% 0 1% 0;
+  margin-left: 5.5%;
 }
 .main--blok .container--6 .container--6--form__input--box .input {
   font-family: Unbounded;
-  font-weight: 200;
-  font-size: 1rem;
+  font-weight: 300;
+  font-size: 1.3rem;
   background-color: rgba(235, 199, 129, 0.2);
-  border-radius: 30px;
-  height: 40px;
+  border-radius: 20px;
+  width: 90%;
+  height: 70px;
   border: none;
   Outline: none;
-  text-align: center;
+  padding-left: 5%;
+  color: rgb(235, 199, 129);
 }
-.main--blok .container--6 .container--6--form__input--box .input:hover {
-  background-color: rgb(255, 255, 255);
-  border: none;
+.main--blok .container--6 .container--6--form__input--box .input:focus {
+  border: 3px;
+  border-color: rgb(235, 199, 129);
+  border-style: solid;
 }
 .main--blok .container--6 .container--6--form__input--box .comment {
   height: 20vh;
+  resize: none;
 }
 .main--blok .container--6 .container--6--form__button--block {
   margin: 2% 0 2% 0;
@@ -405,9 +418,10 @@
   border: none;
   font-family: Unbounded;
   font-weight: 300;
-  height: 6%;
-  width: 40%;
-  margin: 1% 0 1% 60%;
+  height: 40px;
+  width: 33%;
+  font-size: 1.7rem;
+  text-transform: capitalize;
 }
 .main--blok .container--6 .container--6--form__button:hover {
   background-color: rgb(8, 43, 24);
@@ -415,6 +429,13 @@
   transition: all 0.3s;
 }
 .main--blok .container--6 .container--6--form__acept {
+  font-family: Unbounded;
+  font-weight: 300;
+  font-size: 0.6rem;
+  color: rgb(235, 199, 129);
+  text-align: center;
+}
+.main--blok .container--6 .container--6--form__acept u {
   font-family: Unbounded;
   font-weight: 300;
   font-size: 0.6rem;
@@ -446,7 +467,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 1%;
 }
 .footer .footer--number .footer--number--tel {
   color: #082b18;
@@ -457,6 +478,7 @@
 .footer .footer--left__block {
   display: flex;
   flex-direction: row;
+  width: 16%;
 }
 .footer .footer--right__block {
   display: flex;

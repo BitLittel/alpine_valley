@@ -118,7 +118,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7px;
+  padding: 1%;
 }
 .PopupForm .PopupForm--block__left .talk .footer--number .footer--number--tel {
   color: #082b18;
@@ -221,6 +221,12 @@
   font-size: 0.6rem;
   color: rgb(235, 199, 129);
   margin-left: 2%;
+}
+.PopupForm .PopupForm--block__right .container--6--form__acept u {
+  font-family: Unbounded;
+  font-weight: 300;
+  font-size: 0.6rem;
+  color: rgb(235, 199, 129);
 }
 
 /*# sourceMappingURL=popup-stule.css.map */
