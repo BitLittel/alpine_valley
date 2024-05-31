@@ -41,7 +41,7 @@
 
 .PopupForm {
   display: none;
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   width: 100%;
@@ -118,7 +118,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7px;
+  padding: 1%;
 }
 .PopupForm .PopupForm--block__left .talk .footer--number .footer--number--tel {
   color: #082b18;
@@ -142,6 +142,7 @@
   margin: auto auto;
   border-radius: 30px;
   background-color: rgba(37, 137, 83, 0.2);
+  backdrop-filter: blur(5px);
 }
 .PopupForm .PopupForm--block__right .container--6--form .container--6--form__margin {
   margin: 0 auto;
@@ -194,7 +195,7 @@
   resize: none;
 }
 .PopupForm .PopupForm--block__right .container--6--form__button--block {
-  margin: 2% 0 2% 0;
+  margin: 2% 5% 2% 0;
   display: flex;
   justify-content: flex-end;
 }
@@ -207,7 +208,7 @@
   font-weight: 300;
   height: 40px;
   width: 33%;
-  font-size: 1.7rem;
+  font-size: 1.5vw;
   text-transform: capitalize;
 }
 .PopupForm .PopupForm--block__right .container--6--form__button:hover {
@@ -221,6 +222,12 @@
   font-size: 0.6rem;
   color: rgb(235, 199, 129);
   margin-left: 2%;
+}
+.PopupForm .PopupForm--block__right .container--6--form__acept u {
+  font-family: Unbounded;
+  font-weight: 300;
+  font-size: 0.6rem;
+  color: rgb(235, 199, 129);
 }
 
 /*# sourceMappingURL=popup-stule.css.map */
