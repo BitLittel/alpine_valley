@@ -247,20 +247,20 @@ $col8: #5F4718;
     justify-content: center;
     align-items: flex-start;
     width: 50%;
-    padding-left: 18%;
     line-height: 45px;
   }
   .conteiner--3--list__item{
     display: flex;
     flex-direction: row;
+    width: 85%;
   }
   .conteiner--3--list__item__text{
     display: flex;
     flex-direction: column;
   }
   .conteiner--3--list__img{
-    width: 40px;
-    padding: 0 2% 0 0;
+    width: 46px;
+    margin-right: 6%;
   }
   .conteiner--3--list__item__title{
     font-family: Unbounded;
@@ -280,6 +280,7 @@ $col8: #5F4718;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 3%;
   }
   .map{
     display: flex;

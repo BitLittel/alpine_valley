@@ -232,20 +232,20 @@
   justify-content: center;
   align-items: flex-start;
   width: 50%;
-  padding-left: 18%;
   line-height: 45px;
 }
 .main--blok .conteiner--3--list__item {
   display: flex;
   flex-direction: row;
+  width: 85%;
 }
 .main--blok .conteiner--3--list__item__text {
   display: flex;
   flex-direction: column;
 }
 .main--blok .conteiner--3--list__img {
-  width: 40px;
-  padding: 0 2% 0 0;
+  width: 46px;
+  margin-right: 6%;
 }
 .main--blok .conteiner--3--list__item__title {
   font-family: Unbounded;
@@ -264,6 +264,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 3%;
 }
 .main--blok .map {
   display: flex;
