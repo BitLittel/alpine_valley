@@ -166,7 +166,6 @@
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama--under {
   display: flex;
   flex-direction: row;
-  height: 60svh;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -214,6 +213,7 @@
   margin: 1%;
   justify-content: center;
   border-radius: 10px;
+  padding: 1%;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama--under .conteiner__panorama--under__block-2 {
   display: flex;
@@ -225,6 +225,7 @@
   margin: 1%;
   justify-content: center;
   border-radius: 10px;
+  padding: 1%;
 }
 .main--blok .conteiner--3--list {
   display: flex;
