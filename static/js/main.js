@@ -96,7 +96,6 @@ function openPopupForm() {
         main = document.querySelector('body');
     PopupForm.style.display = 'block';
     main.style.overflow = "hidden"
-    PopupForm.style.top = window.scrollY + "px";
 }
 function closePopupForm() {
     var PopupForm = document.querySelector('.PopupForm'),

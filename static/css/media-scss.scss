@@ -1,0 +1,16 @@
+
+@media (max-width: 1400px){
+  .conteiner--2__block-top{
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .conteiner__block-top{
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteiner__block-top__right{
+    width: 43% !important;
+    margin: 0 auto !important;
+    height: 300px;
+  }
+}

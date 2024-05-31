@@ -73,6 +73,7 @@ $col8: #5F4718;
       background-color: $col3;
       border-radius: 30px;
       padding: 1%;
+      margin: 5% 0 5% 0;
       .line{
         border: 1px solid #5F4718;
         border-top: 0px;
@@ -82,7 +83,7 @@ $col8: #5F4718;
       .conteiner__back-blok__title {
         display: flex;
         flex-direction: row;
-        width: 15%;
+        width: 30%;
         height: 6%;
         align-items: center;
 
@@ -91,8 +92,8 @@ $col8: #5F4718;
         }
 
         .img--line {
-          width: 70px;
-          height: 20px;
+          width: 20%;
+          height: 2%;
           padding: 3%;
         }
 
@@ -102,6 +103,11 @@ $col8: #5F4718;
           font-weight: 300;
           text-transform: uppercase;
           font-size: 1rem;
+        }
+        @media (max-width: 430px){
+          .title{
+            font-size: 0.4rem;
+          }
         }
       }
 
@@ -113,12 +119,28 @@ $col8: #5F4718;
         .conteiner__block-top__left{
           margin: 0 3% 0 3%;
         }
+        .conteiner__block-top__right{
+          width: 70%;
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+        }
         .poto-container-1-img{
+          background-image: url("../img/photo_container_1-top_right.png");
           width: 100%;
           border-radius: 10px;
+          height: 80%;
+          background-size: cover;
+        }
+        .poto-container-2-img{
+        background-image: url("../img/F2.png");
+          width: 100%;
+          border-radius: 10px;
+          height: 80%;
+          background-size: cover;
         }
         .conteiner__block-top__main--text{
-          font-size: 1.25rem;
+          font-size: 1.25vw;
           color: $col8;
           font-weight: 300;
           font-family: "Unbounded";
@@ -167,7 +189,6 @@ $col8: #5F4718;
           font-size: 3rem;
         }
         .conteiner__panorama--under__box{
-          height: 70%;
           width: 50%;
           background-color: $col3;
           border-radius: 30px;
@@ -175,6 +196,7 @@ $col8: #5F4718;
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          padding: 1%;
           .conteiner__panorama--under__box-bacgr{
             background-color: $col3;
           }
@@ -195,7 +217,7 @@ $col8: #5F4718;
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 100%;
+          width: 90%;
           height: 100%;
           background-image: url("../img/3Dphoto.png");
           margin: 1%;
@@ -206,7 +228,7 @@ $col8: #5F4718;
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 100%;
+          width: 90%;
           height: 100%;
           background-image: url("../img/360photo.png");
           margin: 1%;
@@ -522,7 +544,7 @@ $col8: #5F4718;
     .footer--left__block{
       display: flex;
       flex-direction: row;
-      width: 16%;
+      width: 25%;
     }
     .footer--right__block{
       display: flex;
@@ -639,3 +661,4 @@ $col8: #5F4718;
     position: absolute;
     height: 20px;
   }
+
