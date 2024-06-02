@@ -318,6 +318,38 @@
   align-items: center;
   padding: 3%;
 }
+.main--blok .conteiner--3__content--discript .slider {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.main--blok .conteiner--3__content--discript .slider-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.main--blok .conteiner--3__content--discript .slider-img.active {
+  opacity: 1;
+}
+.main--blok .conteiner--3__content--discript .slider img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.main--blok .conteiner--3__content--discript .slider .prev {
+  left: 10px;
+  width: 10%;
+}
+.main--blok .conteiner--3__content--discript .slider .next {
+  right: 10px;
+  width: 10%;
+}
 .main--blok .block-4 {
   background-image: url("../img/Fon-4.svg");
   background-repeat: no-repeat;
