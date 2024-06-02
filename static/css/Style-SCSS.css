@@ -318,6 +318,12 @@
   align-items: center;
   padding: 3%;
 }
+.main--blok .conteiner--3__content--discript .swiper--block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3% 3.5% 3% 3.5%;
+}
 .main--blok .block-4 {
   background-image: url("../img/Fon-4.svg");
   background-repeat: no-repeat;

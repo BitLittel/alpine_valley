@@ -335,6 +335,13 @@ $col8: #5F4718;
     justify-content: center;
     align-items: center;
     padding: 3%;
+
+    .swiper--block{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 3% 3.5% 3% 3.5%;
+    }
   }
 
   /*bloc 4*/
