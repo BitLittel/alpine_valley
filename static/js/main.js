@@ -103,7 +103,7 @@ function closePopupForm() {
     main.style.overflow = "auto";
     PopupForm.style.display = 'none';
 }
-
+// Hamburger__menu
 function hamburger__menu() {
     const humberger = document.querySelector(".hamberger__menu"),
         menu = document.querySelector(".search--menu__left");
@@ -113,9 +113,25 @@ function hamburger__menu() {
 
 function close__humberger() {
     const humberger = document.querySelector(".hamberger__menu"),
-        menu = document.querySelector(".search--menu__left");
+    menu = document.querySelector(".search--menu__left");
     humberger.style.display="none";
     menu.onclick = function () {hamburger__menu();};
+}
+
+// opisanie
+
+function showDiscript(){
+    const around = document.querySelector(".conteiner--3__content")
+    around.style.display="none";
+    const discription = document.querySelector(".conteiner--3__content--discript")
+    discription.style.display="flex";
+}
+
+function showAroundr(){
+    const around = document.querySelector(".conteiner--3__content")
+    around.style.display="flex";
+    const description = document.querySelector(".conteiner--3__content--discript")
+    description.style.display="none";
 }
 
 
