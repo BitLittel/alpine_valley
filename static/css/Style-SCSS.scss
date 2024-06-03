@@ -294,6 +294,7 @@ $col8: #5F4718;
     padding: 0.5% 0 0 0 ;
     margin: 0 auto;
     padding: 2% 0 2% 0;
+    z-index: 900000;
   }
   .button_3{
     background-color: $but_col;
@@ -685,7 +686,7 @@ $col8: #5F4718;
     height: 20px;
   }
 
-
+//slider
 .wrapper {
   height: 350px;
   margin: auto 0;
@@ -693,6 +694,8 @@ $col8: #5F4718;
   width: 100%;
   padding: 3%;
   height: 90vh;
+  display: flex;
+  justify-content: center;
 }
 
 .slider {
@@ -712,55 +715,44 @@ $col8: #5F4718;
 }
 
 
-.wrapper .controls {
-  left: 50%;
-  margin-left: -98px;
+.controls {
   position: absolute;
+  margin: 0 auto;
+  bottom: 6%;
+  z-index: 9000;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper label {
   cursor: pointer;
   display: inline-block;
   height: 8px;
-  margin: 25px 12px 0 16px;
-  position: relative;
   width: 8px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
+  background: $col3;
+  width: 10px;
+  height: 10px;
+  margin-left: 15px;
 }
 
 .wrapper label:after {
-  border: 2px solid #ddd;
+  border: 2px solid $col5;
   content: " ";
   display: block;
-  height: 12px;
-  left: -4px;
-  position: absolute;
-  top: -4px;
-  width: 12px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
 
 .wrapper label {
   cursor: pointer;
   display: inline-block;
-  height: 8px;
-  margin: 25px 12px 0 16px;
-  position: relative;
-  width: 8px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
   -webkit-transition: background ease-in-out .5s;
   -moz-transition: background ease-in-out .5s;
   -o-transition: background ease-in-out .5s;
   transition: background ease-in-out .5s;
+  background: $col5;
 }
 
 .wrapper label:hover,
@@ -797,3 +789,4 @@ $col8: #5F4718;
   height: 80% !important;
   font-size: 1.1rem !important;
 }
+//slider

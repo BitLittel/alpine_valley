@@ -278,6 +278,7 @@
   padding: 0.5% 0 0 0;
   margin: 0 auto;
   padding: 2% 0 2% 0;
+  z-index: 900000;
 }
 .main--blok .button_3 {
   background-color: #395340;
@@ -648,6 +649,8 @@ ul.menu__box {
   width: 100%;
   padding: 3%;
   height: 90vh;
+  display: flex;
+  justify-content: center;
 }
 
 .slider {
@@ -667,55 +670,44 @@ ul.menu__box {
   width: inherit;
 }
 
-.wrapper .controls {
-  left: 50%;
-  margin-left: -98px;
+.controls {
   position: absolute;
+  margin: 0 auto;
+  bottom: 6%;
+  z-index: 9000;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper label {
   cursor: pointer;
   display: inline-block;
   height: 8px;
-  margin: 25px 12px 0 16px;
-  position: relative;
   width: 8px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
+  background: #FFF4DE;
+  width: 10px;
+  height: 10px;
+  margin-left: 15px;
 }
 
 .wrapper label:after {
-  border: 2px solid #ddd;
+  border: 2px solid #362709;
   content: " ";
   display: block;
-  height: 12px;
-  left: -4px;
-  position: absolute;
-  top: -4px;
-  width: 12px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
 
 .wrapper label {
   cursor: pointer;
   display: inline-block;
-  height: 8px;
-  margin: 25px 12px 0 16px;
-  position: relative;
-  width: 8px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
   -webkit-transition: background ease-in-out 0.5s;
   -moz-transition: background ease-in-out 0.5s;
   -o-transition: background ease-in-out 0.5s;
   transition: background ease-in-out 0.5s;
+  background: #362709;
 }
 
 .wrapper label:hover,
