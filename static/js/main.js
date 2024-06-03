@@ -1,44 +1,3 @@
-// const images = document.querySelectorAll('.slider .slider-line .slider__img');
-// const sliderLine = document.querySelector('.slider .slider-line');
-// let count = 0;
-// let width;
-//
-// function init() {
-//     console.log('resize');
-//     width = document.querySelector('.slider').offsetWidth;
-//     sliderLine.style.width = width * images.length + 'px';
-//     images.forEach(item => {
-//         item.style.width = width + 'px';
-//         item.style.height = 'auto';
-//     });
-//     rollSlider();
-// }
-//
-// init();
-// window.addEventListener('resize', init);
-//
-// document.querySelector('.slider-next').addEventListener('click', function () {
-//     count++;
-//     if (count >= images.length) {
-//         count = 0;
-//     }
-//     rollSlider();
-// });
-//
-// document.querySelector('.slider-prev').addEventListener('click', function () {
-//     count--;
-//     if (count < 0) {
-//         count = images.length - 1;
-//     }
-//     rollSlider();
-// });
-//
-// function rollSlider() {
-//     sliderLine.style.transform = 'translate(-' + count * width + 'px)';
-//
-// }
-
-
 [].forEach.call( document.querySelectorAll('.tel'), function(input) {
     var keyCode;
     function mask(event) {
@@ -75,21 +34,6 @@
 console.log(document.querySelectorAll('.tel'))
 
 
-// // POPUP Block VIDEO
-// function openPopup() {
-//     var popup = document.querySelector('.popup',);
-//     popup.style.display = 'block';
-//     popup.style.top = window.scrollY + "px";
-//     let main = document.querySelector('body')
-//     main.style.overflow = "hidden"
-// }
-// function closePopup() {
-//     var popup = document.querySelector('.popup');
-//     popup.style.display = 'none';
-//     let main = document.querySelector('body')
-//     main.style.overflow = "auto"
-// }
-
 // POPUP Block VIDEO
 function openPopupForm() {
     var PopupForm = document.querySelector('.PopupForm'),
@@ -104,6 +48,7 @@ function closePopupForm() {
     PopupForm.style.display = 'none';
 }
 
+// Hamburger__menu
 function hamburger__menu() {
     const humberger = document.querySelector(".hamberger__menu"),
         menu = document.querySelector(".search--menu__left");
@@ -113,9 +58,36 @@ function hamburger__menu() {
 
 function close__humberger() {
     const humberger = document.querySelector(".hamberger__menu"),
-        menu = document.querySelector(".search--menu__left");
+    menu = document.querySelector(".search--menu__left");
     humberger.style.display="none";
     menu.onclick = function () {hamburger__menu();};
 }
 
+// opisanie-button
 
+function showDiscript(){
+    const around = document.querySelector(".conteiner--3__content")
+    around.style.display="none";
+    const discription = document.querySelector(".conteiner--3__content--discript")
+    discription.style.display="flex";
+}
+
+function showAroundr(){
+    const around = document.querySelector(".conteiner--3__content")
+    around.style.display="flex";
+    const description = document.querySelector(".conteiner--3__content--discript")
+    description.style.display="none";
+}
+
+// opisanie-slider
+const images = document.querySelectorAll('.slider-img');
+const controlls = document.querySelectorAll('.controlls');
+let imageIndex = 0;
+
+
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

@@ -1,20 +1,18 @@
-
-@media (max-width: 1400px){
-  .conteiner--2__block-top{
+@media (max-width: 1400px) {
+  .conteiner--2__block-top {
     flex-direction: column !important;
     align-items: center;
   }
-  .conteiner__block-top{
+  .conteiner__block-top {
     flex-direction: column !important;
     align-items: center;
   }
-  .conteiner__block-top__right{
+  .conteiner__block-top__right {
     width: 43% !important;
     margin: 0 auto !important;
     height: 300px;
   }
 }
-
 @media (max-width: 430px) {
   .PopupForm--block {
     flex-direction: column !important;
@@ -46,13 +44,15 @@
     top: 2% !important;
     width: 4% !important;
   }
-  .footer--left__block{
-    justify-content: space-between!important;
+  .footer--left__block {
+    justify-content: space-between !important;
   }
-  .footer--left__block{
-    padding-top: 1%!important;
+  .footer--left__block {
+    padding-top: 1% !important;
   }
-  .container--6--form__input--box{
+  .container--6--form__input--box {
     height: 13vh !important;
   }
 }
+
+/*# sourceMappingURL=media-scss.css.map */

@@ -59,7 +59,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
 }
 .main--blok .conteiner .conteiner__back-blok {
   display: flex;
@@ -166,12 +165,12 @@
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama--under {
   display: flex;
   flex-direction: row;
-  height: 60svh;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   width: 85%;
   margin-bottom: 2%;
+  height: 64vh;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama--under .conteiner__panorama--under__block__text {
   font-family: Unbounded;
@@ -214,6 +213,7 @@
   margin: 1%;
   justify-content: center;
   border-radius: 10px;
+  padding: 1%;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama--under .conteiner__panorama--under__block-2 {
   display: flex;
@@ -225,6 +225,7 @@
   margin: 1%;
   justify-content: center;
   border-radius: 10px;
+  padding: 1%;
 }
 .main--blok .conteiner--3--list {
   display: flex;
@@ -232,20 +233,20 @@
   justify-content: center;
   align-items: flex-start;
   width: 50%;
-  padding-left: 18%;
   line-height: 45px;
 }
 .main--blok .conteiner--3--list__item {
   display: flex;
   flex-direction: row;
+  width: 85%;
 }
 .main--blok .conteiner--3--list__item__text {
   display: flex;
   flex-direction: column;
 }
 .main--blok .conteiner--3--list__img {
-  width: 40px;
-  padding: 0 2% 0 0;
+  width: 46px;
+  margin-right: 6%;
 }
 .main--blok .conteiner--3--list__item__title {
   font-family: Unbounded;
@@ -264,6 +265,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 3%;
 }
 .main--blok .map {
   display: flex;
@@ -276,6 +278,7 @@
   padding: 0.5% 0 0 0;
   margin: 0 auto;
   padding: 2% 0 2% 0;
+  z-index: 900000;
 }
 .main--blok .button_3 {
   background-color: #395340;
@@ -308,6 +311,26 @@
   color: #395340;
   transition: all 0.3s;
   padding: 2%;
+}
+.main--blok .conteiner--3__content--discript {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  height: 90vh;
+}
+.main--blok .conteiner--3__content--discript .slider-list {
+  flex-direction: row;
+  line-height: 36px;
+  padding: 1%;
+  width: 100%;
+}
+.main--blok .conteiner--3__content--discript .swiper--block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3% 3.5% 3% 3.5%;
 }
 .main--blok .block-4 {
   background-image: url("../img/Fon-4.svg");
@@ -617,6 +640,111 @@ ul.menu__box {
   top: 8%;
   position: absolute;
   height: 20px;
+}
+
+.wrapper {
+  height: 350px;
+  margin: auto 0;
+  position: relative;
+  width: 100%;
+  padding: 3%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  height: inherit;
+  overflow: hidden;
+  position: relative;
+  width: inherit;
+}
+
+.wrapper > input {
+  display: none;
+}
+
+.slides {
+  height: inherit;
+  position: absolute;
+  width: inherit;
+}
+
+.controls {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 6%;
+  z-index: 9000;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper label {
+  cursor: pointer;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: #FFF4DE;
+  width: 10px;
+  height: 10px;
+  margin-left: 15px;
+}
+
+.wrapper label:after {
+  border: 2px solid #362709;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.wrapper label {
+  cursor: pointer;
+  display: inline-block;
+  -webkit-transition: background ease-in-out 0.5s;
+  -moz-transition: background ease-in-out 0.5s;
+  -o-transition: background ease-in-out 0.5s;
+  transition: background ease-in-out 0.5s;
+  background: #362709;
+}
+
+.wrapper label:hover,
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4) {
+  background: #FFF4DE;
+}
+
+.slides {
+  height: inherit;
+  opacity: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 0;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4 {
+  opacity: 1;
+  z-index: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.slider-text {
+  height: 80% !important;
+  font-size: 1.1rem !important;
+}
+
+#panorama, #position {
+  background-image: none !important;
 }
 
 /*# sourceMappingURL=Style-SCSS.css.map */
