@@ -59,7 +59,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
 }
 .main--blok .conteiner .conteiner__back-blok {
   display: flex;
@@ -171,6 +170,7 @@
   margin: 0 auto;
   width: 85%;
   margin-bottom: 2%;
+  height: 64vh;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama--under .conteiner__panorama--under__block__text {
   font-family: Unbounded;
@@ -729,8 +729,7 @@ ul.menu__box {
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
 #slide3:checked ~ .slider > .slide3,
-#slide4:checked ~ .slider > .slide4,
-#slide5:checked ~ .slider > .slide5 {
+#slide4:checked ~ .slider > .slide4 {
   opacity: 1;
   z-index: 1;
   -webkit-transform: scale(1);
@@ -742,6 +741,10 @@ ul.menu__box {
 .slider-text {
   height: 80% !important;
   font-size: 1.1rem !important;
+}
+
+#panorama, #position {
+  background-image: none !important;
 }
 
 /*# sourceMappingURL=Style-SCSS.css.map */
