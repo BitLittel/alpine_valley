@@ -130,11 +130,17 @@ $col8: #5F4718;
           background-size: cover;
         }
         .poto-container-2-img{
-        background-image: url("../img/F2.png");
+          background-image: url("../img/F2.png");
           width: 100%;
           border-radius: 10px;
           height: 80%;
           background-size: cover;
+        }
+        .dendr-1{
+          background-image: url("../img/dendr-photo-1.png");
+        }
+        .dendr-2{
+          background-image: url("../img/dendr-photo-2.png");
         }
         .conteiner__block-top__main--text{
           font-size: 1.25vw;
@@ -283,6 +289,14 @@ $col8: #5F4718;
   .map{
     display: flex;
   }
+  .sleder-img{
+    margin-top: 5%;
+    width: 70%;
+    height: 50%;
+    .img-slider{
+      border-radius: 30px;
+    }
+  }
 
   .continer--3--button{
     display: flex;
@@ -340,6 +354,7 @@ $col8: #5F4718;
       line-height: 36px;
       padding: 1%;
       width: 100%;
+      align-items: center;
     }
     .swiper--block{
       display: flex;

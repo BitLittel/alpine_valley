@@ -131,6 +131,12 @@
   height: 80%;
   background-size: cover;
 }
+.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .dendr-1, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .dendr-1, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .dendr-1 {
+  background-image: url("../img/dendr-photo-1.png");
+}
+.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .dendr-2, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .dendr-2, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .dendr-2 {
+  background-image: url("../img/dendr-photo-2.png");
+}
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__main--text, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__main--text, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__main--text {
   font-size: 1.25vw;
   color: #5F4718;
@@ -270,6 +276,14 @@
 .main--blok .map {
   display: flex;
 }
+.main--blok .sleder-img {
+  margin-top: 5%;
+  width: 70%;
+  height: 50%;
+}
+.main--blok .sleder-img .img-slider {
+  border-radius: 30px;
+}
 .main--blok .continer--3--button {
   display: flex;
   flex-direction: row;
@@ -325,6 +339,7 @@
   line-height: 36px;
   padding: 1%;
   width: 100%;
+  align-items: center;
 }
 .main--blok .conteiner--3__content--discript .swiper--block {
   display: flex;
