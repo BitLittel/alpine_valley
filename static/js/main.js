@@ -79,15 +79,16 @@ function showAroundr(){
     description.style.display="none";
 }
 
-// opisanie-slider
-const images = document.querySelectorAll('.slider-img');
-const controlls = document.querySelectorAll('.controlls');
-let imageIndex = 0;
-
 
 var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
 });

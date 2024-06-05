@@ -762,4 +762,32 @@ ul.menu__box {
   background-image: none !important;
 }
 
+.swiper {
+  padding: 4%;
+  overflow: hidden;
+  display: flex;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background: rgba(255, 255, 255, 0);
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 /*# sourceMappingURL=Style-SCSS.css.map */
