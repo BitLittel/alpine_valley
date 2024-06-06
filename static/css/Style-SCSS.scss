@@ -840,6 +840,33 @@ $col8: #5F4718;
   object-fit: cover;
   border-radius: 25px;
 }
+.button-download{
+  background-image: url("../img/Download_img/bg-svg-download.svg");
+  background-color: #082B18;
+  width: 20vw;
+  height: 41vh;
+  display: flex;
+  background-size: cover;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 5% 5%;
+
+  .button-download__svg{
+    width: 3vw;
+    height: 10vh;
+    object-fit: none;
+  }
+  .button-download__text{
+    font-family: Unbounded;
+    font-size: 3.45vh;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $col3;
+  }
+}
 .swiper-wrapper{
   display: flex;
   flex-direction: row;
