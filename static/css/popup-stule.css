@@ -181,7 +181,7 @@
   height: 70px;
   border: none;
   Outline: none;
-  padding-left: 5%;
+  padding-left: 2%;
   color: rgb(235, 199, 129);
 }
 .PopupForm .PopupForm--block__right .container--6--form__input--box .input:focus {

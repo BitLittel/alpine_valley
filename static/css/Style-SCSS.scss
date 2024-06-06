@@ -57,6 +57,9 @@ $col8: #5F4718;
 .main--blok {
   background-color: #082b18;
 
+  #gen-plan{
+    background-image: url("../img/gen-back_svg.svg");
+  }
   .conteiner{
     background-image: url(../img/fon-svg.svg);
     background-size: cover;
@@ -115,9 +118,16 @@ $col8: #5F4718;
         padding: 3% 3.5% 3% 3.5%;
         .conteiner__block-top__left{
           margin: 0 3% 0 3%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .dender_left{
+          justify-content: start !important;
         }
         .conteiner__block-top__right{
-          width: 70%;
+          width: 40%;
+          height: 100vh;
           margin: 0 auto;
           display: flex;
           align-items: center;
@@ -143,7 +153,7 @@ $col8: #5F4718;
           background-image: url("../img/dendr-photo-2.png");
         }
         .conteiner__block-top__main--text{
-          font-size: 1.25vw;
+          font-size: 2.25vh;
           color: $col8;
           font-weight: 300;
           font-family: "Unbounded";
@@ -486,7 +496,7 @@ $col8: #5F4718;
         height: 70px;
         border: none;
         Outline: none;
-        padding-left: 5%;
+        padding-left: 2%;
         color: rgba(235, 199, 129);
       }
 
@@ -824,6 +834,8 @@ $col8: #5F4718;
   background: rgba(255, 255, 255, 0);
 }
 .swiper-slide img {
+  width: 20vw;
+  height: 41vh;
   display: block;
   object-fit: cover;
   border-radius: 25px;

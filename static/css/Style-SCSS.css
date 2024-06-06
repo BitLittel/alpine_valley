@@ -53,6 +53,9 @@
   /*block 5*/
   /*bloc 6*/
 }
+.main--blok #gen-plan {
+  background-image: url("../img/gen-back_svg.svg");
+}
 .main--blok .conteiner {
   background-image: url(../img/fon-svg.svg);
   background-size: cover;
@@ -110,9 +113,16 @@
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__left, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__left, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__left {
   margin: 0 3% 0 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .dender_left, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .dender_left, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .dender_left {
+  justify-content: start !important;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__right, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__right, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__right {
-  width: 70%;
+  width: 40%;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -138,7 +148,7 @@
   background-image: url("../img/dendr-photo-2.png");
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__main--text, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__main--text, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__main--text {
-  font-size: 1.25vw;
+  font-size: 2.25vh;
   color: #5F4718;
   font-weight: 300;
   font-family: "Unbounded";
@@ -454,7 +464,7 @@
   height: 70px;
   border: none;
   Outline: none;
-  padding-left: 5%;
+  padding-left: 2%;
   color: rgb(235, 199, 129);
 }
 .main--blok .container--6 .container--6--form__input--box .input:focus {
@@ -781,6 +791,8 @@ ul.menu__box {
 }
 
 .swiper-slide img {
+  width: 20vw;
+  height: 41vh;
   display: block;
   object-fit: cover;
   border-radius: 25px;
