@@ -53,6 +53,38 @@
   .container--6--form__input--box {
     height: 13vh !important;
   }
+  .search--menu__background {
+    width: 25%;
+    margin: 0;
+  }
+  .search--menu__text {
+    display: none !important;
+  }
+  .footer--img {
+    display: none !important;
+  }
+  .search--menu__right {
+    width: 300px !important;
+    justify-content: flex-end !important;
+  }
+  .header--conteiner {
+    width: 23% !important;
+    height: 9vh !important;
+  }
+  .header--conteiner--title {
+    background-image: url("../img/mobile_logo.png") !important;
+  }
+  .header--conteiner--title__under {
+    font-size: 10px !important;
+  }
+  .header--conteiner__arrou__botom__text {
+    font-size: 10px !important;
+  }
 }
+/*
+@media (max-width: 430px){
+}
+
+*/
 
 /*# sourceMappingURL=media-scss.css.map */

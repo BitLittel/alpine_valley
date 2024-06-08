@@ -29,6 +29,9 @@
 }
 .header--conteiner .header--conteiner--title {
   margin: 20vh;
+  background-image: url("../img/logo.svg");
+  width: 80%;
+  height: 25%;
 }
 .header--conteiner .header--conteiner--title__under {
   color: white;
