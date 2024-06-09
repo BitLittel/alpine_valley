@@ -272,7 +272,7 @@ $col8: #5F4718;
   .conteiner--3--list__item{
     display: flex;
     flex-direction: row;
-    width: 85%;
+    width: 100%;
   }
   .conteiner--3--list__item__text{
     display: flex;
@@ -307,8 +307,8 @@ $col8: #5F4718;
   }
   .sleder-img{
     margin-top: 5%;
-    width: 70%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     .img-slider{
       border-radius: 30px;
     }
@@ -367,7 +367,7 @@ $col8: #5F4718;
     height: 90vh;
     .slider-list{
       flex-direction: row;
-      line-height: 36px;
+      line-height: 28px;
       padding: 1%;
       width: 100%;
       align-items: center;
@@ -819,7 +819,7 @@ $col8: #5F4718;
 
 .slider-text{
   height: 80% !important;
-  font-size: 1.1rem !important;
+  font-size: 1rem !important;
 }
 // end slider
 

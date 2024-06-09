@@ -79,26 +79,32 @@ function showAroundr(){
     description.style.display="none";
 }
 
-window.addEventListener('resize',(e) => {
-    let SizeWindow = document.body.clientWidth;
-
-if (SizeWindow > 1399){
-    let swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 41,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
-} else {
-    let swiper = new Swiper(".mySwiper", {
-        slidesPerView: 2,
-        spaceBetween: 60,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
+window.onload = function (){
+    SizeSlider();
 }
+window.addEventListener('resize',(e)=>{
+    SizeSlider();
 });
+
+function SizeSlider (){
+    let SizeWindow = document.body.clientWidth;
+    if (SizeWindow > 1399){
+        let swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 41,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    } else {
+        let swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 60,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    }
+}

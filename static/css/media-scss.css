@@ -103,7 +103,20 @@
   }
   .swiper-slide img {
     width: 35vw !important;
-    height: 23vh !important;
+    height: 50vh !important;
+  }
+  .button-download {
+    width: 35vw !important;
+    height: 50vh !important;
+  }
+  .button-download__svg {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+@media (max-width: 1400px) and (max-width: 600px) {
+  .swiper-slide img {
+    height: 25vh !important;
   }
 }
 

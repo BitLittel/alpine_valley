@@ -1,14 +1,14 @@
 
-@media (max-width: 1400px){
-  .conteiner--2__block-top{
+@media (max-width: 1400px) {
+  .conteiner--2__block-top {
     flex-direction: column !important;
     align-items: center;
   }
-  .conteiner__block-top{
+  .conteiner__block-top {
     flex-direction: column !important;
     align-items: center;
   }
-  .conteiner__block-top__right{
+  .conteiner__block-top__right {
     width: 85% !important;
     margin: 0 auto !important;
     height: 40svh !important;
@@ -65,49 +65,63 @@
   .search--menu__text {
     display: none !important;
   }
-  .container--6--form__input--box{
+  .container--6--form__input--box {
     margin-left: 0 !important;
     width: 100% !important;
-    .text{
+
+    .text {
       margin: 0 !important;
     }
   }
-  .header--conteiner--title{
+  .header--conteiner--title {
     background-image: url("../img/mobile_logo_svg.svg") !important;
     background-size: contain !important;
     height: 20% !important;
     background-position: center !important;
   }
-  .search--menu__background{
+  .search--menu__background {
     height: 100px !important;
   }
-  .search--menu__button{
+  .search--menu__button {
     width: 90% !important;
     height: 60px !important;
     font-size: 1.5rem !important;
   }
-  .search--menu__burger{
+  .search--menu__burger {
     height: 30px !important;
   }
-  .header--conteiner--title__under{
+  .header--conteiner--title__under {
     font-size: clamp(2.5rem, 2.1rem + 2vw, 4.5rem) !important;
   }
-  .header--conteiner__arrou__botom__svg{
+  .header--conteiner__arrou__botom__svg {
     width: 25px !important;
   }
-  .conteiner__block-top__main--text{
+  .conteiner__block-top__main--text {
     font-size: 1.5rem !important;
     text-align: justify !important;
   }
-  .blok2{
+  .blok2 {
     flex-direction: column !important;
   }
-  .gen-text{
+  .gen-text {
     text-align: start !important;
   }
   .swiper-slide img {
     width: 35vw !important;
-    height: 23vh !important;
+    height: 50vh !important;
+  }
+  .button-download{
+    width: 35vw !important;
+    height: 50vh !important;
+  }
+  .button-download__svg{
+    width: 40px !important;
+    height: 40px !important;
+  }
+  @media (max-width: 600px) {
+    .swiper-slide img {
+      height: 25vh !important;
+    }
   }
 }
 
