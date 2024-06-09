@@ -832,4 +832,8 @@ ul.menu__box {
   flex-direction: row;
 }
 
+iframe {
+  border-radius: 30px;
+}
+
 /*# sourceMappingURL=Style-SCSS.css.map */

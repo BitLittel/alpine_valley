@@ -99,6 +99,9 @@
   .blok2 {
     flex-direction: column !important;
   }
+  .gen-text {
+    text-align: start !important;
+  }
 }
 
 /*# sourceMappingURL=media-scss.css.map */
