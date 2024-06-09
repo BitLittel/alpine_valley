@@ -180,6 +180,7 @@
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__panorama_title {
   display: flex;
+  align-items: center;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama--under {
   display: flex;
@@ -220,6 +221,7 @@
   text-transform: uppercase;
   padding: 3%;
   width: 79%;
+  text-decoration: none;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__panorama--under .conteiner__panorama--under__block-1 {
   display: flex;

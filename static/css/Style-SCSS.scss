@@ -188,6 +188,7 @@ $col8: #5F4718;
         margin-top: 1%;
         .conteiner__panorama_title{
           display: flex;
+          align-items: center;
         }
       }
       .conteiner__panorama--under{
@@ -227,6 +228,7 @@ $col8: #5F4718;
             text-transform: uppercase;
             padding: 3%;
             width: 79%;
+            text-decoration: none;
           }
         }
         .conteiner__panorama--under__block-1{
