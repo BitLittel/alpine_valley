@@ -88,6 +88,7 @@ window.addEventListener('resize',(e)=>{
 
 function SizeSlider (){
     let SizeWindow = document.body.clientWidth;
+
     if (SizeWindow > 1399){
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
@@ -107,4 +108,13 @@ function SizeSlider (){
             },
         });
     }
+
+/*    let sliderVh = document.querySelectorAll(".swiper-slide img");
+
+    for (let i = 0; i < sliderVh.length;i++){
+        if(SizeWindow <= 600){
+            sliderVh[i].style.height="25vh" + "!important";
+        }
+    }*/
+
 }

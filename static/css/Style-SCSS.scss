@@ -617,7 +617,7 @@ $col8: #5F4718;
     margin-top: 0.5%;
     border-radius: 40px;
     position: fixed;
-    z-index: 9;
+    z-index: 1000000;
     top: 0;
     width: 100%;
 
@@ -848,6 +848,11 @@ $col8: #5F4718;
   display: block;
   object-fit: cover;
   border-radius: 25px;
+}
+@media (max-width: 600px) {
+  .swiper-slide img{
+    height: 25vh !important;
+  }
 }
 .button-download{
   background-image: url("../img/Download_img/bg-svg-download.svg");
