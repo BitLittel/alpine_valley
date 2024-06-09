@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <title>Альпийские имения 2.0</title>
     <meta http-equiv="Content-language" content="ru">
-    <meta name="viewport" content="width=1920, initial-scale=1">
+   <!-- <meta name="viewport" content="width=1920, initial-scale=1">-->
     <link rel="stylesheet" href="../static/css/zero.css" type="text/CSS">
     <link rel="stylesheet" href="../static/css/Style-SCSS.css" type="text/CSS">
     <link rel="stylesheet" href="../static/css/popup-stule.css" type="text/CSS">
     <link rel="stylesheet" href="../static/css/media-scss.css" type="text/CSS">
-    <link rel="stylesheet" href="../static/css/search-menu.css" type="text/CSS">
-    <script>
+<!--    <script>
         function zoomOutMobile() {
             const viewport = document.querySelector('meta[name="viewport"]');
             if (viewport) {viewport.content = "width=1920";}
@@ -36,14 +35,16 @@
         if ((isAndroid || isMobile || iOS())) {
             zoomOutMobile();
         }
-    </script>
+    </script>-->
 </head>
 <body>
 <div class="search--menu">
     <div class="search--menu__background">
         <div  class="search--menu__left"
               onclick="hamburger__menu()">
-            <img src="../static/img/burger_menu.svg" alt="">
+            <img src="../static/img/burger_menu.svg"
+                 alt=""
+                 class="search--menu__burger">
             <span class="search--menu__text">меню</span>
         </div>
         <div  class="search--menu__right">
@@ -63,7 +64,9 @@
         <div class="header--conteiner--title__under">Имеем то, что имеем...</div>
         <div class="header--conteiner__arrou__botom">
             <div class="header--conteiner__arrou__botom__text">подробности</div>
-            <img src="../static/img/arrou.svg" alt="Стрелка которая направлена вниз">
+            <img src="../static/img/arrou.svg"
+                 alt="Стрелка которая направлена вниз"
+                 class="header--conteiner__arrou__botom__svg">
             <div class="header--conteiner__arrou__botom__text">ниже</div>
         </div>
     </headr>
@@ -166,7 +169,7 @@
                     <p class="conteiner__block-top__main--text">
                         Варианты для детального просмотра земельного участка</p>
                 </div>
-                <div class="conteiner__panorama--under">
+                <div class="conteiner__panorama--under blok2">
                     <div class="conteiner__panorama--under__block-1">
                         <p class="conteiner__panorama--under__block__text">3D</p>
                         <div class="conteiner__panorama--under__box">

@@ -9,13 +9,11 @@
     align-items: center;
   }
   .conteiner__block-top__right{
-    width: 43% !important;
+    width: 85% !important;
     margin: 0 auto !important;
-    height: 300px;
+    height: 40svh !important;
   }
-}
 
-@media only screen and (max-width: 430px) {
   .PopupForm--block {
     flex-direction: column !important;
   }
@@ -33,7 +31,7 @@
   }
   .container--6--form__input--box input {
     font-size: 3.95vw !important;
-    height: 35px !important;
+    width: 100% !important;
   }
   .container--6--form {
     width: 100% !important;
@@ -56,16 +54,6 @@
     height: 13vh !important;
   }
 
-
-  .search--menu__background {
-    width: 25% !important;
-    margin: 0 !important;
-  }
-
-  .search--menu__text {
-    display: none !important;
-  }
-
   .search--menu__right {
     width: 300px !important;
     justify-content: flex-end !important;
@@ -74,8 +62,50 @@
   .footer--img {
     display: none !important;
   }
-
+  .search--menu__text {
+    display: none !important;
+  }
+  .container--6--form__input--box{
+    margin-left: 0 !important;
+    width: 100% !important;
+    .text{
+      margin: 0 !important;
+    }
+  }
+  .header--conteiner--title{
+    background-image: url("../img/mobile_logo_svg.svg") !important;
+    background-size: contain !important;
+    width: 100% !important;
+    height: 20% !important;
+    background-position: center !important;
+  }
+  .search--menu__background{
+    height: 100px !important;
+  }
+  .search--menu__button{
+    width: 90% !important;
+    height: 60px !important;
+    font-size: 1.5rem !important;
+  }
+  .search--menu__burger{
+    height: 30px !important;
+  }
+  .header--conteiner--title__under{
+    font-size: clamp(2.5rem, 2.1rem + 2vw, 4.5rem) !important;
+  }
+  .header--conteiner__arrou__botom__svg{
+    width: 25px !important;
+  }
+  .conteiner__block-top__main--text{
+    font-size: 1.5rem !important;
+    text-align: justify !important;
+  }
+  .blok2{
+    flex-direction: column !important;
+  }
 }
+
+
 
 
 
