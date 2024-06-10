@@ -113,6 +113,22 @@
     width: 40px !important;
     height: 40px !important;
   }
+  .conteiner--3--list {
+    flex-direction: column !important;
+  }
+  .conteiner--3__content--discript {
+    height: 100% !important;
+  }
+  .img-slider {
+    width: 39% !important;
+    margin: 0 auto !important;
+  }
+  .wrapper {
+    height: 100% !important;
+  }
+  .slider {
+    height: 29.35vh !important;
+  }
 }
 
 /*# sourceMappingURL=media-scss.css.map */
