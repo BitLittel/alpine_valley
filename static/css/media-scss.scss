@@ -32,9 +32,10 @@
   .container--6--form__input--box input {
     font-size: 3.95vw !important;
     width: 100% !important;
+    height: 6vh !important;
   }
   .container--6--form {
-    width: 100% !important;
+    width: 90% !important;
   }
   .container--6--form__margin {
     width: 100% !important;
@@ -50,10 +51,6 @@
   .footer--left__block {
     padding-top: 1% !important;
   }
-  .container--6--form__input--box {
-    height: 13vh !important;
-  }
-
   .search--menu__right {
     width: 300px !important;
     justify-content: flex-end !important;
@@ -68,9 +65,11 @@
   .container--6--form__input--box {
     margin-left: 0 !important;
     width: 100% !important;
+    font-size: 3.95vw !important;
 
     .text {
       margin: 0 !important;
+      font-size: 2rem !important;
     }
   }
   .header--conteiner--title {
@@ -133,6 +132,18 @@
   }
   .slider{
     height: 29.35vh !important;
+  }
+  .container--6--form__title{
+    font-size: 2.8rem !important;
+  }
+  .container--6--form__under--title{
+    font-size: 2.2rem !important;
+  }
+  .container--6--form__acept {
+    font-size: 1.15rem !important;
+    u{
+      font-size: 1.15rem !important;
+    }
   }
 }
 
