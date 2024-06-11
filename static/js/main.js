@@ -100,7 +100,7 @@ function SizeSlider (){
         });
     } else {
         let swiper = new Swiper(".mySwiper", {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 60,
             pagination: {
                 el: ".swiper-pagination",

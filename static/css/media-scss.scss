@@ -18,7 +18,10 @@
     flex-direction: column !important;
   }
   .PopupForm--block__left {
-    width: 95vw;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    height: 19%;
   }
   .talk__title {
     font-size: 5vw !important;
@@ -90,7 +93,7 @@
     height: 30px !important;
   }
   .header--conteiner--title__under {
-    font-size: clamp(2.5rem, 2.1rem + 2vw, 4.5rem) !important;
+    font-size: clamp(4.5rem, 5.1rem + 2vw, 5.5rem) !important;
   }
   .header--conteiner__arrou__botom__svg {
     width: 25px !important;
@@ -143,6 +146,41 @@
     font-size: 1.15rem !important;
     u{
       font-size: 1.15rem !important;
+    }
+  }
+  .footer--number--tel{
+    font-size: 1.4rem !important;
+  }
+  .container--6--form__button{
+    height: 50px !important;
+    width: 40% !important;
+    font-size: 3.5vw !important;
+    margin: 0 auto !important;
+  }
+    .footer-lef{
+    width: 30% !important;
+    }
+  .footer_number{
+    display: none!important;
+  }
+  .footer--alpine__imenie{
+    font-size: 1rem !important;
+  }
+  .textovii-text{
+    font-size: 2rem !important;
+  }
+  .textovii-img{
+    margin: 5vh !important;
+  }
+  .continer--3--button{
+    flex-direction: column !important;
+    .button_3{
+      border-radius: 30px 30px 0 0 !important;
+      width: 100% !important;
+    }
+    .button_4{
+      border-radius: 0 0 30px 30px !important;
+      width: 100% !important;
     }
   }
 }

@@ -96,6 +96,9 @@
   color: #EBC781;
   text-transform: initial;
 }
+.PopupForm .PopupForm--block__left .talk .talk__text .twho {
+  display: none;
+}
 .PopupForm .PopupForm--block__left .talk .footer--left__block {
   display: flex;
   flex-direction: row;

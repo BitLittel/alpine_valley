@@ -102,6 +102,9 @@ $col4: #EBC781;
         font-size: 1.4rem;
         color: $col4;
         text-transform: initial;
+        .twho{
+          display: none;
+        }
       }
       .footer--left__block{
         display: flex;
