@@ -105,9 +105,17 @@
     text-align: start !important;
   }
   .swiper-slide img {
-    width: 35vw !important;
-    height: 50vh !important;
+    width: 35vw;
+    height: 50vh;
   }
+}
+@media (max-width: 1400px) and (min-width: 600px) {
+  .swiper-slide img {
+    width: 70vw !important;
+    height: 40vh !important;
+  }
+}
+@media (max-width: 1400px) {
   .button-download {
     width: 35vw !important;
     height: 50vh !important;

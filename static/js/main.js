@@ -118,3 +118,16 @@ function SizeSlider (){
     }*/
 
 }
+
+/*
+const WindowSize = window.screen.width;
+
+if (WindowSize < 600){
+    let sliderWS = document.querySelector(".swiper-slide img")
+    let size = sliderWS.length;
+    for(let i = 0 ; i <size;i++){
+        sliderWS.style.height = "40vh";
+        sliderWS.style.width = "75vw";
+    }
+}
+*/
