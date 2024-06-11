@@ -120,6 +120,14 @@
     width: 35vw !important;
     height: 50vh !important;
   }
+}
+@media (max-width: 1400px) and (min-width: 600px) {
+  .button-download {
+    width: 70vw !important;
+    height: 40vh !important;
+  }
+}
+@media (max-width: 1400px) {
   .button-download__svg {
     width: 40px !important;
     height: 40px !important;
