@@ -180,5 +180,10 @@
     width: 100% !important;
   }
 }
+@media (max-width: 600px) {
+  .text {
+    height: 25vh !important;
+  }
+}
 
 /*# sourceMappingURL=media-scss.css.map */
