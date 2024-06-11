@@ -36,14 +36,18 @@ console.log(document.querySelectorAll('.tel'))
 
 // POPUP Block VIDEO
 function openPopupForm() {
-    var PopupForm = document.querySelector('.PopupForm'),
-        main = document.querySelector('body');
+    var PopupForm = document.querySelector('.PopupForm');
+    var main = document.querySelector('body');
+    var search = document.querySelector(".search--menu");
+    search.style.display = "none";
     PopupForm.style.display = 'block';
     main.style.overflow = "hidden"
 }
 function closePopupForm() {
-    var PopupForm = document.querySelector('.PopupForm'),
-        main = document.querySelector('body')
+    var PopupForm = document.querySelector('.PopupForm');
+    var main = document.querySelector('body');
+    var search = document.querySelector(".search--menu");
+    search.style.display = "flex";
     main.style.overflow = "auto";
     PopupForm.style.display = 'none';
 }
