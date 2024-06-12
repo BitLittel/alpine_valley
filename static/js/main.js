@@ -55,14 +55,18 @@ function closePopupForm() {
 // Hamburger__menu
 function hamburger__menu() {
     const humberger = document.querySelector(".hamberger__menu"),
-        menu = document.querySelector(".search--menu__left");
+        menu = document.querySelector(".search--menu__left"),
+        main_selekt = document.querySelector(".main--blok"),
+        header_selekt = document.querySelector(".header--conteiner");
     humberger.style.display="block";
+    main_selekt.onclick = function (){close__humberger();};
+    header_selekt.onclick = function (){close__humberger();};
     menu.onclick = function (){close__humberger();};
 }
 
 function close__humberger() {
     const humberger = document.querySelector(".hamberger__menu"),
-    menu = document.querySelector(".search--menu__left");
+         menu = document.querySelector(".search--menu__left");
     humberger.style.display="none";
     menu.onclick = function () {hamburger__menu();};
 }

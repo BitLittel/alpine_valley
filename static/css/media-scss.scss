@@ -169,7 +169,7 @@
     font-size: 3.5vw !important;
     margin: 0 auto !important;
   }
-    .footer-lef{
+  .footer-lef{
     width: 30% !important;
     }
   .footer_number{
@@ -195,11 +195,35 @@
       width: 100% !important;
     }
   }
+
+  .hamberger__menu {
+    background-color: rgba(11, 81, 44, 0.8) !important;
+    width: 100% !important;
+    height: 90vh !important;
+    top: 6% !important;
+    left: 0 !important;
+    margin: 0 auto !important;
+  }
+
+  ul.menu__box {
+    padding: 50% 0 50% 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    height: 100% !important;
+  }
+
+  .menu__item {
+    font-size: 3.7rem !important;
+  }
 }
 @media (max-width: 600px) {
   .text{
     height: 25vh !important;
   }
+
 }
 
 
