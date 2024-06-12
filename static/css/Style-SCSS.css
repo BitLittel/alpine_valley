@@ -87,12 +87,12 @@
 .main--blok .conteiner .conteiner__back-blok .line {
   border: 1px solid #5F4718;
   border-top: 0px;
-  margin: 4% 3.5% 4% 3.5%;
+  margin: 0% 3.5% 3% 3.5%;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__back-blok__title {
   display: flex;
   flex-direction: row;
-  width: 30%;
+  width: 40%;
   height: 6%;
   align-items: center;
 }
@@ -101,8 +101,7 @@
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__back-blok__title .img--line {
   width: 20%;
-  height: 2%;
-  padding: 3%;
+  padding: 4%;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__back-blok__title .title {
   font-family: "Unbounded";
@@ -120,7 +119,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 3% 3.5% 3% 3.5%;
+  padding: 0% 3.5% 0% 3.5%;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__left, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__left, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__left {
   margin: 0 3% 0 3%;
