@@ -74,7 +74,7 @@
   .header--conteiner--title {
     background-image: url("../img/mobile_logo_svg.svg") !important;
     background-size: contain !important;
-    height: 20% !important;
+    height: 30% !important;
     background-position: center !important;
   }
   .search--menu__background {

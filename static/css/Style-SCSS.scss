@@ -133,12 +133,13 @@ $col8: #5F4718;
           display: flex;
           flex-direction: column;
           justify-content: center;
+          width: 100%;
         }
         .dender_left{
           justify-content: start !important;
         }
         .conteiner__block-top__right{
-          width: 40%;
+          width: 60%;
           height: 100vh;
           margin: 0 auto;
           display: flex;
@@ -434,7 +435,7 @@ $col8: #5F4718;
 
   .conteiner--5--text{
     font-family: Unbounded;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 400;
     text-align: center;
     color: $col3;

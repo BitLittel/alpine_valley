@@ -127,12 +127,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .dender_left, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .dender_left, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .dender_left {
   justify-content: start !important;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__right, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__right, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__right {
-  width: 40%;
+  width: 60%;
   height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -410,7 +411,7 @@
 }
 .main--blok .conteiner--5--text {
   font-family: Unbounded;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 400;
   text-align: center;
   color: #FFF4DE;
