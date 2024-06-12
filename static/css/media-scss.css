@@ -215,6 +215,10 @@
   .menu__item {
     font-size: 3.7rem !important;
   }
+  .close__hambirger {
+    bottom: 12%;
+    position: absolute;
+  }
 }
 @media (max-width: 600px) {
   .text {
