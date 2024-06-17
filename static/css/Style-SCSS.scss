@@ -912,3 +912,26 @@ $col8: #5F4718;
 iframe {
   border-radius: 30px;
 }
+
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  height: 80%;
+  background-size: cover;
+}
+
+swiper-slide img {
+  width: 100%;
+  border-radius: 10px;
+  height: 80%;
+  background-size: cover;
+}
