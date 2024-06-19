@@ -94,10 +94,10 @@ window.addEventListener('resize',(e)=>{
     SizeSlider();
 });
 
-function SizeSlider (){
+function SizeSlider () {
     let SizeWindow = document.body.clientWidth;
 
-    if (SizeWindow > 1399){
+    if (SizeWindow > 1399) {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 41,
@@ -116,26 +116,18 @@ function SizeSlider (){
             },
         });
     }
-
-/*    let sliderVh = document.querySelectorAll(".swiper-slide img");
-
-    for (let i = 0; i < sliderVh.length;i++){
-        if(SizeWindow <= 600){
-            sliderVh[i].style.height="25vh" + "!important";
-        }
-    }*/
-
 }
 
-/*
-const WindowSize = window.screen.width;
-
-if (WindowSize < 600){
-    let sliderWS = document.querySelector(".swiper-slide img")
-    let size = sliderWS.length;
-    for(let i = 0 ; i <size;i++){
-        sliderWS.style.height = "40vh";
-        sliderWS.style.width = "75vw";
+    function open_popup(img) {
+        let popup = document.getElementById('popup'),
+            popup_img = document.getElementById('popup_img');
+        popup.style.display = 'block';
+        popup_img.src = img;
     }
-}
-*/
+
+    let swiper_slide = document.querySelectorAll('.poto-container-1-img');
+    for (let i = 0; i < swiper_slide.length; i++) {
+        swiper_slide[i].onclick = function () {
+            open_popup(swiper_slide[i].src);
+        };
+    }

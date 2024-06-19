@@ -139,8 +139,7 @@
   align-items: center;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .poto-container-1-img, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .poto-container-1-img, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .poto-container-1-img {
-  background-image: url("../img/photo_container_1-top_right.png");
-  width: 100%;
+  width: 59%;
   border-radius: 10px;
   height: 80%;
   background-size: cover;
@@ -592,7 +591,7 @@
   margin-top: 0.5%;
   border-radius: 40px;
   position: fixed;
-  z-index: 1000000;
+  z-index: 1000;
   top: 0;
   width: 100%;
 }
@@ -876,10 +875,6 @@ swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  border-radius: 10px;
-  height: 80%;
-  background-size: cover;
 }
 
 swiper-slide img {
@@ -887,6 +882,69 @@ swiper-slide img {
   border-radius: 10px;
   height: 80%;
   background-size: cover;
+}
+
+.popup {
+  z-index: 999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  backdrop-filter: blur(2px) brightness(0.7);
+  -webkit-backdrop-filter: blur(2px) brightness(0.7);
+  display: none;
+}
+
+.popup_close {
+  margin: 0;
+  right: 1%;
+  padding: 0;
+  letter-spacing: 0;
+  color: #fff;
+  position: fixed;
+  z-index: 3;
+  font-size: 3vw;
+  transform: rotate(45deg);
+  top: 1%;
+  cursor: pointer;
+}
+
+#popup_img {
+  margin: 12% auto;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+@media (max-width: 1000px) {
+  .block {
+    padding: 15% 0;
+  }
+  .block > img {
+    width: 90%;
+  }
+  .block > p {
+    font-size: 4vw;
+    text-align: center;
+  }
+  .swiper {
+    padding: 0;
+  }
+  #popup_img {
+    margin: 77% auto;
+    height: 20%;
+  }
+  .popup_close {
+    font-size: 15vw;
+    right: 4%;
+  }
 }
 
 /*# sourceMappingURL=Style-SCSS.css.map */
