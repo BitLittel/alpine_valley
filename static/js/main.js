@@ -90,16 +90,22 @@ function close__humberger() {
 // opisanie-button
 
 function showDiscript(){
-    const around = document.querySelector(".conteiner--3__content")
+    const around = document.querySelector(".conteiner--3__content");
     around.style.display="none";
-    const discription = document.querySelector(".conteiner--3__content--discript")
+    const discription = document.querySelector(".conteiner--3__content--discript");
     discription.style.display="flex";
 }
 function showAroundr(){
-    const around = document.querySelector(".conteiner--3__content")
+    const around = document.querySelector(".conteiner--3__content");
     around.style.display="flex";
-    const description = document.querySelector(".conteiner--3__content--discript")
+    const description = document.querySelector(".conteiner--3__content--discript");
     description.style.display="none";
+    const but3 = document.querySelector(".button_3");
+    but3.style.color="$col3";
+    but3.style.background="$but_col";
+    const but4 = document.querySelector(".button_4");
+    but4.style.color="#395340";
+    but4.style.background="#FFF4DE";
 }
 
 

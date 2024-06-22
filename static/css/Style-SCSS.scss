@@ -332,8 +332,8 @@ $col8: #5F4718;
     z-index: 900000;
   }
   .button_3{
-    background-color: $but_col;
-    color: $col3;
+    background-color: $col3;
+    color: $but_col;
     font-family: Unbounded;
     font-weight: 400;
     width: 50%;
@@ -341,12 +341,13 @@ $col8: #5F4718;
     border: 2px solid #395340;
     padding: 2%;
   }
-  .button_3:hover{
+
+/*  .button_3:hover{
     background-color: $col3;
     color: $but_col;
     transition: all .3s;
     padding: 2%;
-  }
+  }*/
   .button_4{
     background-color: $but_col;
     color: $col3;
@@ -357,12 +358,12 @@ $col8: #5F4718;
     border: 2px solid #395340;
     padding: 2%;
   }
-  .button_4:hover{
+/*  .button_4:hover{
     background-color: $col3;
     color: $but_col;
     transition: all .3s;
     padding: 2%;
-  }
+  }*/
 
   //slider
   .conteiner--3__content--discript {
@@ -979,8 +980,8 @@ swiper-slide {
     padding: 0;
   }
   #popup_img {
-    margin: 77% auto;
-    height: 20%;
+    margin: 72% auto;
+    height: 30%;
   }
   .popup_close {
     font-size: 15vw;

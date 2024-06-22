@@ -53,6 +53,18 @@
 .main--blok {
   background-color: #082b18;
   /*блок3*/
+  /*  .button_3:hover{
+      background-color: $col3;
+      color: $but_col;
+      transition: all .3s;
+      padding: 2%;
+    }*/
+  /*  .button_4:hover{
+      background-color: $col3;
+      color: $but_col;
+      transition: all .3s;
+      padding: 2%;
+    }*/
   /*bloc 4*/
   /*block 5*/
   /*bloc 6*/
@@ -317,19 +329,13 @@
   z-index: 900000;
 }
 .main--blok .button_3 {
-  background-color: #395340;
-  color: #FFF4DE;
+  background-color: #FFF4DE;
+  color: #395340;
   font-family: Unbounded;
   font-weight: 400;
   width: 50%;
   border-radius: 30px 0 0 30px;
   border: 2px solid #395340;
-  padding: 2%;
-}
-.main--blok .button_3:hover {
-  background-color: #FFF4DE;
-  color: #395340;
-  transition: all 0.3s;
   padding: 2%;
 }
 .main--blok .button_4 {
@@ -340,12 +346,6 @@
   width: 50%;
   border-radius: 0 30px 30px 0;
   border: 2px solid #395340;
-  padding: 2%;
-}
-.main--blok .button_4:hover {
-  background-color: #FFF4DE;
-  color: #395340;
-  transition: all 0.3s;
   padding: 2%;
 }
 .main--blok .conteiner--3__content--discript {
@@ -936,8 +936,8 @@ swiper-slide {
     padding: 0;
   }
   #popup_img {
-    margin: 77% auto;
-    height: 20%;
+    margin: 72% auto;
+    height: 30%;
   }
   .popup_close {
     font-size: 15vw;
