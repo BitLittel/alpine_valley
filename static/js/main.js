@@ -40,8 +40,8 @@ function openPopupForm() {
     var main = document.querySelector('body');
     var search = document.querySelector(".search--menu");
     search.style.display = "none";
-    PopupForm.style.display = 'block';
     main.style.overflow = "hidden"
+    PopupForm.style.display = 'block';
 }
 function closePopupForm() {
     var PopupForm = document.querySelector('.PopupForm');
@@ -52,14 +52,24 @@ function closePopupForm() {
     PopupForm.style.display = 'none';
 }
 
-function OpenPhoto(){
-    var photo = document.querySelector('.poto-container-2-img');
-    photo.style.display ="block";
-    photo.style.width = "100%";
-    photo.style.height = "100vh";
-    photo.style.left = "0";
-    photo.style.top = "0";
+function OpenFullForm() {
+    var FullForm = document.querySelector('.FullForm');
+    var main = document.querySelector('body');
+    var search = document.querySelector(".search--menu");
+    FullForm.style.display = 'block';
+    search.style.display = "none";
+    main.style.overflow = "hidden"
 }
+function CloseFullForm() {
+    var FullForm = document.querySelector('.FullForm');
+    var main = document.querySelector('body');
+    var search = document.querySelector(".search--menu");
+    search.style.display = "flex";
+    main.style.overflow = "auto";
+    FullForm.style.display = 'none';
+}
+
+
 
 // Hamburger__menu
 function hamburger__menu() {

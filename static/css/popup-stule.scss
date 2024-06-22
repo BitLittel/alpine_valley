@@ -244,3 +244,23 @@ $col4: #EBC781;
 
   }
 }
+
+.FullForm{
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100dvh;
+  .FullForm--img{
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+  }
+  .popup--Video__close{
+    right: 1%;
+    top: 1%;
+    cursor: pointer;
+    position: absolute;
+  }
+}

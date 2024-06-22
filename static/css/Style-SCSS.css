@@ -139,7 +139,7 @@
   align-items: center;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .poto-container-1-img, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .poto-container-1-img, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .poto-container-1-img {
-  width: 59%;
+  width: 100%;
   border-radius: 10px;
   height: 80%;
   background-size: cover;
