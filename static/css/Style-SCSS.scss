@@ -865,7 +865,7 @@ $col8: #5F4718;
   width: 60%;
   background: rgba(255, 255, 255, 0);
 }
-.swiper-slide img {
+.swiper_img_img{
   width: 20vw;
   height: 41vh;
   display: block;
@@ -924,12 +924,6 @@ swiper-slide {
   align-items: center;
 }
 
-swiper-slide img {
-  width: 100%;
-  border-radius: 10px;
-  height: 80%;
-  background-size: cover;
-}
 
 /*
 .popup {
@@ -989,3 +983,7 @@ swiper-slide img {
     right: 4%;
   }
 }*/
+
+#slider_slide1{
+  width: 1000px;
+}

@@ -153,6 +153,12 @@ function SizeSlider () {
 
 
 var swiper = new Swiper(".NewSwiper", {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 60,
+    autoplay: {
+        delay: 1500,
+    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
