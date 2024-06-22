@@ -117,19 +117,11 @@ function SizeSlider () {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 41,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
         });
     } else {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 60,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
         });
     }
 }

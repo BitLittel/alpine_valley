@@ -137,6 +137,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .poto-container-1-img, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .poto-container-1-img, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .poto-container-1-img {
   width: 100%;
@@ -935,8 +936,11 @@ swiper-slide {
     right: 4%;
   }
 }*/
-#slider_slide1 {
-  width: 1000px;
+.swiper-slide__img {
+  width: 100%;
+  height: 90vh;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=Style-SCSS.css.map */
