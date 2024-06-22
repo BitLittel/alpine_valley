@@ -884,6 +884,7 @@ swiper-slide img {
   background-size: cover;
 }
 
+/*
 .popup {
   z-index: 999999;
   position: fixed;
@@ -895,7 +896,6 @@ swiper-slide img {
   -webkit-backdrop-filter: blur(2px) brightness(0.7);
   display: none;
 }
-
 .popup_close {
   margin: 0;
   right: 1%;
@@ -909,20 +909,16 @@ swiper-slide img {
   top: 1%;
   cursor: pointer;
 }
-
 #popup_img {
   margin: 12% auto;
   width: 100%;
 }
-
 .swiper-pagination-bullet {
   opacity: 0.5;
 }
-
 .swiper-pagination-bullet-active {
   opacity: 1;
 }
-
 @media (max-width: 1000px) {
   .block {
     padding: 15% 0;
@@ -945,6 +941,6 @@ swiper-slide img {
     font-size: 15vw;
     right: 4%;
   }
-}
+}*/
 
 /*# sourceMappingURL=Style-SCSS.css.map */
