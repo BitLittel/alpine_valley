@@ -155,6 +155,12 @@ var swiper = new Swiper(".NewSwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 40
+        }
+    }
 });
 
 
