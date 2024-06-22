@@ -135,7 +135,7 @@ function SizeSlider () {
         popup_img.src = img;
     }
 
-    let swiper_slide = document.querySelectorAll('.poto-container-1-img');
+    let swiper_slide = document.querySelectorAll('.swiper-slide__img');
     for (let i = 0; i < swiper_slide.length; i++) {
         swiper_slide[i].onclick = function () {
             open_popup(swiper_slide[i].src);
