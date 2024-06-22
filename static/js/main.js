@@ -52,6 +52,15 @@ function closePopupForm() {
     PopupForm.style.display = 'none';
 }
 
+function OpenPhoto(){
+    var photo = document.querySelector('.poto-container-2-img');
+    photo.style.display ="block";
+    photo.style.width = "100%";
+    photo.style.height = "100vh";
+    photo.style.left = "0";
+    photo.style.top = "0";
+}
+
 // Hamburger__menu
 function hamburger__menu() {
     const humberger = document.querySelector(".hamberger__menu"),
@@ -131,3 +140,4 @@ function SizeSlider () {
             open_popup(swiper_slide[i].src);
         };
     }
+
