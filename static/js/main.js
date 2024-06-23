@@ -123,11 +123,25 @@ function SizeSlider () {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 41,
+            autoplay: {
+                delay: 3500,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
         });
     } else {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 60,
+            autoplay: {
+                delay: 1500,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
         });
     }
 }
@@ -154,19 +168,19 @@ var swiper = new Swiper(".NewSwiper", {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 60,
-    autoplay: {
-        delay: 1500,
-    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+        delay: 1500,
     },
     breakpoints: {
         640: {
             slidesPerView: 1,
             spaceBetween: 40
         }
-    }
+    },
 });
 
 
