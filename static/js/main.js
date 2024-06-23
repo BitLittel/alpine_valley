@@ -94,18 +94,32 @@ function showDiscript(){
     around.style.display="none";
     const discription = document.querySelector(".conteiner--3__content--discript");
     discription.style.display="flex";
+
+    const but3 = document.querySelector(".button_3");
+    but3.style.color ="#FFF4DE";
+    but3.style.background ="#395340";
+
+    const but4 = document.querySelector(".button_4");
+    but4.style.color ="#395340";
+    but4.style.background ="#FFF4DE";
+
+
 }
 function showAroundr(){
     const around = document.querySelector(".conteiner--3__content");
     around.style.display="flex";
     const description = document.querySelector(".conteiner--3__content--discript");
     description.style.display="none";
-    const but3 = document.querySelector(".button_3");
-    but3.style.color="$col3";
-    but3.style.background="$but_col";
+
     const but4 = document.querySelector(".button_4");
-    but4.style.color="#395340";
-    but4.style.background="#FFF4DE";
+    but4.style.color ="#FFF4DE";
+    but4.style.background ="#395340";
+
+    const but3 = document.querySelector(".button_3");
+    but3.style.color ="#395340";
+    but3.style.background ="#FFF4DE";
+
+
 }
 
 
@@ -165,6 +179,11 @@ function SizeSlider () {
 
 
 var swiper = new Swiper(".NewSwiper", {
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    direction: 'horizontal',
     loop: true,
     slidesPerView: 1,
     spaceBetween: 60,
@@ -181,6 +200,9 @@ var swiper = new Swiper(".NewSwiper", {
             spaceBetween: 40
         }
     },
+    observer: true,
+    observeParents: true,
+    parallax:true,
 });
 
 

@@ -332,8 +332,8 @@ $col8: #5F4718;
     z-index: 900000;
   }
   .button_3{
-    background-color: $col3;
-    color: $but_col;
+    background-color:$col3;
+    color:$but_col;
     font-family: Unbounded;
     font-weight: 400;
     width: 50%;
@@ -342,12 +342,12 @@ $col8: #5F4718;
     padding: 2%;
   }
 
-/*  .button_3:hover{
+  .button_3:hover{
     background-color: $col3;
     color: $but_col;
     transition: all .3s;
     padding: 2%;
-  }*/
+  }
   .button_4{
     background-color: $but_col;
     color: $col3;
@@ -358,12 +358,12 @@ $col8: #5F4718;
     border: 2px solid #395340;
     padding: 2%;
   }
-/*  .button_4:hover{
+  .button_4:hover{
     background-color: $col3;
     color: $but_col;
     transition: all .3s;
     padding: 2%;
-  }*/
+  }
 
   //slider
   .conteiner--3__content--discript {
@@ -995,7 +995,13 @@ swiper-slide {
   border-radius: 10px;
   object-fit: cover;
 }
+/*
+.swiper-button-next{
+  position: relative;
+  bottom: 100px;
+  left: 20px;
 
+}
 .arrou_swiper1{
   position: absolute;
   top: 1620px;
@@ -1004,9 +1010,12 @@ swiper-slide {
   right: 60px;
 }
 .arrou_swiper2{
-  position: absolute;
-  top: 1620px;
+  position: relative;
   width: 50px;
   height: 60px;
-  right: 717px;
-}
+
+}*/
+
+
+
+

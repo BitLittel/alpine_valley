@@ -53,18 +53,6 @@
 .main--blok {
   background-color: #082b18;
   /*блок3*/
-  /*  .button_3:hover{
-      background-color: $col3;
-      color: $but_col;
-      transition: all .3s;
-      padding: 2%;
-    }*/
-  /*  .button_4:hover{
-      background-color: $col3;
-      color: $but_col;
-      transition: all .3s;
-      padding: 2%;
-    }*/
   /*bloc 4*/
   /*block 5*/
   /*bloc 6*/
@@ -338,6 +326,12 @@
   border: 2px solid #395340;
   padding: 2%;
 }
+.main--blok .button_3:hover {
+  background-color: #FFF4DE;
+  color: #395340;
+  transition: all 0.3s;
+  padding: 2%;
+}
 .main--blok .button_4 {
   background-color: #395340;
   color: #FFF4DE;
@@ -346,6 +340,12 @@
   width: 50%;
   border-radius: 0 30px 30px 0;
   border: 2px solid #395340;
+  padding: 2%;
+}
+.main--blok .button_4:hover {
+  background-color: #FFF4DE;
+  color: #395340;
+  transition: all 0.3s;
   padding: 2%;
 }
 .main--blok .conteiner--3__content--discript {
@@ -951,20 +951,25 @@ swiper-slide {
   object-fit: cover;
 }
 
-.arrou_swiper1 {
+/*
+.swiper-button-next{
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+
+}
+.arrou_swiper1{
   position: absolute;
   top: 1620px;
   width: 50px;
   height: 50px;
   right: 60px;
 }
-
-.arrou_swiper2 {
-  position: absolute;
-  top: 1620px;
+.arrou_swiper2{
+  position: relative;
   width: 50px;
   height: 60px;
-  right: 717px;
-}
+
+}*/
 
 /*# sourceMappingURL=Style-SCSS.css.map */
