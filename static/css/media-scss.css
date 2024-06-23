@@ -204,7 +204,6 @@
     margin: 0 auto !important;
   }
   ul.menu__box {
-    padding: 50% 0 50% 0 !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;

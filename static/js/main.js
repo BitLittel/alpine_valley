@@ -158,6 +158,10 @@ function SizeSlider () {
             },
         });
     }
+    if (SizeWindow > 1399){
+        const CloseHamberger = document.querySelector(".close__hambirger")
+        CloseHamberger.style.display="none";
+    }
 }
 
 
@@ -204,5 +208,3 @@ var swiper = new Swiper(".NewSwiper", {
     observeParents: true,
     parallax:true,
 });
-
-
