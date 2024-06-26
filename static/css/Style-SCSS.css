@@ -128,6 +128,20 @@
   justify-content: center;
   width: 100%;
 }
+.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__left ul.dash-list, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__left ul.dash-list, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__left ul.dash-list {
+  list-style: none; /* Отказываемся от стандартных маркеров */
+}
+.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__left ul.dash-list li::before, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__left ul.dash-list li::before, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__left ul.dash-list li::before {
+  content: "– "; /* Вот и наше тире! */
+  padding-right: 5px; /* А здесь обеспечим утонченный отступ для тире */
+}
+.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__left .dash-list-text, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__left .dash-list-text, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__left .dash-list-text {
+  font-size: 2.25vh;
+  color: #5F4718;
+  font-weight: 300;
+  font-family: "Unbounded";
+  margin-bottom: 2%;
+}
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .dender_left, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .dender_left, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .dender_left {
   justify-content: start !important;
 }
