@@ -141,6 +141,7 @@ $col8: #5F4718;
             padding-right: 5px; /* А здесь обеспечим утонченный отступ для тире */
           }
           .dash-list-text{
+            text-align: justify;
             font-size: 2.25vh;
             color: $col8;
             font-weight: 300;
@@ -179,6 +180,7 @@ $col8: #5F4718;
           background-image: url("../img/dendr-photo-2.png");
         }
         .conteiner__block-top__main--text{
+          text-align: justify;
           font-size: 2.25vh;
           color: $col8;
           font-weight: 300;
@@ -187,6 +189,7 @@ $col8: #5F4718;
         }
 
         .conteiner__block-top__title {
+          text-align: justify;
           font-size: 1.8rem;
           color: $col5;
           font-weight: 300;
@@ -453,6 +456,7 @@ $col8: #5F4718;
     font-weight: 400;
     text-align: center;
     color: $col3;
+    padding: 1%;
   }
 
   .header--conteiner--title__under{
