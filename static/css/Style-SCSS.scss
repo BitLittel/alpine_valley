@@ -14,6 +14,10 @@
   font-family: Unbounded;
   src: url("../fonts/Unbounded.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Wilhelm Gotisch";
+  src: url("../fonts/Wilhelm Gotisch.ttf") format("truetype");
+}
 $font-color: #362709;
 $collor-gold: #C6B59A;
 $col3: #FFF4DE;
@@ -1045,13 +1049,13 @@ swiper-slide {
   position: absolute;
   height: 50px;
   left: 93%;
-  top: 875%;
+  top: 883%;
 }
 .prev{
   position: absolute;
   height: 50px;
   right: 93%;
-  top: 875%;
+  top: 883%;
 }
 
 
