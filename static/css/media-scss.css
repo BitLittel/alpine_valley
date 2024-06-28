@@ -250,6 +250,30 @@
     top: 190% !important;
   }
 }
+@media (max-width: 1400px) {
+  .next {
+    left: 90% !important;
+    top: 607% !important;
+  }
+}
+@media (max-width: 1400px) and (min-width: 600px) {
+  .next {
+    left: 90% !important;
+    top: 607% !important;
+  }
+}
+@media (max-width: 1400px) {
+  .prev {
+    right: 90% !important;
+    top: 607% !important;
+  }
+}
+@media (max-width: 1400px) and (min-width: 600px) {
+  .prev {
+    right: 90% !important;
+    top: 607% !important;
+  }
+}
 @media (max-width: 600px) {
   .text {
     height: 25vh !important;

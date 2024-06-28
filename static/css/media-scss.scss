@@ -251,6 +251,27 @@
       top: 190% !important;
     }
   }
+  .next{
+    left: 90% !important;
+    top: 607% !important;
+  }
+  @media (min-width: 600px){
+    .next {
+      left: 90% !important;
+      top: 607% !important;
+    }
+  }
+
+  .prev{
+    right: 90% !important;
+    top: 607% !important;
+  }
+  @media (min-width: 600px){
+    .prev {
+      right: 90% !important;
+      top: 607% !important;
+    }
+  }
 
 
 }
