@@ -136,7 +136,7 @@ function SizeSlider () {
     if (SizeWindow > 1399) {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
-            spaceBetween: 41,
+            spaceBetween: 45,
             autoplay: {
                 delay: 3500,
             },
@@ -201,7 +201,7 @@ var swiper = new Swiper(".NewSwiper", {
     breakpoints: {
         640: {
             slidesPerView: 1,
-            spaceBetween: 40
+            spaceBetween: 45
         }
     },
     observer: true,

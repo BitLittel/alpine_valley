@@ -104,6 +104,9 @@
   flex-direction: row;
   padding-top: 20%;
 }
+.PopupForm .PopupForm--block__left .talk .footer--left__block .pop-up {
+  width: 45%;
+}
 .PopupForm .PopupForm--block__left .talk .footer--left__block .footer--img--block {
   display: flex;
   width: 15%;
@@ -125,7 +128,7 @@
 }
 .PopupForm .PopupForm--block__left .talk .footer--number .footer--number--tel {
   color: #082b18;
-  font-size: 1rem;
+  font-size: 1.7rem !important;
   font-weight: 400;
   font-family: Unbounded;
 }
@@ -208,10 +211,9 @@
   border: none;
   font-family: Unbounded;
   font-weight: 300;
-  height: 40px;
-  width: 33%;
   font-size: 1.5vw;
   text-transform: capitalize;
+  padding: 0.5%;
 }
 .PopupForm .PopupForm--block__right .container--6--form__button:hover {
   background-color: rgb(8, 43, 24);
