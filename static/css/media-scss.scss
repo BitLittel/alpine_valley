@@ -159,9 +159,9 @@
     font-size: 2.5rem !important;
   }
   .container--6--form__acept {
-    font-size: 1.15rem !important;
+    font-size: 1.5rem !important;
     u{
-      font-size: 1.15rem !important;
+      font-size: 1.5rem !important;
     }
   }
   .footer--number--tel{
@@ -170,7 +170,7 @@
   .container--6--form__button{
     font-size: 3.7vw !important;
     margin: 0 auto !important;
-    padding: 1% !important;
+    padding: 2% !important;
   }
   .footer-lef{
     width: 30% !important;
@@ -214,7 +214,7 @@
   ul.menu__box {
     display: flex !important;
     flex-direction: column !important;
-    align-items: flex-start !important;
+    align-items: center !important;
     justify-content: center !important;
     margin: 0 !important;
     height: 100% !important;
@@ -235,9 +235,21 @@
     left: 7% !important;
     top: 266% !important;
   }
+  @media (min-width: 600px){
+    .swiper-button-prev {
+      left: 7% !important;
+      top: 190% !important;
+    }
+  }
   .swiper-button-next {
     left: 90% !important;
     top: 266% !important;
+  }
+  @media (min-width: 600px){
+    .swiper-button-next {
+      left: 90% !important;
+      top: 190% !important;
+    }
   }
 
 

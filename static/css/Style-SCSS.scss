@@ -187,7 +187,9 @@ $col8: #5F4718;
           font-family: "Unbounded";
           margin-bottom: 2%;
         }
-
+        .conteiner__block-top__main--text > span{
+          font-size: 40rem;
+        }
         .conteiner__block-top__title {
           text-align: justify;
           font-size: 1.8rem;
@@ -570,6 +572,7 @@ $col8: #5F4718;
       font-weight: 300;
       font-size: 1.7rem;
       text-transform: capitalize;
+      padding: 1%;
     }
 
     .container--6--form__button:hover {

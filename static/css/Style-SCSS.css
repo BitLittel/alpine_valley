@@ -181,6 +181,9 @@
   font-family: "Unbounded";
   margin-bottom: 2%;
 }
+.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__main--text > span, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__main--text > span, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__main--text > span {
+  font-size: 40rem;
+}
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__title, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__title, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__title {
   text-align: justify;
   font-size: 1.8rem;
@@ -530,6 +533,7 @@
   font-weight: 300;
   font-size: 1.7rem;
   text-transform: capitalize;
+  padding: 1%;
 }
 .main--blok .container--6 .container--6--form__button:hover {
   background-color: rgb(8, 43, 24);
