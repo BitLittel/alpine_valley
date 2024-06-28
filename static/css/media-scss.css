@@ -264,13 +264,13 @@
 }
 @media (max-width: 1400px) {
   .prev {
-    right: 90% !important;
+    right: 87% !important;
     top: 607% !important;
   }
 }
 @media (max-width: 1400px) and (min-width: 600px) {
   .prev {
-    right: 90% !important;
+    right: 87% !important;
     top: 607% !important;
   }
 }

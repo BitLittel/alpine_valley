@@ -182,7 +182,8 @@
   margin-bottom: 2%;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__main--text > span, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__main--text > span, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__main--text > span {
-  font-size: 40rem;
+  font-size: 3rem;
+  font-family: "Wilhelm Gotisch";
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__title, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__title, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__title {
   text-align: justify;
