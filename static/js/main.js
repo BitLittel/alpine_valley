@@ -125,9 +125,11 @@ function showAroundr(){
 
 window.onload = function (){
     SizeSlider();
+    newSwiper_positionArrow();
 }
 window.addEventListener('resize',(e)=>{
     SizeSlider();
+    newSwiper_positionArrow();
 });
 
 function SizeSlider () {
@@ -166,20 +168,38 @@ function SizeSlider () {
 
 
 
-    function open_popup(img) {
-        let popup = document.getElementById('popup'),
-            popup_img = document.getElementById('popup_img');
-        popup.style.display = 'block';
-        popup_img.src = img;
-    }
+function open_popup(img) {
+    let popup = document.getElementById('popup'),
+        popup_img = document.getElementById('popup_img');
+    popup.style.display = 'block';
+    popup_img.src = img;
+}
 
-    let swiper_slide = document.querySelectorAll('.swiper-slide__img');
-    for (let i = 0; i < swiper_slide.length; i++) {
-        swiper_slide[i].onclick = function () {
-            open_popup(swiper_slide[i].src);
-        };
-    }
+let swiper_slide = document.querySelectorAll('.swiper-slide__img');
+for (let i = 0; i < swiper_slide.length; i++) {
+    swiper_slide[i].onclick = function () {
+        open_popup(swiper_slide[i].src);
+    };
+}
 
+
+function newSwiper_positionArrow() {
+    let NewSwiper = document.getElementById('NewSwiper'),
+        new_swiper_next = document.getElementById('new_swiper_next'),
+        new_swiper_prev = document.getElementById('new_swiper_prev');
+
+    let offset_top_new_swiper = NewSwiper.offsetTop,
+        client_height_new_swiper = NewSwiper.clientHeight/2,
+        client_width_new_swiper = NewSwiper.clientWidth,
+        offset_left_new_swiper = NewSwiper.offsetLeft,
+        client_width_new_swiper_next = new_swiper_next.clientWidth;
+
+    new_swiper_next.style.top = offset_top_new_swiper + client_height_new_swiper + 'px';
+    new_swiper_prev.style.top = offset_top_new_swiper + client_height_new_swiper + 'px';
+    new_swiper_next.style.left = client_width_new_swiper + offset_left_new_swiper - client_width_new_swiper_next - 23 + 'px';
+    new_swiper_prev.style.left = offset_left_new_swiper + 23 + 'px';
+
+}
 
 
 var swiper = new Swiper(".NewSwiper", {
@@ -190,6 +210,7 @@ var swiper = new Swiper(".NewSwiper", {
     direction: 'horizontal',
     loop: true,
     slidesPerView: 1,
+    watchOverflow: true,
     spaceBetween: 60,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -201,10 +222,7 @@ var swiper = new Swiper(".NewSwiper", {
     breakpoints: {
         640: {
             slidesPerView: 1,
-            spaceBetween: 45
+            spaceBetween: 60
         }
-    },
-    observer: true,
-    observeParents: true,
-    parallax:true,
+    }
 });

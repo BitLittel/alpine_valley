@@ -978,18 +978,21 @@ swiper-slide {
   object-fit: cover;
 }
 
-.swiper-button-next {
+.new_swiper_next, .new_swiper_prev {
+  text-rendering: auto;
   position: absolute;
-  height: 50px;
-  left: 93%;
-  top: 160%;
+  background-image: url("../img/right_icon-icons.com_61212.svg");
+  background-color: #fff;
+  background-size: 70%;
+  background-position: center;
+  border-radius: 50%;
+  padding: 1.5%;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  cursor: pointer;
 }
 
-.swiper-button-prev {
-  position: absolute;
-  height: 50px;
-  right: 37%;
-  top: 160%;
+.new_swiper_prev {
+  transform: rotate(180deg);
 }
 
 .arrou_swiper1 {
