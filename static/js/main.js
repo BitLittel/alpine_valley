@@ -239,8 +239,8 @@ function mySwiper_positionArrow_2() {
         left_my_swiper = mySwiper.offsetLeft,
         client_width_my_swiper_next = New_swiper_next1.clientWidth;
 
-    New_swiper_next1.style.top = top_my_swiper + client_height_my_swiper + "px";
-    New_swiper_prev1.style.top = top_my_swiper + client_height_my_swiper + "px";
+    New_swiper_next1.style.top = top_my_swiper + client_height_my_swiper - 20 + "px";
+    New_swiper_prev1.style.top = top_my_swiper + client_height_my_swiper - 20 + "px";
     New_swiper_next1.style.left = client_width_my_swiper + left_my_swiper - client_width_my_swiper_next - 10 + "px";
     New_swiper_prev1.style.left = left_my_swiper + 10 + "px";
 }
