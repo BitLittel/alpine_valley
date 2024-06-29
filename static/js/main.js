@@ -126,10 +126,12 @@ function showAroundr(){
 window.onload = function (){
     SizeSlider();
     newSwiper_positionArrow();
+    mySwiper_positionArrow_2();
 }
 window.addEventListener('resize',(e)=>{
     SizeSlider();
     newSwiper_positionArrow();
+    mySwiper_positionArrow_2();
 });
 
 function SizeSlider () {
@@ -182,26 +184,6 @@ for (let i = 0; i < swiper_slide.length; i++) {
     };
 }
 
-
-function newSwiper_positionArrow() {
-    let NewSwiper = document.getElementById('NewSwiper'),
-        new_swiper_next = document.getElementById('new_swiper_next'),
-        new_swiper_prev = document.getElementById('new_swiper_prev');
-
-    let offset_top_new_swiper = NewSwiper.offsetTop,
-        client_height_new_swiper = NewSwiper.clientHeight/2,
-        client_width_new_swiper = NewSwiper.clientWidth,
-        offset_left_new_swiper = NewSwiper.offsetLeft,
-        client_width_new_swiper_next = new_swiper_next.clientWidth;
-
-    new_swiper_next.style.top = offset_top_new_swiper + client_height_new_swiper + 'px';
-    new_swiper_prev.style.top = offset_top_new_swiper + client_height_new_swiper + 'px';
-    new_swiper_next.style.left = client_width_new_swiper + offset_left_new_swiper - client_width_new_swiper_next - 23 + 'px';
-    new_swiper_prev.style.left = offset_left_new_swiper + 23 + 'px';
-
-}
-
-
 var swiper = new Swiper(".NewSwiper", {
     pagination: {
         el: '.swiper-pagination',
@@ -226,3 +208,39 @@ var swiper = new Swiper(".NewSwiper", {
         }
     }
 });
+
+function newSwiper_positionArrow() {
+    let NewSwiper = document.getElementById('NewSwiper'),
+        new_swiper_next = document.getElementById('new_swiper_next'),
+        new_swiper_prev = document.getElementById('new_swiper_prev');
+
+    let offset_top_new_swiper = NewSwiper.offsetTop,
+        client_height_new_swiper = NewSwiper.clientHeight/2,
+        client_width_new_swiper = NewSwiper.clientWidth,
+        offset_left_new_swiper = NewSwiper.offsetLeft,
+        client_width_new_swiper_next = new_swiper_next.clientWidth;
+
+    new_swiper_next.style.top = offset_top_new_swiper + client_height_new_swiper + 'px';
+    new_swiper_prev.style.top = offset_top_new_swiper + client_height_new_swiper + 'px';
+    new_swiper_next.style.left = client_width_new_swiper + offset_left_new_swiper - client_width_new_swiper_next - 23 + 'px';
+    new_swiper_prev.style.left = offset_left_new_swiper + 23 + 'px';
+
+}
+
+
+function mySwiper_positionArrow_2() {
+    let mySwiper = document.getElementById('mySwiper'),
+        New_swiper_next1 = document.getElementById('New_swiper_next1'),
+        New_swiper_prev1 = document.getElementById('New_swiper_prev1');
+
+    let top_my_swiper = mySwiper.offsetTop,
+        client_height_my_swiper = mySwiper.clientHeight/2,
+        client_width_my_swiper = mySwiper.clientWidth,
+        left_my_swiper = mySwiper.offsetLeft,
+        client_width_my_swiper_next = New_swiper_next1.clientWidth;
+
+    New_swiper_next1.style.top = top_my_swiper + client_height_my_swiper + "px";
+    New_swiper_prev1.style.top = top_my_swiper + client_height_my_swiper + "px";
+    New_swiper_next1.style.left = client_width_my_swiper + left_my_swiper - client_width_my_swiper_next - 10 + "px";
+    New_swiper_prev1.style.left = left_my_swiper + 10 + "px";
+}
