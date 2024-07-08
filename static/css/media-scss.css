@@ -73,7 +73,7 @@
     font-size: 3rem !important;
   }
   .header--conteiner--title {
-    background-image: url("../img/mobile_logo_svg.svg") !important;
+    /*background-image: url("../img/mobile_logo_svg.svg") !important;*/
     background-size: contain !important;
     height: 30% !important;
     background-position: center !important;
@@ -94,6 +94,9 @@
   }
   .header--conteiner__arrou__botom__svg {
     width: 25px !important;
+  }
+  .conteiner__block-top__title {
+    font-size: 1.8rem !important;
   }
   .conteiner__block-top__main--text {
     font-size: 1.5rem !important;
