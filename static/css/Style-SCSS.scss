@@ -66,11 +66,8 @@ $col8: #5F4718;
 .main--blok {
   background-color: #082b18;
   .header--conteiner--title {
-    margin: 20vh;
-    background-image: url("../img/logo.svg");
-    width: 100%;
-    height: 25%;
-    background-position: center
+    height: 50%;
+    background-position: center;
   }
 
   #gen-plan{
@@ -128,7 +125,7 @@ $col8: #5F4718;
       }
       .conteiner__block-top, .conteiner--2__block-top, .conteiner__panorama{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         padding: 0% 3.5% 0% 3.5%;
         .conteiner__block-top__left{
@@ -190,6 +187,7 @@ $col8: #5F4718;
           font-weight: 300;
           font-family: "Unbounded";
           margin-bottom: 2%;
+          font-style: italic;
         }
         .conteiner__block-top__main--text > span{
           font-size: 3rem;
@@ -197,12 +195,12 @@ $col8: #5F4718;
         }
         .conteiner__block-top__title {
           text-align: justify;
-          font-size: 1.8rem;
+          font-size: 2.8rem;
           color: $col5;
           font-weight: 300;
-          font-family: "Unbounded";
+          font-family: "Wilhelm Gotisch";
           display: flex;
-          margin: 2% 0 2% 0;
+          margin: 0 auto;
           text-transform: uppercase;
           .conteiner__block-top--img{
             padding-left: 2%;
@@ -289,6 +287,30 @@ $col8: #5F4718;
           padding: 1%;
           background-size: cover;
         }
+      }
+      .text__po_zaprosy{
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: Unbounded;
+        color: $font-color;
+        font-weight: 400;
+      }
+      .Citata{
+        text-align: center;
+        font-size: 2rem;
+        font-family: Unbounded;
+        color: $font-color;
+        font-weight: 300;
+        font-style: italic;
+        padding: 2%;
+      }
+      .CitataAvtor{
+        text-align: end;
+        font-size: 1rem;
+        font-family: Unbounded;
+        color: $font-color;
+        font-weight: 300;
+        font-style: italic;
       }
     }
 
@@ -458,10 +480,17 @@ $col8: #5F4718;
     justify-content: center;
     align-items: center
   }
+  .citata_logo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 
   .conteiner--5--text{
     font-family: Unbounded;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 400;
     text-align: center;
     color: $col3;

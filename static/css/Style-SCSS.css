@@ -62,10 +62,7 @@
   /*bloc 6*/
 }
 .main--blok .header--conteiner--title {
-  margin: 20vh;
-  background-image: url("../img/logo.svg");
-  width: 100%;
-  height: 25%;
+  height: 50%;
   background-position: center;
 }
 .main--blok #gen-plan {
@@ -121,7 +118,7 @@
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   padding: 0% 3.5% 0% 3.5%;
 }
@@ -184,6 +181,7 @@
   font-weight: 300;
   font-family: "Unbounded";
   margin-bottom: 2%;
+  font-style: italic;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__main--text > span, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__main--text > span, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__main--text > span {
   font-size: 3rem;
@@ -191,12 +189,12 @@
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__title, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__title, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__title {
   text-align: justify;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   color: #362709;
   font-weight: 300;
-  font-family: "Unbounded";
+  font-family: "Wilhelm Gotisch";
   display: flex;
-  margin: 2% 0 2% 0;
+  margin: 0 auto;
   text-transform: uppercase;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__title .conteiner__block-top--img, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__title .conteiner__block-top--img, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__title .conteiner__block-top--img {
@@ -281,6 +279,30 @@
   border-radius: 10px;
   padding: 1%;
   background-size: cover;
+}
+.main--blok .conteiner .conteiner__back-blok .text__po_zaprosy {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: Unbounded;
+  color: #362709;
+  font-weight: 400;
+}
+.main--blok .conteiner .conteiner__back-blok .Citata {
+  text-align: center;
+  font-size: 2rem;
+  font-family: Unbounded;
+  color: #362709;
+  font-weight: 300;
+  font-style: italic;
+  padding: 2%;
+}
+.main--blok .conteiner .conteiner__back-blok .CitataAvtor {
+  text-align: end;
+  font-size: 1rem;
+  font-family: Unbounded;
+  color: #362709;
+  font-weight: 300;
+  font-style: italic;
 }
 .main--blok .conteiner--3--list {
   display: flex;
@@ -435,9 +457,16 @@
   justify-content: center;
   align-items: center;
 }
+.main--blok .citata_logo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 .main--blok .conteiner--5--text {
   font-family: Unbounded;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 400;
   text-align: center;
   color: #FFF4DE;
@@ -978,21 +1007,18 @@ swiper-slide {
   object-fit: cover;
 }
 
-.new_swiper_next, .new_swiper_prev {
-  text-rendering: auto;
+.swiper-button-next {
   position: absolute;
-  background-image: url("../img/right_icon-icons.com_61212.svg");
-  background-color: #fff;
-  background-size: 70%;
-  background-position: center;
-  border-radius: 50%;
-  padding: 1.5%;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-  cursor: pointer;
+  height: 50px;
+  left: 93%;
+  top: 160%;
 }
 
-.new_swiper_prev {
-  transform: rotate(180deg);
+.swiper-button-prev {
+  position: absolute;
+  height: 50px;
+  right: 37%;
+  top: 160%;
 }
 
 .arrou_swiper1 {
