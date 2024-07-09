@@ -77,10 +77,17 @@
     }
   }
   .header--conteiner--title {
-    /*background-image: url("../img/mobile_logo_svg.svg") !important;*/
     background-size: contain !important;
     height: 30% !important;
     background-position: center !important;
+  }
+  .logo{
+    background-image: url("../img/mobile_logo_svg.svg") !important;
+  }
+  .textovii-img{
+  }
+  .header--conteiner--title{
+    width: 50% !important;
   }
   .search--menu__background {
     height: 100px !important;
@@ -100,14 +107,20 @@
     width: 25px !important;
   }
   .conteiner__block-top__title{
-    font-size: 1.8rem !important;
+    font-size: 1.6vh !important;
   }
   .conteiner__block-top__main--text {
-    font-size: 1.5rem !important;
+    font-size: 1.5vh !important;
     text-align: justify !important;
+  }
+  .Blok2-text{
+    text-align: center !important;
   }
   .blok2 {
     flex-direction: column !important;
+  }
+  .Citata{
+    font-size: 1.5vh !important;
   }
   .gen-text {
     text-align: start !important;
@@ -133,7 +146,7 @@
     }
   }
   .dash-list-text{
-    font-size: 1.5rem !important;
+    font-size: 1.5vh !important;
   }
   .button-download__svg{
     width: 40px !important;
@@ -188,7 +201,6 @@
     font-size: 1.7rem !important;
   }
   .textovii-img{
-    margin: 5vh !important;
   }
   .continer--3--button{
     flex-direction: column !important;

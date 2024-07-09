@@ -18,6 +18,14 @@
   font-family: "Wilhelm Gotisch";
   src: url("../fonts/Wilhelm Gotisch.ttf") format("truetype");
 }
+@font-face {
+  font-family:"Moyenage";
+  src: url("../fonts/Moyenage.ttf") format("truetype");
+}
+@font-face {
+  font-family:"ВeutschGothic";
+  src: url("../fonts/ВeutschGothic.ttf") format("truetype");
+}
 $font-color: #362709;
 $collor-gold: #C6B59A;
 $col3: #FFF4DE;
@@ -66,7 +74,7 @@ $col8: #5F4718;
 .main--blok {
   background-color: #082b18;
   .header--conteiner--title {
-    height: 40%;
+    width: 10%;
     background-position: center;
   }
 
@@ -135,7 +143,8 @@ $col8: #5F4718;
           justify-content: center;
           width: 100%;
           ul.dash-list {
-            list-style: none; /* Отказываемся от стандартных маркеров */
+            list-style: none;
+            padding: 0% 3.5% 0% 3.5%;/* Отказываемся от стандартных маркеров */
           }
           ul.dash-list li::before {
             content: "– "; /* Вот и наше тире! */
@@ -187,18 +196,24 @@ $col8: #5F4718;
           font-weight: 300;
           font-family: "Unbounded";
           margin-bottom: 2%;
-          font-style: italic;
+          text-indent: 2%;
+          line-height: 3vh;
+          padding: 0% 3.5% 0% 3.5%;
         }
-        .conteiner__block-top__main--text > span{
+        .Blok2-text{
+          text-align: center;
+          width: 100%;
+        }
+        .conteiner__block-top__main--text:first-letter{
           font-size: 3rem;
-          font-family: "Wilhelm Gotisch";
+          font-family: "Moyenage";
         }
         .conteiner__block-top__title {
           text-align: justify;
           font-size: 2.8rem;
           color: $col5;
           font-weight: 300;
-          font-family: "Wilhelm Gotisch";
+          font-family: "Moyenage";
           display: flex;
           margin: 0 auto;
           text-transform: uppercase;
@@ -290,18 +305,17 @@ $col8: #5F4718;
       }
       .text__po_zaprosy{
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 2.25vh;
         font-family: Unbounded;
         color: $font-color;
         font-weight: 400;
       }
       .Citata{
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.25vh;
         font-family: Unbounded;
         color: $font-color;
         font-weight: 300;
-        font-style: italic;
         padding: 2%;
       }
       .CitataAvtor{
@@ -313,7 +327,9 @@ $col8: #5F4718;
         font-style: italic;
       }
     }
-
+    .contein-5{
+      padding: 5%;
+    }
   }
   /*блок3*/
     .conteiner--3--list{
@@ -482,20 +498,26 @@ $col8: #5F4718;
   }
   .citata_logo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 0 2% 0 0;
+  }
+  .imeem{
+    color: $col8;
+    font-size: 1.6vh;
+    font-weight: 300;
+    text-align: center;
   }
 
   .conteiner--5--text{
     font-family: Unbounded;
     font-size: 1.3rem;
     font-weight: 400;
-    text-align: center;
-    color: $col3;
-    padding: 10% 1% 1% 1%;
+    text-align: justify;
+    color: $col8;
+    line-height: 3vh;
+    text-indent: 2%;
   }
 
   .header--conteiner--title__under{
