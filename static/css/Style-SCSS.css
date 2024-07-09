@@ -62,7 +62,7 @@
   /*bloc 6*/
 }
 .main--blok .header--conteiner--title {
-  height: 50%;
+  height: 40%;
   background-position: center;
 }
 .main--blok #gen-plan {
@@ -461,8 +461,9 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 2% 0 0;
 }
 .main--blok .conteiner--5--text {
   font-family: Unbounded;
@@ -470,7 +471,7 @@
   font-weight: 400;
   text-align: center;
   color: #FFF4DE;
-  padding: 1%;
+  padding: 10% 1% 1% 1%;
 }
 .main--blok .header--conteiner--title__under {
   color: white;
@@ -1005,6 +1006,7 @@ swiper-slide {
   height: 90vh;
   border-radius: 10px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .swiper-button-next {
