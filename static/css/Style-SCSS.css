@@ -21,7 +21,8 @@
 }
 @font-face {
   font-family: "Moyenage";
-  src: url("../fonts/ofont.ru_Ireland.ttf") format("truetype");
+  src: url("../fonts/11359.ttf") format("truetype");
+/*  ofont.ru_Ireland.ttf*/
 }
 @font-face {
   font-family: "ВeutschGothic";
@@ -204,13 +205,13 @@
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__title, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__title, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__title {
   text-align: justify;
-  font-size: 2.8rem;
+  font-size: 4rem;
   color: #362709;
   font-weight: 300;
   font-family: "Moyenage";
   display: flex;
   margin: 0 auto;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__title .conteiner__block-top--img, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__title .conteiner__block-top--img, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__title .conteiner__block-top--img {
   padding-left: 2%;
