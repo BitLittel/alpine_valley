@@ -141,9 +141,9 @@ function SizeSlider () {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 45,
-            autoplay: {
+/*            autoplay: {
                 delay: 3500,
-            },
+            },*/
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -153,9 +153,9 @@ function SizeSlider () {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 60,
-            autoplay: {
+/*            autoplay: {
                 delay: 1500,
-            },
+            },*/
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -198,9 +198,9 @@ var swiper = new Swiper(".NewSwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    autoplay: {
+/*    autoplay: {
         delay: 1500,
-    },
+    },*/
     breakpoints: {
         640: {
             slidesPerView: 1,
@@ -222,8 +222,8 @@ function newSwiper_positionArrow() {
 
     new_swiper_next.style.top = offset_top_new_swiper + client_height_new_swiper + 'px';
     new_swiper_prev.style.top = offset_top_new_swiper + client_height_new_swiper + 'px';
-    new_swiper_next.style.left = client_width_new_swiper + offset_left_new_swiper - client_width_new_swiper_next - 23 + 'px';
-    new_swiper_prev.style.left = offset_left_new_swiper + 23 + 'px';
+    new_swiper_next.style.left = client_width_new_swiper + offset_left_new_swiper - client_width_new_swiper_next + 20 + 'px';
+    new_swiper_prev.style.left = offset_left_new_swiper - 20 + 'px';
 
 }
 

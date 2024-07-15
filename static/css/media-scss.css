@@ -273,9 +273,23 @@
     top: 607% !important;
   }
 }
+@media (max-width: 1400px) {
+  .arrou_swiper1 {
+    display: none !important;
+  }
+  .arrou_swiper2 {
+    display: none !important;
+  }
+}
 @media (max-width: 600px) {
   .text {
     height: 25vh !important;
+  }
+  .arrou_swiper1 {
+    display: none !important;
+  }
+  .arrou_swiper2 {
+    display: none !important;
   }
 }
 
