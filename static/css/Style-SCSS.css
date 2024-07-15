@@ -877,6 +877,7 @@ ul.menu__box {
   height: 80% !important;
   font-size: 1rem !important;
   padding: 0 5% 0 0 !important;
+  text-align: justify !important;
 }
 
 #panorama, #citata, #textovii {
