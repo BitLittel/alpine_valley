@@ -141,9 +141,9 @@ function SizeSlider () {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 45,
-/*            autoplay: {
+            autoplay: {
                 delay: 3500,
-            },*/
+            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -153,9 +153,9 @@ function SizeSlider () {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 60,
-/*            autoplay: {
+            autoplay: {
                 delay: 1500,
-            },*/
+            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -198,9 +198,9 @@ var swiper = new Swiper(".NewSwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-/*    autoplay: {
+    autoplay: {
         delay: 1500,
-    },*/
+    },
     breakpoints: {
         640: {
             slidesPerView: 1,
