@@ -223,7 +223,7 @@
 .PopupForm .PopupForm--block__right .container--6--form__acept {
   font-family: Unbounded;
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: rgb(235, 199, 129);
   margin-left: 2%;
   text-align: center;
@@ -231,7 +231,7 @@
 .PopupForm .PopupForm--block__right .container--6--form__acept u {
   font-family: Unbounded;
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: rgb(235, 199, 129);
   text-decoration: none;
 }

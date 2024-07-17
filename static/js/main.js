@@ -31,7 +31,6 @@
     input.addEventListener("keydown", mask, false)
 
 });
-console.log(document.querySelectorAll('.tel'))
 
 
 // POPUP Block VIDEO
@@ -167,8 +166,6 @@ function SizeSlider () {
         CloseHamberger.style.display="none";
     }
 }
-
-
 
 function open_popup(img) {
     let popup = document.getElementById('popup'),

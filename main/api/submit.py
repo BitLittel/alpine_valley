@@ -1,7 +1,12 @@
 from main import main
+from fastapi import Request, Cookie, Response
+from main.schemas.submit import Submit
+from main.utils.submit import process_submit
 from main.schemas.response import DefaultResponse
 
 
-@main.get('/api/submit', response_model=DefaultResponse)
-async def api_submit():
-    return {'result': True, 'message': 'Успех', 'data': {}}
+@main.post('/api/submit', response_model=DefaultResponse, status_code=201, tags=['Submit'])
+async def api_submit(form_submit: Submit, request: Request, response: Response, token=Cookie(default=None)):
+    token = None
+    await process_submit(form_submit=form_submit, request=request, token=token, response=response)
+    return {'result': True, 'message': 'Вы успешно оставили заявку, с вами позже свяжутся', 'data': {}}
