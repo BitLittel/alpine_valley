@@ -6,3 +6,9 @@ DATABASE_PORT = 5432 if os.getenv('DATABASE_PORT') is None else os.getenv('DATAB
 DATABASE_USER = 'postgres' if os.getenv('DATABASE_USER') is None else os.getenv('DATABASE_USER')
 DATABASE_PASSWORD = 'root' if os.getenv('DATABASE_PASSWORD') is None else os.getenv('DATABASE_PASSWORD')
 MAIN_URL = 'http://127.0.0.1:8000' if os.getenv('MAIN_URL') is None else os.getenv('MAIN_URL')
+
+MAIL_HOST = 'smtp.yandex.ru'
+MAIL_PORT = 587
+MAIL_USER = 'alp1ne.valley@yandex.ru'
+MAIL_PASSWORD = '123'
+MAIL_TLS = True
