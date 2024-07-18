@@ -18,6 +18,7 @@ async def send_mail_async(subject, text):
     msg.attach(MIMEText(text, 'html', 'utf-8'))
     smtp = aiosmtplib.SMTP(hostname=config.MAIL_HOST, port=config.MAIL_PORT, start_tls=False)
     await smtp.connect()
+    await smtp.ehlo()
     if config.MAIL_TLS:
         await smtp.starttls()
     await smtp.login(config.MAIL_USER, config.MAIL_PASSWORD)
