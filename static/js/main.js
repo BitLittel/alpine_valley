@@ -123,47 +123,18 @@ function showAroundr(){
 
 
 window.onload = function (){
-    SizeSlider();
+    CloseHamberger();
     newSwiper_positionArrow();
     mySwiper_positionArrow_2();
 }
 window.addEventListener('resize',(e)=>{
-    SizeSlider();
+    CloseHamberger();
     newSwiper_positionArrow();
     mySwiper_positionArrow_2();
 });
 
-function SizeSlider () {
+function CloseHamberger () {
     let SizeWindow = document.body.clientWidth;
-        let swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 60,
-            autoplay: {
-                delay: 1500,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            breakpoints: {
-                1399:{
-                    slidesPerView: 3,
-                    spaceBetween: 45,
-                    autoplay: {
-                        delay: 3500,
-                    },
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                }
-            }
-        });
-
-
-
-
-
     if (SizeWindow > 1399){
         const CloseHamberger = document.querySelector(".close__hambirger")
         CloseHamberger.style.display="none";
@@ -205,6 +176,31 @@ var swiper = new Swiper(".NewSwiper", {
         640: {
             slidesPerView: 1,
             spaceBetween: 60
+        }
+    }
+});
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 60,
+    autoplay: {
+        delay: 1500,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        1399:{
+            slidesPerView: 3,
+            spaceBetween: 45,
+            autoplay: {
+                delay: 3500,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
         }
     }
 });

@@ -380,7 +380,7 @@
   padding: 0.5% 0 0 0;
   margin: 0 auto;
   padding: 2% 0 2% 0;
-  z-index: 900000;
+  z-index: 100;
 }
 .main--blok .button_3 {
   background-color: #FFF4DE;
@@ -742,6 +742,7 @@
   left: 2.5%;
   border-radius: 35px;
   display: none;
+  z-index: 200;
 }
 
 .menu__item {
