@@ -135,20 +135,6 @@ window.addEventListener('resize',(e)=>{
 
 function SizeSlider () {
     let SizeWindow = document.body.clientWidth;
-
-    if (SizeWindow > 1399) {
-        let swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
-            spaceBetween: 45,
-            autoplay: {
-                delay: 3500,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    } else {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 60,
@@ -159,8 +145,25 @@ function SizeSlider () {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+            breakpoints: {
+                1399:{
+                    slidesPerView: 3,
+                    spaceBetween: 45,
+                    autoplay: {
+                        delay: 3500,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                }
+            }
         });
-    }
+
+
+
+
+
     if (SizeWindow > 1399){
         const CloseHamberger = document.querySelector(".close__hambirger")
         CloseHamberger.style.display="none";
