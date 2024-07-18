@@ -49,7 +49,7 @@ async def process_submit(response: Response, form_submit: Submit, request: Reque
                 )
     try:
         user_agent = request.headers.get('user-agent')
-        request_ip = request.headers.get('x-forwarded-for')
+        request_ip = request.headers.get('x-real-ip')
     except:
         raise HTTPException(
             status_code=400,
@@ -80,17 +80,17 @@ async def process_submit(response: Response, form_submit: Submit, request: Reque
     await Tokens.add_(token=new_token, ip=request_ip, user_agent=user_agent)
     response.set_cookie(key='token', value=new_token, max_age=123, path='/', httponly=True, samesite='strict')
 
-    await wrap_send_message(
-        name=form_submit.name,
-        tel_number=form_submit.tel_number,
-        email=form_submit.email,
-        comment=form_submit.comment
-    )
-
     await Feedbacks.add_(
         name=form_submit.name,
         tel_number=form_submit.tel_number,
         email=form_submit.email,
         comment=form_submit.comment,
         user_agent=user_agent
+    )
+
+    await wrap_send_message(
+        name=form_submit.name,
+        tel_number=form_submit.tel_number,
+        email=form_submit.email,
+        comment=form_submit.comment
     )
