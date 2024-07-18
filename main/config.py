@@ -12,3 +12,4 @@ MAIL_PORT = 587
 MAIL_USER = 'alp1ne.valley@yandex.ru'
 MAIL_PASSWORD = '123'
 MAIL_TLS = True
+MAIL_SEND_TO = 'ist-91@bk.ru'

@@ -14,7 +14,7 @@ async def send_mail_async(subject, text):
     msg.preamble = subject
     msg['Subject'] = subject
     msg['From'] = config.MAIL_USER
-    msg['To'] = config.MAIL_USER  # todo: Изменить на почту Константина
+    msg['To'] = config.MAIL_SEND_TO
     msg.attach(MIMEText(text, 'html', 'utf-8'))
     smtp = aiosmtplib.SMTP(hostname=config.MAIL_HOST, port=config.MAIL_PORT, start_tls=False)
     await smtp.connect()
