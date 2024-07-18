@@ -20,7 +20,7 @@ async def send_mail_async(subject, text):
     await smtp.connect()
     if config.MAIL_TLS:
         await smtp.starttls()
-    await smtp.login(config.MAIL_USER, config.MAIL_PASSWORD)
+    # await smtp.login(config.MAIL_USER, config.MAIL_PASSWORD)
     await smtp.send_message(msg)
     await smtp.quit()
 
