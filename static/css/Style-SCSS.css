@@ -177,12 +177,6 @@
   height: 80%;
   background-size: cover;
 }
-.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .dendr-1, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .dendr-1, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .dendr-1 {
-  background-image: url("../img/photo-new-1.jpg");
-}
-.main--blok .conteiner .conteiner__back-blok .conteiner__block-top .dendr-2, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .dendr-2, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .dendr-2 {
-  background-image: url("../img/photo-new2.jpg");
-}
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .conteiner__block-top__main--text, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .conteiner__block-top__main--text, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .conteiner__block-top__main--text {
   text-align: justify;
   font-size: 2.25vh;
