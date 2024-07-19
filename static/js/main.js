@@ -242,13 +242,34 @@ function mySwiper_positionArrow_2() {
 }
 
 
-const GetForm = document.getElementById("form_1");
-GetForm.addEventListener("submit", saveArticle);
-function saveArticle(event) {
+const GetForm1 = document.getElementById("form_1");
+const GetForm2 = document.getElementById("form_2");
+
+GetForm1.addEventListener("submit", saveArticle);
+GetForm2.addEventListener("submit", saveArticle);
+
+ function saveArticle(event) {
     event.preventDefault();
-
-    const FormData_1 = new FormData(GetForm);
-    const FormData_1_AS_Object = Object.fromEntries(FormData_1);
-
-    console.log(FormData_1_AS_Object);
+    const FormData_1 = new FormData(event.target);
+    let new_obj = {}
+    for (let data of FormData_1) {
+        new_obj[data[0]] = data[1];
+    }
+    const response_F1 = fetch("https://xn--80akakabbdjhrnr4a5nmc.xn--p1ai/api/submit", {
+            method: "POST",
+            body: JSON.stringify(new_obj),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+                'Origin':'https://xn--80akakabbdjhrnr4a5nmc.xn--p1ai'
+            },
+    }).then((response) => {
+        let otvet = response.json();
+        otvet.then((result)=>{console.log(result)
+            alert(result.message);
+        })
+        console.log(otvet);
+    })
 }
+
+
+

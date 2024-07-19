@@ -787,6 +787,7 @@ $col8: #5F4718;
     border-radius: 35px;
     display: none;
     z-index: 200;
+    backdrop-filter: blur(10px);
   }
 
   .menu__item {

@@ -558,6 +558,8 @@
                         <input class="container--6--form__input--box input name"
                                type="text"
                                name="name"
+                               pattern="^[а-яА-ЯёЁ]{2,}$"
+                               required
                                placeholder="Как к Вам обращаться?">
                     </div>
                     <div class="container--6--form__input--box">
@@ -566,6 +568,7 @@
                                id="tel"
                                name="tel_number"
                                type="tel"
+                               required
                                placeholder="Ваш номер телефона?">
                     </div>
                     <div class="container--6--form__input--box">
@@ -574,6 +577,7 @@
                                type="email"
                                id="email"
                                name="email"
+                               required
                                placeholder="Ваша почта?">
                     </div>
 
@@ -581,6 +585,7 @@
                         <span class="container--6--form__input--box text">Ваш комментарий</span>
                         <textarea class="container--6--form__input--box input comment"
                             cols="40"
+                            required
                             rows="3"
                             name="comment"
                             placeholder="Я бы хотел"></textarea>
@@ -648,24 +653,34 @@
                                 <span class="container--6--form__input--box text">Ваше имя</span>
                                 <input class="container--6--form__input--box input name"
                                        type="text"
+                                       name="name"
+                                       required
+                                       pattern="^[а-яА-ЯёЁ]{2,}$"
                                        placeholder="Как к Вам обращаться?">
                             </div>
                             <div class="container--6--form__input--box">
                                 <span class="container--6--form__input--box text">Номер телефона</span>
-                                <input class="container--6--form__input--box input tel" id="tell" name="tel"
+                                <input class="container--6--form__input--box input tel" id="tell"
+                                       name="tel_number"
                                        type="tel"
+                                       required
                                        placeholder="Ваш номер телефона?">
                             </div>
                             <div class="container--6--form__input--box">
                                 <span class="container--6--form__input--box text">Почта</span>
                                 <input class="container--6--form__input--box input email"
                                        type="email"
+                                       name="email"
+                                       required
                                        placeholder="Ваша почта?">
                             </div>
 
                             <div class="container--6--form__input--box">
                                 <span class="container--6--form__input--box text">Ваш комментарий</span>
-                                <textarea class="container--6--form__input--box input comment"  cols="40" rows="3" placeholder="Я бы хотел"></textarea>
+                                <textarea class="container--6--form__input--box input comment"  cols="40" rows="3"
+                                    placeholder="Я бы хотел"
+                                    required
+                                    name="comment"></textarea>
                             </div>
                             <div class="container--6--form__button--block">
                                 <button class="container--6--form__button"
