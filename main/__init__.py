@@ -7,18 +7,21 @@ main = FastAPI(title='Bubble')
 main.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
-origins = [
-    "http://localhost",
-    "http://localhost:8000",
-    "https://альпийскиеимения.рф/"
-]
+# origins = [
+#     "http://localhost",
+#     "http://localhost:8000",
+#     "http://альпийскиеимения.рф",
+#     "https://альпийскиеимения.рф",
+#     "https://localhost",
+#     "https://localhost:8000"
+# ]
 
 main.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
     allow_credentials=True,
+    allow_origins=["*"],
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*"]
 )
 
 
