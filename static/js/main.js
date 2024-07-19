@@ -240,3 +240,15 @@ function mySwiper_positionArrow_2() {
     New_swiper_next1.style.left = client_width_my_swiper + left_my_swiper - client_width_my_swiper_next - 10 + "px";
     New_swiper_prev1.style.left = left_my_swiper + 10 + "px";
 }
+
+
+const GetForm = document.getElementById("form_1");
+GetForm.addEventListener("submit", saveArticle);
+function saveArticle(event) {
+    event.preventDefault();
+
+    const FormData_1 = new FormData(GetForm);
+    const FormData_1_AS_Object = Object.fromEntries(FormData_1);
+
+    console.log(FormData_1_AS_Object);
+}

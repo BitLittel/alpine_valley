@@ -547,7 +547,7 @@
         <!-- BLOCK 7   форма -->
         <div class="container--6" id="contackt">
             <div class="container--6--form">
-                <div class="container--6--form__margin">
+                <form class="container--6--form__margin" id="form_1">
                     <span class="container--6--form__title">остались вопросы? <br></span>
                     <span class="container--6--form__under--title">
                         Заполните форму и мы свяжемся с Вами<br>
@@ -555,39 +555,46 @@
                     </span>
                     <div class="container--6--form__input--box">
                         <span class="container--6--form__input--box text">Ваше имя</span>
-                        <input class="container--6--form__input--box input"
+                        <input class="container--6--form__input--box input name"
                                type="text"
+                               name="name"
                                placeholder="Как к Вам обращаться?">
                     </div>
                     <div class="container--6--form__input--box">
                         <span class="container--6--form__input--box text">Номер телефона</span>
-                        <input class="container--6--form__input--box input tel" id="tel" name="tel"
+                        <input class="container--6--form__input--box input tel"
+                               id="tel"
+                               name="tel_number"
                                type="tel"
                                placeholder="Ваш номер телефона?">
                     </div>
                     <div class="container--6--form__input--box">
                         <span class="container--6--form__input--box text">Почта</span>
-                        <input class="container--6--form__input--box input"
+                        <input class="container--6--form__input--box input email"
                                type="email"
+                               id="email"
+                               name="email"
                                placeholder="Ваша почта?">
                     </div>
 
                     <div class="container--6--form__input--box">
                         <span class="container--6--form__input--box text">Ваш комментарий</span>
                         <textarea class="container--6--form__input--box input comment"
-                               cols="40"
-                               rows="3"
-                               placeholder="Я бы хотел"></textarea>
+                            cols="40"
+                            rows="3"
+                            name="comment"
+                            placeholder="Я бы хотел"></textarea>
                     </div>
                     <div class="container--6--form__button--block">
-                        <button class="container--6--form__button">
+                        <button class="container--6--form__button"
+                                type="submit">
                                 отправить
                         </button>
                     </div>
                     <p class="container--6--form__acept">
                         Нажимая на кнопку, вы даёте согласие
                         на <u>обработку персональных данных</u> </p>
-                </div>
+                </form>
             </div>
 <!--            <span class="politika-conf">
                     политика конфиденциальности
@@ -636,10 +643,10 @@
                 </div>
                 <div class="PopupForm--block__right">
                     <div class="container--6--form">
-                        <div class="container--6--form__margin">
+                        <form class="container--6--form__margin" id="form_2">
                             <div class="container--6--form__input--box">
                                 <span class="container--6--form__input--box text">Ваше имя</span>
-                                <input class="container--6--form__input--box input"
+                                <input class="container--6--form__input--box input name"
                                        type="text"
                                        placeholder="Как к Вам обращаться?">
                             </div>
@@ -651,7 +658,7 @@
                             </div>
                             <div class="container--6--form__input--box">
                                 <span class="container--6--form__input--box text">Почта</span>
-                                <input class="container--6--form__input--box input"
+                                <input class="container--6--form__input--box input email"
                                        type="email"
                                        placeholder="Ваша почта?">
                             </div>
@@ -661,11 +668,12 @@
                                 <textarea class="container--6--form__input--box input comment"  cols="40" rows="3" placeholder="Я бы хотел"></textarea>
                             </div>
                             <div class="container--6--form__button--block">
-                                <button class="container--6--form__button">
+                                <button class="container--6--form__button"
+                                        type="submit">
                                     отправить
                                 </button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                     <p class="container--6--form__acept">
                         Нажимая на кнопку, вы даёте согласие
