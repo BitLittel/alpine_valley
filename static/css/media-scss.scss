@@ -18,10 +18,10 @@
     flex-direction: column !important;
   }
   .PopupForm--block__left {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 2%;
-    margin-top: 10%;
+    width: 80% !important;
+    margin: 0 auto !important;
+    margin-bottom: 2% !important;
+    height: 15dvh !important;
   }
   .talk__title {
     font-size: 3.5vw !important;
@@ -40,6 +40,7 @@
   .container--6--form {
     width: 90% !important;
     padding: 5% !important;
+    height: 62dvh !important;
   }
   .container--6--form__margin {
     width: 100% !important;
@@ -163,7 +164,7 @@
     margin: 0 auto !important;
   }
   .wrapper{
-    height: 100% !important;
+    height: 28dvh !important;
   }
   .slider{
     height: 29.35vh !important;
@@ -178,9 +179,9 @@
     font-size: 2.5rem !important;
   }
   .container--6--form__acept {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
     u{
-      font-size: 1.5rem !important;
+      font-size: 1rem !important;
     }
   }
   .footer--number--tel{
