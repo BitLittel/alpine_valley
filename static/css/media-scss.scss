@@ -22,6 +22,7 @@
     margin: 0 auto;
     margin-bottom: 2%;
     height: 19%;
+    margin-top: 10%;
   }
   .talk__title {
     font-size: 5vw !important;
@@ -167,6 +168,9 @@
   }
   .slider{
     height: 29.35vh !important;
+    .slider-text{
+      font-size: 0.75rem !important;
+    }
   }
   .container--6--form__title{
     font-size: 3.4rem !important;
