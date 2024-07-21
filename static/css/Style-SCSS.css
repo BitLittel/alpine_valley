@@ -681,6 +681,7 @@
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 .search--menu .search--menu__text {
   font-family: Unbounded;
@@ -738,6 +739,7 @@
   display: none;
   z-index: 200;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .menu__item {
