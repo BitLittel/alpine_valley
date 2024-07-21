@@ -803,7 +803,7 @@ ul.menu__box {
   position: absolute;
   margin: 0 auto;
   bottom: 6%;
-  z-index: 9000;
+  z-index: 2;
   display: flex;
   justify-content: center;
 }
@@ -811,12 +811,12 @@ ul.menu__box {
 .wrapper label {
   cursor: pointer;
   display: inline-block;
-  height: 8px;
-  width: 8px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
   background: #FFF4DE;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   margin-left: 15px;
 }
 
@@ -825,8 +825,8 @@ ul.menu__box {
   content: " ";
   display: block;
   border-radius: 50%;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
 }
 
 .wrapper label {

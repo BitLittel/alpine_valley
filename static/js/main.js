@@ -271,5 +271,11 @@ GetForm2.addEventListener("submit", saveArticle);
     })
 }
 
+/*Уведомление о перевороте экрана в книжную расскладку*/
 
-
+window.addEventListener('orientationchange', () => {
+    if (window.orientation === 90 || window.orientation === -90) {
+        // Альбомная ориентация
+        alert("Пожалуйста, переверните устройство для лучшего просмотра.");
+    }
+});

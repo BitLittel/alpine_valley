@@ -38,6 +38,8 @@
   .container--6--form {
     width: 90% !important;
     padding: 5% !important;
+  }
+  .pop-up_form {
     height: 62dvh !important;
   }
   .container--6--form__margin {
