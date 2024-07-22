@@ -270,3 +270,4 @@ GetForm2.addEventListener("submit", saveArticle);
         console.log(otvet);
     })
 }
+

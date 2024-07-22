@@ -171,7 +171,7 @@
   background-size: cover;
 }
 .main--blok .conteiner .conteiner__back-blok .conteiner__block-top .poto-container-2-img, .main--blok .conteiner .conteiner__back-blok .conteiner--2__block-top .poto-container-2-img, .main--blok .conteiner .conteiner__back-blok .conteiner__panorama .poto-container-2-img {
-  background-image: url("../img/F2.png");
+  /*background-image: url("../img/F2.png");*/
   width: 100%;
   border-radius: 10px;
   height: 80%;
@@ -460,7 +460,7 @@
   text-align: center;
 }
 .main--blok .conteiner--5 {
-  background-image: url("../img/fon-blok5.png");
+  /*background-image: url("../img/fon-blok5.png");*/
   background-size: cover;
   height: 100vh;
   display: flex;
