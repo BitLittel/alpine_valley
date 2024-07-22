@@ -36,50 +36,50 @@ async def wrap_send_message(name: str, tel_number: str, email: str, comment: str
 
 
 async def process_submit(response: Response, form_submit: Submit, request: Request, token: str | None = None):
-    # if token is not None:
-    #     check_token = await Tokens.get_(token=token)
-    #     if check_token:
-    #         if check_token.datetime_create + timedelta(hours=24) > datetime.now():
-    #             raise HTTPException(
-    #                 status_code=400,
-    #                 detail={
-    #                     'result': False,
-    #                     'message': 'Вы уже недавно отправляли заявку, подождите 24 часа',
-    #                     'data': {}
-    #                 }
-    #             )
-    # try:
-    #     user_agent = request.headers.get('user-agent')
-    #     request_ip = request.headers.get('x-real-ip')
-    # except:
-    #     raise HTTPException(
-    #         status_code=400,
-    #         detail={
-    #             'result': False,
-    #             'message': 'Ах ты хитрец... А-та-та...',
-    #             'data': {}
-    #         }
-    #     )
-    #
-    # check_ip = await Tokens.get_(ip=request_ip)
-    # if check_ip:
-    #     if check_ip.datetime_create + timedelta(hours=24) > datetime.now():
-    #         raise HTTPException(
-    #             status_code=400,
-    #             detail={
-    #                 'result': False,
-    #                 'message': 'Вы уже недавно отправляли заявку, подождите 24 часа',
-    #                 'data': {}
-    #             }
-    #         )
-    #
-    # await Tokens.del_(ip=request_ip)
-    # if token is not None:
-    #     await Tokens.del_(token=token)
-    #
-    # new_token = uuid4()
-    # await Tokens.add_(token=new_token, ip=request_ip, user_agent=user_agent)
-    # response.set_cookie(key='token', value=new_token, max_age=123, path='/', httponly=True, samesite='strict')
+    if token is not None:
+        check_token = await Tokens.get_(token=token)
+        if check_token:
+            if check_token.datetime_create + timedelta(hours=24) > datetime.now():
+                raise HTTPException(
+                    status_code=400,
+                    detail={
+                        'result': False,
+                        'message': 'Вы уже недавно отправляли заявку, подождите 24 часа',
+                        'data': {}
+                    }
+                )
+    try:
+        user_agent = request.headers.get('user-agent')
+        request_ip = request.headers.get('x-real-ip')
+    except:
+        raise HTTPException(
+            status_code=400,
+            detail={
+                'result': False,
+                'message': 'Ах ты хитрец... А-та-та...',
+                'data': {}
+            }
+        )
+
+    check_ip = await Tokens.get_(ip=request_ip)
+    if check_ip:
+        if check_ip.datetime_create + timedelta(hours=24) > datetime.now():
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    'result': False,
+                    'message': 'Вы уже недавно отправляли заявку, подождите 24 часа',
+                    'data': {}
+                }
+            )
+
+    await Tokens.del_(ip=request_ip)
+    if token is not None:
+        await Tokens.del_(token=token)
+
+    new_token = uuid4()
+    await Tokens.add_(token=new_token, ip=request_ip, user_agent=user_agent)
+    response.set_cookie(key='token', value=new_token, max_age=123, path='/', httponly=True, samesite='strict')
 
     await Feedbacks.add_(
         name=form_submit.name,
