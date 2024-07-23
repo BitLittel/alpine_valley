@@ -101,10 +101,10 @@
 
                         <div class="swiper NewSwiper" id="NewSwiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img class="swiper-slide__img" src="../static/img/alp-home/alp-home-1.jpg" alt=""></div>
-                                <div class="swiper-slide"><img class="swiper-slide__img" src="../static/img/alp-home/alp-home-2.jpg" alt=""></div>
-                                <div class="swiper-slide"><img class="swiper-slide__img" src="../static/img/alp-home/alp-home-3.jpg" alt=""></div>
-                                <div class="swiper-slide"><img class="swiper-slide__img" src="../static/img/alp-home/alp-home-4.jpeg" alt=""></div>
+                                <div class="swiper-slide"><img class="swiper-slide__img" data-src="../static/img/alp-home/alp-home-1.jpg" alt="" loading="lazy"></div>
+                                <div class="swiper-slide"><img class="swiper-slide__img" data-src="../static/img/alp-home/alp-home-2.jpg" alt="" loading="lazy"></div>
+                                <div class="swiper-slide"><img class="swiper-slide__img" data-src="../static/img/alp-home/alp-home-3.jpg" alt="" loading="lazy"></div>
+                                <div class="swiper-slide"><img class="swiper-slide__img" data-src="../static/img/alp-home/alp-home-4.jpeg" alt="" loading="lazy"></div>
                             </div>
                             <div class="swiper-button-next new_swiper_next" id="new_swiper_next">
                                 <img class="arrou_swiper1" src="../static/img/right_icon-icons.com_61212.svg" alt="">
@@ -160,7 +160,7 @@
                     <div class="conteiner__panorama--under__block-1">
                         <p class="conteiner__panorama--under__block__text">3D</p>
                         <div class="conteiner__panorama--under__box">
-                            <img class="qr" src="../static/img/3D.svg" alt="" loading="lazy">
+                            <img class="qr" data-src="../static/img/3D.svg" alt="" loading="lazy">
                             <button class="button--panorama">
                                 <a class="button--panorama"  href="https://las.teofly.com/app/?share=oUxN5m4S">
                                     перейти
@@ -171,7 +171,7 @@
                     <div class="conteiner__panorama--under__block-2">
                         <p class="conteiner__panorama--under__block__text">панорамы</p>
                         <div class="conteiner__panorama--under__box">
-                            <img class="qr" src="../static/img/360.svg" alt="" loading="lazy">
+                            <img class="qr" data-src="../static/img/360.svg" alt="" loading="lazy">
                             <button class="button--panorama">
                                 <a class="button--panorama" href="/panorama">
                                     перейти
@@ -235,8 +235,8 @@
                             </div>
                         </div>
                     </div>
-                    <div  class="map" id="map">
-                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A527f30c040219527e9dba1827d07662a69cd94e80b85859699912ef8ea52d254&amp;width=330&amp;height=460&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <div class="map map_yandex" id="map" data-src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A527f30c040219527e9dba1827d07662a69cd94e80b85859699912ef8ea52d254&amp;width=330&amp;height=460&amp;lang=ru_RU&amp;scroll=true">
+                        <script id="map_yandex" type="text/javascript" charset="utf-8" async></script>
                     </div >
                 </div>
 <!-- description -->
@@ -267,7 +267,7 @@
                                         </div>
                                     </div>
                                     <div class="map sleder-img">
-                                        <img src="../static/img/slider_descriprion/aia.jpg"
+                                        <img data-src="../static/img/slider_descriprion/aia.jpg"
                                              alt=""
                                              class="img-slider"
                                              loading="lazy">
@@ -295,7 +295,7 @@
                                         </div>
                                     </div>
                                     <div class="map sleder-img">
-                                        <img src="../static/img/slider_descriprion/mangerok.jpg"
+                                        <img data-src="../static/img/slider_descriprion/mangerok.jpg"
                                              alt=""
                                              class="img-slider"
                                              loading="lazy">
@@ -323,7 +323,7 @@
                                         </div>
                                     </div>
                                     <div class="map sleder-img">
-                                        <img src="../static/img/slider_descriprion/chemal.jpg"
+                                        <img data-src="../static/img/slider_descriprion/chemal.jpg"
                                              alt=""
                                              class="img-slider"
                                              loading="lazy">
@@ -348,7 +348,7 @@
                                         </div>
                                     </div>
                                     <div class="map sleder-img">
-                                        <img src="../static/img/slider_descriprion/altai-palace.jpg"
+                                        <img data-src="../static/img/slider_descriprion/altai-palace.jpg"
                                              alt=""
                                              class="img-slider"
                                              loading="lazy">
@@ -372,7 +372,7 @@
                                         </div>
                                     </div>
                                     <div class="map sleder-img">
-                                        <img src="../static/img/slider_descriprion/beryzpvzia=katyn.jpg"
+                                        <img data-src="../static/img/slider_descriprion/beryzpvzia=katyn.jpg"
                                              alt=""
                                              class="img-slider"
                                              loading="lazy">
@@ -428,27 +428,27 @@
                         <div class="swiper mySwiper" id="mySwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img class="swiper_img_img test" src="../static/img/slider-gen/slider-aia-102.jpg" alt="" loading="lazy">
+                                    <img class="swiper_img_img test" data-src="../static/img/slider-gen/slider-aia-102.jpg" alt="" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="swiper_img_img test" src="../static/img/slider-gen/slider-aia-107.jpg" alt="" loading="lazy">
+                                    <img class="swiper_img_img test" data-src="../static/img/slider-gen/slider-aia-107.jpg" alt="" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="swiper_img_img test" src="../static/img/slider-gen/slider-aia-108.jpg" alt="" loading="lazy">
+                                    <img class="swiper_img_img test" data-src="../static/img/slider-gen/slider-aia-108.jpg" alt="" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="swiper_img_img test" src="../static/img/slider-gen/slider-aia-113.jpg" alt="" loading="lazy">
+                                    <img class="swiper_img_img test" data-src="../static/img/slider-gen/slider-aia-113.jpg" alt="" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="swiper_img_img test" src="../static/img/slider-gen/slider_2.jpg" alt="" loading="lazy">
+                                    <img class="swiper_img_img test" data-src="../static/img/slider-gen/slider_2.jpg" alt="" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="swiper_img_img test" src="../static/img/slider-gen/slider_1.jpg" alt="" loading="lazy">
+                                    <img class="swiper_img_img test" data-src="../static/img/slider-gen/slider_1.jpg" alt="" loading="lazy">
                                 </div>
                                 <div class="swiper-slide" onclick="window.location = '/static/СПОЗУ_438.pdf'">
                                     <div class="swiper_img_img button-download">
                                         <img class="button-download__svg"
-                                             src="../static/img/Download_img/arrou.svg" loading="lazy">
+                                             data-src="../static/img/Download_img/arrou.svg" loading="lazy">
                                         <span class="button-download__text">
                                             скачать
                                         </span>
@@ -659,6 +659,26 @@
     </div>
     <script src="../static/js/swiper-bundle.js"></script>
     <script src="../static/js/main.js"></script>
+    <script>
+        let imageObserver = new IntersectionObserver(
+            (entries, imgObserver) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    const lazyImage = entry.target;
+                    if (lazyImage.id === 'map') {
+                        document.getElementById('map_yandex').src = lazyImage.dataset.src;
+                    } else {
+                        lazyImage.src = lazyImage.dataset.src;
+                        imgObserver.unobserve(lazyImage);
+                    }
+                }
+            })
+        });
+        let img_sliders_one = document.querySelectorAll('.swiper-slide__img, .qr, .img-slider, .test, .button-download__svg, .map_yandex');
+        for (let i = 0; i < img_sliders_one.length; i++) {
+            imageObserver.observe(img_sliders_one[i]);
+        }
+    </script>
 </body>
 </html>
 <!--51.899675, 85.662520 яндекс координаты-->
