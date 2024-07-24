@@ -459,10 +459,10 @@
                                 </div>
                             </div>
                             <div class="swiper-button-next new_swiper_next" id="New_swiper_next1">
-                                  <img class="arrou_swiper1" src="../static/img/right_icon-icons.com_61212.svg" alt="" loading="lazy">
+                                  <img class="arrou_swiper1" src="../static/img/right_icon-icons.com_61212.svg" alt="" loading="lazy" style="display: none">
                             </div>
                             <div class="swiper-button-prev new_swiper_prev" id="New_swiper_prev1">
-                                   <img class="arrou_swiper2" src="../static/img/left_icon-icons.com_61213.svg" alt="" loading="lazy">
+                                   <img class="arrou_swiper2" src="../static/img/left_icon-icons.com_61213.svg" alt="" loading="lazy" style="display: none">
                             </div>
                         </div>
                 </div>
@@ -674,7 +674,7 @@
                 }
             })
         });
-        let img_sliders_one = document.querySelectorAll('.swiper-slide__img, .qr, .img-slider, .test, .button-download__svg, .map_yandex');
+        let img_sliders_one = document.querySelectorAll('.swiper-slide__img, .qr, .img-slider, .test, .button-download__svg, .map_yandex, .new_swiper_next, .new_swiper_prev');
         for (let i = 0; i < img_sliders_one.length; i++) {
             imageObserver.observe(img_sliders_one[i]);
         }

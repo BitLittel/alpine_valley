@@ -271,4 +271,7 @@ GetForm2.addEventListener("submit", saveArticle);
     })
 }
 
-
+window.addEventListener('change', (e) => {
+    newSwiper_positionArrow();
+    mySwiper_positionArrow_2();
+});
