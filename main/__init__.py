@@ -33,10 +33,10 @@ async def before_request(request: Request, call_next):
     response = await call_next(request)
     process_time = time.time() - start_time
     response.headers["X-Process-Time"] = str(process_time)
-    response.headers["Cache-Control"] = 'no-cache, no-store, must-revalidate, max-age=0'
-    response.headers["Pragma"] = 'no-cache'
-    response.headers["Expires"] = '0'
-    response.headers["Last-Modified"] = datetime.now().isoformat()
+    # response.headers["Cache-Control"] = 'no-cache, no-store, must-revalidate, max-age=0'
+    # response.headers["Pragma"] = 'no-cache'
+    # response.headers["Expires"] = '0'
+    # response.headers["Last-Modified"] = datetime.now().isoformat()
     return response
 
 
